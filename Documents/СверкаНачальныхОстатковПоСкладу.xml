@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5b565bbf-b10c-495a-877c-21c96abfaf9f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СверкаНачальныхОстатковПоСкладу" category="Object">
+				<xr:TypeId>45d1b856-e77f-4a61-9c44-2ab4587dcdd1</xr:TypeId>
+				<xr:ValueId>88c72a7a-1135-4afd-a6c6-2179eb324b64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СверкаНачальныхОстатковПоСкладу" category="Ref">
+				<xr:TypeId>fadaca23-db14-4627-80ea-da60961e7684</xr:TypeId>
+				<xr:ValueId>31bd9dde-214a-4497-afef-02ecb1d991dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СверкаНачальныхОстатковПоСкладу" category="Selection">
+				<xr:TypeId>c0b642da-186b-4e13-8b2f-fbe699017dd3</xr:TypeId>
+				<xr:ValueId>ce4ce7de-bcf2-40ee-b3ee-61878d99c155</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СверкаНачальныхОстатковПоСкладу" category="List">
+				<xr:TypeId>45fe61c2-1bd8-4943-976f-48d75ab48764</xr:TypeId>
+				<xr:ValueId>2d4ba156-0d20-4850-bfcd-ad5a8f283c86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СверкаНачальныхОстатковПоСкладу" category="Manager">
+				<xr:TypeId>be9ab913-b0b9-4b29-9e30-f7824052b7d7</xr:TypeId>
+				<xr:ValueId>ffb1b885-0538-49b9-bf6c-5a78485679a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СверкаНачальныхОстатковПоСкладу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cc04039b-7646-4a67-aad9-edaf5fc2b8af</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="b347e7d9-6c49-46fa-9095-b9536461f4c0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СверкаНачальныхОстатковПоСкладу.РезультатыСверки" category="TabularSection">
+						<xr:TypeId>dfd572bd-5635-44e6-b990-91398500cede</xr:TypeId>
+						<xr:ValueId>6eddd09f-67b1-4763-8e71-4e22a35b8ff2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СверкаНачальныхОстатковПоСкладу.РезультатыСверки" category="TabularSectionRow">
+						<xr:TypeId>6cdbf06b-3cea-4e89-9c9c-e934cafc46c9</xr:TypeId>
+						<xr:ValueId>16d21bca-6f50-499a-81d6-3f98ffd6575d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РезультатыСверки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>52b37a96-81b0-41c6-ad41-d38703c491c9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1d8d036c-f0b7-4c91-8864-d695f2b0dd0c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9b0e8746-1540-4c43-b346-884ac6e30db7</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="651139a4-12d6-4911-9443-e33ab025d36c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СверкаНачальныхОстатковПоСкладу.ДанныеВнешнейСистемы" category="TabularSection">
+						<xr:TypeId>bb28afac-0d0a-41fd-a226-66676352e56c</xr:TypeId>
+						<xr:ValueId>7ae45e71-8421-4885-a0c7-a9c2138a1be8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СверкаНачальныхОстатковПоСкладу.ДанныеВнешнейСистемы" category="TabularSectionRow">
+						<xr:TypeId>2e17698c-51c4-471b-ba23-156a271c3595</xr:TypeId>
+						<xr:ValueId>fb460a44-026f-4c1b-bcb3-4bbaf3002c6b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДанныеВнешнейСистемы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b44a27be-a10e-470a-840a-c9058c8aadf9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="23d5ebcf-b17b-4dac-ab33-8880c58da6e6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f90d43f2-22e5-47fe-8038-a009d05b95d1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

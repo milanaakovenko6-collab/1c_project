@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="866770bb-85ce-4a7d-8602-36dcee96e2a8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеРеверсивногоНДС" category="Object">
+				<xr:TypeId>86f96510-6ad3-49b1-99a9-5a5884803a40</xr:TypeId>
+				<xr:ValueId>ec70e25f-b8d7-4552-ad68-c64e4f3c3dc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеРеверсивногоНДС" category="Ref">
+				<xr:TypeId>a3a21075-6217-40ef-b095-e89cb3fdefbb</xr:TypeId>
+				<xr:ValueId>1f04cb49-4f5e-4335-bb03-91d93ba48580</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеРеверсивногоНДС" category="Selection">
+				<xr:TypeId>6ed9c561-18de-483f-b35d-3757607d051e</xr:TypeId>
+				<xr:ValueId>4443f5b7-47c9-41c2-b2f1-998008cc5e04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеРеверсивногоНДС" category="List">
+				<xr:TypeId>68cf2a0b-d1ee-47e7-98d2-2dd134c7c72e</xr:TypeId>
+				<xr:ValueId>f087f111-1941-4c15-ae65-7a123023c568</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеРеверсивногоНДС" category="Manager">
+				<xr:TypeId>a69f57bd-bf4b-42d1-9a86-0a96d386ac8d</xr:TypeId>
+				<xr:ValueId>048c232b-cbe1-4970-af67-5252cab4ca30</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеРеверсивногоНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>09da3eaf-6f43-4a9a-b4e9-b2442a176486</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d1414832-12ac-4182-b50e-24c358f1b145">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>11f9de1a-3841-4fcb-8521-4213a3907d11</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

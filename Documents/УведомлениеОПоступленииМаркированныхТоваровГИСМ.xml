@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="81b1d5b8-96d6-4232-b1e0-c613b3499c21">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОПоступленииМаркированныхТоваровГИСМ" category="Object">
+				<xr:TypeId>a2bc64a5-a281-46e4-9678-4692facb97fe</xr:TypeId>
+				<xr:ValueId>526f8318-b9ad-45bd-a14e-c431a046503a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОПоступленииМаркированныхТоваровГИСМ" category="Ref">
+				<xr:TypeId>137c210c-7a54-450e-a7a5-8880a11c0b35</xr:TypeId>
+				<xr:ValueId>f0a1fc4c-6d33-4650-a38d-08b9cfc69cbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОПоступленииМаркированныхТоваровГИСМ" category="Selection">
+				<xr:TypeId>6d3971c0-c372-4dea-986b-51fd07b7aaae</xr:TypeId>
+				<xr:ValueId>708e1ce4-9710-4b46-960c-51900216ae77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОПоступленииМаркированныхТоваровГИСМ" category="List">
+				<xr:TypeId>3586b744-8d8f-46cc-9334-dc170c0b3ce4</xr:TypeId>
+				<xr:ValueId>c816d28f-70fd-4800-b19a-d9de8117d3dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОПоступленииМаркированныхТоваровГИСМ" category="Manager">
+				<xr:TypeId>512c3109-6726-4614-aebd-63ed4431d14f</xr:TypeId>
+				<xr:ValueId>ec0e6b72-11cd-494f-a1fc-ae4bca989387</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОПоступленииМаркированныхТоваровГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c9f74555-4856-43fa-88b0-2ebccce7c50b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="52e3b78d-65f8-4577-9c6a-0891d1fb9662">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.УведомлениеОПоступленииМаркированныхТоваровГИСМ.НомераКиЗ" category="TabularSection">
+						<xr:TypeId>eeae5a72-8dcc-4c7e-8302-b33b45faa763</xr:TypeId>
+						<xr:ValueId>4897cd5d-b8f3-474d-a891-e11e877be819</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УведомлениеОПоступленииМаркированныхТоваровГИСМ.НомераКиЗ" category="TabularSectionRow">
+						<xr:TypeId>41437103-b083-4fe4-a759-39a605434529</xr:TypeId>
+						<xr:ValueId>4313d0a3-253e-4210-9e1a-2a68904dc106</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомераКиЗ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>13a6e4f3-b18e-4dd7-b464-323123f61693</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="69cb6c3f-adcb-40d1-8112-5ffa92e83f2e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументПоступления</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9fd72631-f7d2-4711-90c3-e566802cf635</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДокументПоступленияМаркированныхТоваровГИСМ</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5a2d0336-3383-43f7-8f46-3521e88c380e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктВыполненныхРабот" category="Object">
+				<xr:TypeId>266ab667-b9e4-4c79-971a-8c02a3ce5798</xr:TypeId>
+				<xr:ValueId>cb3e1b6e-c994-4b29-9a33-7e43fb4696f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктВыполненныхРабот" category="Ref">
+				<xr:TypeId>e1110dda-4a64-4be5-832e-078cd37ffd7a</xr:TypeId>
+				<xr:ValueId>b5e00c8b-fb4c-488f-802f-8f616a1620d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктВыполненныхРабот" category="Selection">
+				<xr:TypeId>1554b0db-e757-483e-bac6-a3b291d26c82</xr:TypeId>
+				<xr:ValueId>24022218-cdbe-410a-a04d-d179e09cec5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктВыполненныхРабот" category="List">
+				<xr:TypeId>52f60d35-a28f-4be9-80d2-0bcc9e012fbc</xr:TypeId>
+				<xr:ValueId>88b64ad4-bc58-4f2d-a61a-9bf7fa4bdcc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктВыполненныхРабот" category="Manager">
+				<xr:TypeId>9093f112-cb86-433c-9586-6bdd648c5d0d</xr:TypeId>
+				<xr:ValueId>e190bb9f-622a-4c91-8046-9a12de5acf38</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктВыполненныхРабот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d2275b5d-ab87-483e-b252-2de5d94fc643</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d72e3ae0-8a3c-401c-a7d7-69bd1249a6a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f6fff40a-9eb3-48a4-9315-d7d344822d1e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="3be4c0ed-1741-457d-9afc-0f7755fdc5c4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктВыполненныхРабот.Услуги" category="TabularSection">
+						<xr:TypeId>05579b57-207d-4516-8df5-e4957663b47e</xr:TypeId>
+						<xr:ValueId>583dfe69-2c42-40d0-91a4-6f8d7314c757</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктВыполненныхРабот.Услуги" category="TabularSectionRow">
+						<xr:TypeId>d4c0ae7d-bd84-4770-b05c-1d65c420c4d7</xr:TypeId>
+						<xr:ValueId>a1188fa1-ff42-4cc6-b308-f9092366cff0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Услуги</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>384081c8-6346-45c3-940a-7e0deebba07d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8428cce7-7515-4e68-abbe-3a9363868a84">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаказКлиента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5c8ec2d7-20d0-48c4-8230-5de9b798846a</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f09b19a3-6f65-41e7-bcb5-69f975583b8a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a1caf232-2691-4775-b844-f1e6767b45cd</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="2c0e9a88-38e4-4c54-b0a0-3809c0d69d8e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктВыполненныхРабот.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>ef177dd5-23e1-4b60-a0b0-a0c19e24093e</xr:TypeId>
+						<xr:ValueId>e8b23da5-299a-4018-8469-7402dafdf888</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктВыполненныхРабот.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>9d4937cf-97f0-4c97-99c4-531a5a21e7e0</xr:TypeId>
+						<xr:ValueId>c352094e-fd33-4425-b121-69e595b77a7f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4ec43ac-9064-4733-b80a-3da57ddcf3c9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d97f81a8-5218-45a8-a893-2405da3367c8">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ac314f88-3e25-4a93-b8d7-717c2b98b5e0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

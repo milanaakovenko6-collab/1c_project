@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d7af9833-33c2-4691-bafe-cef2c05fbe46">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БлокировкаВычетаНДС" category="Object">
+				<xr:TypeId>fe0ef66c-2467-4d3b-8fa5-a78dfa64904c</xr:TypeId>
+				<xr:ValueId>29010540-059c-407d-a783-9a48dfce95b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БлокировкаВычетаНДС" category="Ref">
+				<xr:TypeId>6a603b83-b2de-4daa-9f46-583272e784f6</xr:TypeId>
+				<xr:ValueId>c4cb5cbc-8c71-47c5-805e-60e402c3a94a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БлокировкаВычетаНДС" category="Selection">
+				<xr:TypeId>1b5152ca-ed39-4415-a1a0-86a0fcd36fe2</xr:TypeId>
+				<xr:ValueId>376ea6d7-f81a-44fd-b81d-2c1d99cecc59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БлокировкаВычетаНДС" category="List">
+				<xr:TypeId>19534e39-684b-41bd-98cf-178004207f2b</xr:TypeId>
+				<xr:ValueId>eeb98404-781f-4166-a85c-c0c8f70f7c62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БлокировкаВычетаНДС" category="Manager">
+				<xr:TypeId>890e2e0e-1bf2-4308-b7b7-b2812b45c648</xr:TypeId>
+				<xr:ValueId>14148a2d-e0c6-410f-b7a5-b618fc8c84a5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БлокировкаВычетаНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>859f5bc3-d6ec-4535-8118-255328276d06</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="dd989a10-74f4-4df5-a275-5a9b0c024ebf">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БлокировкаВычетаНДС.СчетаФактуры" category="TabularSection">
+						<xr:TypeId>f05cda35-a105-4764-b4c3-a9e5b1101d9c</xr:TypeId>
+						<xr:ValueId>c33ec7d7-2f11-4736-9255-939ccca7a024</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БлокировкаВычетаНДС.СчетаФактуры" category="TabularSectionRow">
+						<xr:TypeId>837c38c3-1e99-4033-89fd-b7728ebb9bd4</xr:TypeId>
+						<xr:ValueId>eb9d1874-9e64-4c78-91b3-0b204aeba35f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетаФактуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>32047154-c139-4801-8493-9f697554beff</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="868fb55f-32e3-4813-8faa-57174fed2f9b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СчетФактура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>b0f0fddc-17b9-41d0-be18-0e47d5b68803</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СчетФактура</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

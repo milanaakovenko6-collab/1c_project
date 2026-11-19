@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="06745da1-ab15-44d6-b2a3-7e0ce9a0fa79">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаВозвратТоваровОтКлиента" category="Object">
+				<xr:TypeId>f20dc098-c258-41a0-a967-44073420b338</xr:TypeId>
+				<xr:ValueId>7d7eced8-d670-4935-a28f-141a78ebc03e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента" category="Ref">
+				<xr:TypeId>f3ac0e68-989e-410c-b505-fb269c3a8cc3</xr:TypeId>
+				<xr:ValueId>df66a2e7-d7a1-4ecb-93e7-b9384df81462</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаВозвратТоваровОтКлиента" category="Selection">
+				<xr:TypeId>53078202-b347-41a4-9b28-3d83f35d7fc4</xr:TypeId>
+				<xr:ValueId>e402401a-bc60-47f5-bd0e-11e5f4e6d7d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаВозвратТоваровОтКлиента" category="List">
+				<xr:TypeId>1307fabd-29ee-4856-8ee4-cd557ca2eb66</xr:TypeId>
+				<xr:ValueId>cb4ebb1a-cccc-4cd8-a5de-26460cc28ea9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаВозвратТоваровОтКлиента" category="Manager">
+				<xr:TypeId>fee907bd-6115-4937-b73f-5cd1ad6a83d9</xr:TypeId>
+				<xr:ValueId>09847471-dc48-4ca6-8088-533dd2b8d4cd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаВозвратТоваровОтКлиента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d549218-4491-4a44-8169-b63abbfd04ee</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a2aec40d-80fe-4a23-a735-a78496bf74a4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРеализации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3936710c-76b8-4c3c-bf0f-91db58146ab0</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dec3519d-718b-4c5a-9a47-71a7bcb71b8a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЧекККМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2c74a763-7e15-4ebf-85d7-c0cc84d26721</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9cbb42b4-2c1c-4195-b614-1952511cbe5f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>16937a1a-d25f-4fcd-89ee-dac173b502b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="541fe155-eab6-4287-bd2a-2217293763ea">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаявкаНаВозвратТоваровОтКлиента.ВозвращаемыеТовары" category="TabularSection">
+						<xr:TypeId>f2cd6406-a108-47d8-a21f-676519ba2cc5</xr:TypeId>
+						<xr:ValueId>80045f1c-befe-4f9d-9d28-ce5c9b1461c8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаявкаНаВозвратТоваровОтКлиента.ВозвращаемыеТовары" category="TabularSectionRow">
+						<xr:TypeId>7b88b094-d9fc-4599-90d6-330ef9d10610</xr:TypeId>
+						<xr:ValueId>99dd55a5-07ea-4dea-8112-fb1103cb96dc</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвращаемыеТовары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8a772172-d735-41bf-8bcb-79e5476ae870</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d8c85997-a0de-4a88-905a-660d37e0a487">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументРеализации</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>506a6a4e-530f-4380-b68a-055204d3483d</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

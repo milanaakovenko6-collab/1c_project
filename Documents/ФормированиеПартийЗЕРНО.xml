@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="bc461e3b-de56-4457-9055-be615cd8997f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ФормированиеПартийЗЕРНО" category="Object">
+				<xr:TypeId>8ee966b3-79d0-4f11-ae83-1328ddd54829</xr:TypeId>
+				<xr:ValueId>8758d582-b533-4a76-b4fb-f9b76b4c6bdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ФормированиеПартийЗЕРНО" category="Ref">
+				<xr:TypeId>87a6ab06-b702-4651-8e9e-0511d827f567</xr:TypeId>
+				<xr:ValueId>46be427e-9afb-4b72-b2db-0115c23ca8a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ФормированиеПартийЗЕРНО" category="Selection">
+				<xr:TypeId>7e107760-d810-4223-a9c0-8ad55a0b63de</xr:TypeId>
+				<xr:ValueId>1728a8de-e1d5-4a95-be6c-fc114a6eb64a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ФормированиеПартийЗЕРНО" category="List">
+				<xr:TypeId>88b77141-6491-4cb8-b218-7abb992e1054</xr:TypeId>
+				<xr:ValueId>b954460a-44e3-462f-8d4e-95e0834b44c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ФормированиеПартийЗЕРНО" category="Manager">
+				<xr:TypeId>a945c08e-9831-4593-80e4-3b3a0e9cf493</xr:TypeId>
+				<xr:ValueId>7c17e8e9-54be-4f49-a8a2-bf5fa51dbce8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормированиеПартийЗЕРНО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>911ccefe-082b-405e-a2d3-b87050bd4af6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="789af8cb-9bd2-4823-a95b-a8bd35ab8a9d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ebb9a1c-4b51-4d76-95af-99b64b187147</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеФормированиеПартииЗЕРНО</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

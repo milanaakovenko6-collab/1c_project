@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="39fc7ca5-9419-49d7-8723-a2662938c40d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриемкаТоваровИСМП" category="Object">
+				<xr:TypeId>75f7477f-0faf-4e2d-9b7d-c0428a2e2249</xr:TypeId>
+				<xr:ValueId>4b134749-de04-44bd-a963-6663a21d49d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриемкаТоваровИСМП" category="Ref">
+				<xr:TypeId>5653bba1-9084-46b8-b826-58811f9f6522</xr:TypeId>
+				<xr:ValueId>05833ec4-568b-4d1f-a69b-3a2615c880cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриемкаТоваровИСМП" category="Selection">
+				<xr:TypeId>9a814bd7-9067-453e-88b2-b2b60938e431</xr:TypeId>
+				<xr:ValueId>fc69d115-813a-4667-9be9-cbe368361990</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриемкаТоваровИСМП" category="List">
+				<xr:TypeId>cdbe0c7d-167f-444e-9a11-2b420251302c</xr:TypeId>
+				<xr:ValueId>d2d3f06c-7106-4878-8832-942fb1dc9bab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриемкаТоваровИСМП" category="Manager">
+				<xr:TypeId>c2319e4f-9e00-423f-b45e-04b245f67368</xr:TypeId>
+				<xr:ValueId>385ba997-30a6-45a3-9c4d-2f8951a895c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриемкаТоваровИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b3e882f-8846-404c-b9d3-c4e9a7ed22ad</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b04a019c-af2c-4c48-be92-8eac8dd3d881">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c6effe5a-011a-4245-a15c-662cae17a3e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеПриемкаТоваровИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

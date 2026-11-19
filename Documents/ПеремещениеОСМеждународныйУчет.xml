@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="cf481576-4597-4485-bfa8-7304b9d9a2bf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеОСМеждународныйУчет" category="Object">
+				<xr:TypeId>12f7aa69-e44e-40fe-a3cb-ec4040cbc5ea</xr:TypeId>
+				<xr:ValueId>e332ac24-5596-42a0-b620-f4df133cddde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеОСМеждународныйУчет" category="Ref">
+				<xr:TypeId>9d88c33a-4e91-4dee-a1f1-eee3d5cc3627</xr:TypeId>
+				<xr:ValueId>44bf902f-4620-46e7-b91b-d2babed4a773</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеОСМеждународныйУчет" category="Selection">
+				<xr:TypeId>d7bbddbb-ac80-44f0-b505-9da4db9e8b88</xr:TypeId>
+				<xr:ValueId>5702ae92-8e3a-4cce-afe9-fd9aeb128c83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеОСМеждународныйУчет" category="List">
+				<xr:TypeId>580256c9-1c90-468c-b363-0d13774a9347</xr:TypeId>
+				<xr:ValueId>de2b65f7-2af8-4e5f-b908-411e788e7339</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеОСМеждународныйУчет" category="Manager">
+				<xr:TypeId>2a2c3881-288e-42fd-8826-38c9543d6661</xr:TypeId>
+				<xr:ValueId>2890fdaf-459e-4e1b-9882-ecd01d7029e4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремещениеОСМеждународныйУчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b8c420b7-5870-46a1-ac59-b1111b717649</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ee071293-0861-4ae9-ba5c-46d7ad85d887">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>63694113-c050-4909-b955-303be98342ca</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПеремещениеОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

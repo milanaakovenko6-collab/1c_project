@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ff559186-81f7-4d79-9dcf-b03cc8b11c9c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Увольнение" category="Object">
+				<xr:TypeId>10ee511b-36ca-4652-b5cd-21a6d26b2da0</xr:TypeId>
+				<xr:ValueId>3cf60939-47fd-4380-be30-6148e2073170</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Увольнение" category="Ref">
+				<xr:TypeId>4b8cc447-7dcf-4250-9e04-5a0e4558cbb0</xr:TypeId>
+				<xr:ValueId>556d65d0-55f9-408d-972f-8d2a921c93be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Увольнение" category="Selection">
+				<xr:TypeId>05f1beac-9d1e-49fd-b5e3-235746353e29</xr:TypeId>
+				<xr:ValueId>8b6f8039-f326-4b89-98ff-dee3b34222bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Увольнение" category="List">
+				<xr:TypeId>30a68651-0f39-41ec-bf2f-5452502dbfc1</xr:TypeId>
+				<xr:ValueId>e7698349-4a71-400f-bb5f-9f349ecabf1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Увольнение" category="Manager">
+				<xr:TypeId>015c5c5d-15e1-47db-925f-9bef9f174361</xr:TypeId>
+				<xr:ValueId>9d2b90ef-ce04-49a7-8c14-77c569d5f3f1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Увольнение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aef659d6-bf3c-4c70-ae9e-af146c01cf76</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="0d452b64-61a5-4acc-9cb0-eeff55f3672d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Увольнение.НачисленияПерерасчет" category="TabularSection">
+						<xr:TypeId>e72ec640-5efd-44a0-aeef-934b4169c169</xr:TypeId>
+						<xr:ValueId>5487a582-ea70-448b-8527-e195355ee07c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Увольнение.НачисленияПерерасчет" category="TabularSectionRow">
+						<xr:TypeId>dd49a4ac-9a16-4418-94c6-93baa3a82ad1</xr:TypeId>
+						<xr:ValueId>124c59fc-6717-4dbc-847f-9d0a457d8766</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПерерасчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a584fc0b-91fa-43f7-bbb9-050b64c01902</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="76dcc67d-0300-40d1-a335-938ce89ad924">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СторнируемыйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0a962937-5c3b-47d2-af4b-01a466e8b2e2</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СторнируемыйДокумент</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

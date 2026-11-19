@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2fe6f049-8fdc-4a6d-9205-e967333766f8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеМатериаловВПроизводстве" category="Object">
+				<xr:TypeId>25bd05c8-4081-46e2-8dca-a8ebea3de648</xr:TypeId>
+				<xr:ValueId>438a8154-21e8-4ed0-a0c1-e45edc3eadfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеМатериаловВПроизводстве" category="Ref">
+				<xr:TypeId>5cd8e828-78c4-4763-bfc4-e869fbcbc380</xr:TypeId>
+				<xr:ValueId>c8720599-600c-4dbd-a86a-db0d2f844b31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеМатериаловВПроизводстве" category="Selection">
+				<xr:TypeId>547bd123-57f2-45d6-9b40-b1fabf1ac65d</xr:TypeId>
+				<xr:ValueId>e34d5973-6cfa-42b0-90b2-2fc0d67e465b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеМатериаловВПроизводстве" category="List">
+				<xr:TypeId>626117f6-0333-4c5d-98f5-763cd6a8800e</xr:TypeId>
+				<xr:ValueId>b4b7e777-4ee0-44e6-ace6-e7d6d9781d50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеМатериаловВПроизводстве" category="Manager">
+				<xr:TypeId>252a1b0d-c40a-4c5d-a014-d9c9370d83d2</xr:TypeId>
+				<xr:ValueId>3db3b13a-c4ff-4f56-9f9f-5bd8feaeb13b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремещениеМатериаловВПроизводстве</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bacedddf-901c-4fc0-9bea-8049acd0d93b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="d04c61a9-6013-4988-8179-e6d4159f4bb7">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПеремещениеМатериаловВПроизводстве.МатериалыИРаботы" category="TabularSection">
+						<xr:TypeId>b18c1079-cdb2-44dd-b50f-65032dcac23e</xr:TypeId>
+						<xr:ValueId>78b4aed8-f0a6-407a-92ec-4bff293c2481</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПеремещениеМатериаловВПроизводстве.МатериалыИРаботы" category="TabularSectionRow">
+						<xr:TypeId>e1f5bd54-d995-4d20-b474-fcbeb6de5717</xr:TypeId>
+						<xr:ValueId>0aad0f31-b4b5-4fa1-82c9-360f2e73c601</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МатериалыИРаботы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>73d04fab-2219-4d88-a948-0ddec02d3269</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e45cb125-dfb9-4dac-8d1e-3cccef7b7dad">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НазначениеОтправителя</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e8cb20d1-8009-4c0f-8415-1201db1271d4</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2bf87522-f20d-4699-b8a4-3c7d5cdc3028">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>b3936be7-cbd6-419f-829d-566a5cd9a21f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

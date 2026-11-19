@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c4bfecaf-5c51-4cc8-845a-44f2cc7c982a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыбытиеАрендованныхОС" category="Object">
+				<xr:TypeId>2f4272f9-4c65-47b9-b4c9-0e892acc5766</xr:TypeId>
+				<xr:ValueId>cdc38aee-cd81-4088-8964-0ea1493865a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыбытиеАрендованныхОС" category="Ref">
+				<xr:TypeId>d2401580-62ac-48f9-b624-404ba92c0040</xr:TypeId>
+				<xr:ValueId>491ab3bb-121c-49e7-b0ab-9eecf313c9fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыбытиеАрендованныхОС" category="Selection">
+				<xr:TypeId>8b3abd75-e660-47e2-b110-95ec2f59aa6e</xr:TypeId>
+				<xr:ValueId>87794f91-1819-418d-9892-dd4f0b9947c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыбытиеАрендованныхОС" category="List">
+				<xr:TypeId>9eb24a15-3a58-412d-a47a-423e293a40c5</xr:TypeId>
+				<xr:ValueId>60425238-4406-4148-9baf-f8ab2c0b02c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыбытиеАрендованныхОС" category="Manager">
+				<xr:TypeId>afbf4580-4f37-417a-a4a2-5ab278107aa5</xr:TypeId>
+				<xr:ValueId>e0b90c73-114c-44df-8c66-5b154bbc7b1c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыбытиеАрендованныхОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3f95c756-4290-487c-9221-44ddd082bcd6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="784a3a43-1de5-4ae3-a853-8138e704431c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>31899aed-2cff-4c6d-9a69-56f83752175c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИнвентаризацияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

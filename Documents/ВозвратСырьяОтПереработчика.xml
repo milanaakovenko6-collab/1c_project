@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c24b8bd2-5792-476b-9f14-3af158d5470b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратСырьяОтПереработчика" category="Object">
+				<xr:TypeId>1f7d39a1-510b-4ebe-b5e9-11f3bca9b656</xr:TypeId>
+				<xr:ValueId>a8b9a087-b572-47ce-a10b-ca539cc8eb3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратСырьяОтПереработчика" category="Ref">
+				<xr:TypeId>10ccfcb6-c5e8-4c3a-be2c-f41c1d9ed7f1</xr:TypeId>
+				<xr:ValueId>b43276a2-0934-4a61-b8bf-770be9f03975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратСырьяОтПереработчика" category="Selection">
+				<xr:TypeId>adb2024f-5e16-49c1-8815-57da6089b488</xr:TypeId>
+				<xr:ValueId>3ba6fba2-0df6-4c70-80a9-6f6479ce1621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратСырьяОтПереработчика" category="List">
+				<xr:TypeId>8e39f9d2-38e0-40cd-967a-4e672a99b521</xr:TypeId>
+				<xr:ValueId>2da48113-29db-4acd-9713-8830399df8c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратСырьяОтПереработчика" category="Manager">
+				<xr:TypeId>bb9aa73c-fdb8-4571-8c9a-de87f5fffc74</xr:TypeId>
+				<xr:ValueId>0435e524-e890-4aa0-91c9-bd4283da6fe3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратСырьяОтПереработчика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9323766d-7cf9-40d8-9fcc-a20431993092</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="db84fd7f-f616-42aa-a46b-eda277706d99">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d307c007-18b7-4636-b29a-23d759d7d86a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1a78fe35-acf6-4238-8416-0517ddd0fe3a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратСырьяОтПереработчика.Товары" category="TabularSection">
+						<xr:TypeId>d9d9c7a0-5ef0-4d18-9934-8e201944cd2d</xr:TypeId>
+						<xr:ValueId>8b6388df-ebc0-4b59-8b16-d2a6a10d361f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратСырьяОтПереработчика.Товары" category="TabularSectionRow">
+						<xr:TypeId>305afdd7-8751-496a-b930-9fe8aa08d3d0</xr:TypeId>
+						<xr:ValueId>47323674-d917-44a0-809e-f7b3cf9a7ce1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>037f4f67-5240-45e4-b512-1650cec4dd7d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c1c2b530-7171-4dd5-975b-0cd1e50c35da">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6dd5456e-0e31-4006-90da-35ec6386885b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="27978c5f-e377-4b4b-a0dd-e06a34abdda5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеБезналичныхДенежныхСредств" category="Object">
+				<xr:TypeId>67c5ea3b-f8b2-436c-bf4b-64fb70e4d858</xr:TypeId>
+				<xr:ValueId>533221da-9369-4958-ae85-0016556bd343</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеБезналичныхДенежныхСредств" category="Ref">
+				<xr:TypeId>455ff822-4805-4426-9b45-5160aefad8b3</xr:TypeId>
+				<xr:ValueId>2db955df-2c20-464c-b831-fe2221a0d8bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеБезналичныхДенежныхСредств" category="Selection">
+				<xr:TypeId>dbc396d1-cead-4b0e-86fb-3cded1d4519f</xr:TypeId>
+				<xr:ValueId>38ce76bb-885f-468b-baf1-a7df31c0c0d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеБезналичныхДенежныхСредств" category="List">
+				<xr:TypeId>0b9c62bf-a07b-4f6e-a803-3dd4fe563be1</xr:TypeId>
+				<xr:ValueId>75488801-42e6-4983-9d02-0f78230dc0b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеБезналичныхДенежныхСредств" category="Manager">
+				<xr:TypeId>acdc729a-cbd9-483b-bda1-017742e65d11</xr:TypeId>
+				<xr:ValueId>abc71578-5e33-4402-819a-81a9732fb608</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеБезналичныхДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8502b653-32a8-4d01-a12e-5fe4cede91ef</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fb72e437-9008-47df-a088-73b6361eb2ab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаявкаНаРасходованиеДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cd15c091-bd29-4240-9b9b-92e2ef41be4f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b195580c-92ee-4b8f-9429-88ffff3f6fb5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>52f152ae-59b7-498b-993e-c1526535a48e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СписаниеБезналичныхДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="568c74a8-e580-432a-be58-5706bf385545">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РаспоряжениеНаПеремещениеДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5f1c2fb7-9fb6-4feb-8949-d844a992daa7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.РаспоряжениеНаПеремещениеДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c9768b28-b15a-4f87-9693-b7c0d0fe386e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>579b3859-afee-4d21-9a84-eee2623b1f8a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="aa06d22c-bd2f-4643-9c65-eb6c520f063c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СписаниеБезналичныхДенежныхСредств.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>e78c0ffd-911c-4145-966c-3722f823d658</xr:TypeId>
+						<xr:ValueId>ad156a6c-2616-4b02-8236-1201f2afce6c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеБезналичныхДенежныхСредств.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>d7bb8556-a641-4040-b5be-c65c04703691</xr:TypeId>
+						<xr:ValueId>c71f9dd5-715d-46eb-9b13-3d5719edd75d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ab2b4e73-8dc2-4506-995b-60a7baebb5de</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b98952dc-3732-4141-a111-8ec0a3b1148d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Ведомость</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8fc8ec59-2f16-4535-b3ae-26184042916f</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ВедомостьЗарплатаКадры</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d6293d4e-1988-4314-8109-336c95948572">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ede8b9a2-bebf-4253-be54-706b95a2ad91</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f421a1e8-2237-4013-a01f-f9d95180e0c9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаявкаНаРасходованиеДенежныхСредств</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c3bf0fca-b662-4fb3-b2da-5b560803e9ad</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ab882b8c-c72e-4308-b0e9-c052091c1616">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорЗаймаСотруднику</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>173a7a3d-ba58-49c0-92ce-5abb404aa5b4</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="414f57ac-ee97-468f-ab0d-093c2d7c3acd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ce51c9c3-3c38-4119-b28a-2ce3e7ec8dcf</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

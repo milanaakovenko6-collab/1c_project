@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="20d753ea-24c2-4667-ab87-859ece418804">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВнутреннееПотребление" category="Object">
+				<xr:TypeId>78f81d1e-bc96-4618-b5d3-7963367b01b8</xr:TypeId>
+				<xr:ValueId>5619fb7e-4a92-4953-890c-eded2bd36482</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВнутреннееПотребление" category="Ref">
+				<xr:TypeId>edf2dde9-efbe-4d55-83b5-8138e4067d57</xr:TypeId>
+				<xr:ValueId>15855261-e3a6-45d0-bfc5-77ce6274e6a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВнутреннееПотребление" category="Selection">
+				<xr:TypeId>0619e7e1-c976-4660-81f4-fd7774621cb4</xr:TypeId>
+				<xr:ValueId>f779f41f-2b0c-4240-a42e-ac8af2001920</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВнутреннееПотребление" category="List">
+				<xr:TypeId>fb49cccb-a6d4-4d4d-9e52-8d36b66be0a4</xr:TypeId>
+				<xr:ValueId>68d0fad4-d8f6-40f3-9d17-701f65bacfa6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВнутреннееПотребление" category="Manager">
+				<xr:TypeId>f007f3bd-f5e0-4b47-8e47-c2480a754494</xr:TypeId>
+				<xr:ValueId>d20307a5-762f-4355-8a2f-1f65b37608c9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВнутреннееПотребление</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b726b4a4-d691-4fa0-bef7-e6f1bd056cbf</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2d152a16-3cde-4811-ac59-b85df05cd9e6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказНаВнутреннееПотребление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8f13106d-31d1-441b-8330-ef025f55fdbf</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d0a22b4d-c0fe-4c0d-b5e9-9f1b7a1a5d88">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7bab1076-c626-4662-b814-ed3a1973efb8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВнутреннееПотребление</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="030b2eaa-b96e-46a9-a241-660d89d47eb8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e12d08bd-1d79-40a7-b21c-f669b1a7094b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c49d48cc-4589-401a-a932-e7d101604111">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВнутреннееПотребление.Товары" category="TabularSection">
+						<xr:TypeId>5fc79a61-09ec-4fb4-9c4a-b03f3705ecb8</xr:TypeId>
+						<xr:ValueId>9b1cedcd-5a2b-4bb6-97a3-320b4c7471d5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВнутреннееПотребление.Товары" category="TabularSectionRow">
+						<xr:TypeId>973cf9c7-d098-4bd4-97f5-40746d19941b</xr:TypeId>
+						<xr:ValueId>e5ad331e-4759-4fe7-84cb-b9097bea6ce7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>385ab3ce-dd41-4c25-b89b-974bb478f380</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9ca1fc2c-9df9-4006-8d06-54b05e0bf408">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0da3af76-0f90-43fc-bf8d-6d86f1169900</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5822f989-e5eb-4e89-880c-8e6dd0a6aa0d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a7dbbbcd-b6fb-4d47-96b7-edcd8cf2d437</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ee47f999-5fa3-4bda-91c4-7582cc0a0440">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаказНаВнутреннееПотребление</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3dc4c4e8-1141-4c3c-95fd-9a8722f0d2d8</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

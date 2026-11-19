@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3065090b-f884-4c6d-9f8b-f8f9b2fd9576">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаВидаДеятельностиНДС" category="Object">
+				<xr:TypeId>efa58aa2-0529-4d87-bdcc-073f9c8ad1c2</xr:TypeId>
+				<xr:ValueId>b1ea47d2-59d5-4b89-b99a-724861446ca6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаВидаДеятельностиНДС" category="Ref">
+				<xr:TypeId>9f43ede4-4733-429b-a093-f8c3bf60a3d2</xr:TypeId>
+				<xr:ValueId>f32e2d48-e2a5-4415-808f-38c7e48824e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаВидаДеятельностиНДС" category="Selection">
+				<xr:TypeId>ca2f2c7b-5e15-462a-889b-85b5baa05f1a</xr:TypeId>
+				<xr:ValueId>88f26a08-e6d6-4304-9072-f074cd38ee30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаВидаДеятельностиНДС" category="List">
+				<xr:TypeId>091fb85e-1187-441c-a674-79810c6d1dea</xr:TypeId>
+				<xr:ValueId>4a2fcf18-b35b-47fc-86a2-670a8fe3375e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаВидаДеятельностиНДС" category="Manager">
+				<xr:TypeId>ccf9b7f2-aaa5-4f0c-ae7c-09be97684d96</xr:TypeId>
+				<xr:ValueId>b37bb21f-4893-4a3c-855c-ea18fa3faf19</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаВидаДеятельностиНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a726f939-eee9-4d7f-bca3-11410135f17d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9293ab6b-dd44-4890-a464-10a32adaad99">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументПоступления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>89f6ed5f-d0b8-4de0-9c76-e39648648844</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1085111e-9e97-4a09-9928-a691d56d8623">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>105d3146-c2ea-4fa6-bf93-88284dd3b3fa</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

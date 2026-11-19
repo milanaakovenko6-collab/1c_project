@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a8843986-912c-4066-8928-fb1a06d0a093">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеНМАМеждународныйУчет" category="Object">
+				<xr:TypeId>08619efd-9233-48e6-83fd-e77f0f8cc926</xr:TypeId>
+				<xr:ValueId>8b72e89d-07c6-42aa-a56e-69b61c8748ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеНМАМеждународныйУчет" category="Ref">
+				<xr:TypeId>71f653e8-effe-4121-8629-1c0f92eda3b5</xr:TypeId>
+				<xr:ValueId>8f3a29f0-15b6-40a8-8725-52fad2d5fded</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеНМАМеждународныйУчет" category="Selection">
+				<xr:TypeId>8693350e-f94e-43f1-93e2-232690202a95</xr:TypeId>
+				<xr:ValueId>a3e84726-b573-4398-85e0-f4ca04561e71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеНМАМеждународныйУчет" category="List">
+				<xr:TypeId>e21fa5aa-bbec-479d-9750-48bc1405dcdc</xr:TypeId>
+				<xr:ValueId>32503ee5-b9e0-49c5-9021-645aad82eee4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеНМАМеждународныйУчет" category="Manager">
+				<xr:TypeId>b248465b-e3d5-4530-95c2-5434480c90c2</xr:TypeId>
+				<xr:ValueId>31802dc4-453f-4e66-a281-8119fc97cbda</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеНМАМеждународныйУчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a969d992-e3fd-4169-97b5-7c0f8f28b036</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fc797e32-3b6b-46e6-862d-d2dd93927929">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4c3d52e0-a73d-48cd-b8d0-2fd8663b5aa8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СписаниеНМА</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2c693915-3f82-4e03-a031-0997b18843f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПересортицаТоваровУХранителя" category="Object">
+				<xr:TypeId>9c5149b0-4cdd-47b9-8cd1-4decc471d401</xr:TypeId>
+				<xr:ValueId>8d8bdf79-7162-452b-aee4-1f4188a0c262</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПересортицаТоваровУХранителя" category="Ref">
+				<xr:TypeId>1a454967-ed30-41db-8f67-476a11726b60</xr:TypeId>
+				<xr:ValueId>cb41a0f3-eefb-4df5-9182-9f3f350efb14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПересортицаТоваровУХранителя" category="Selection">
+				<xr:TypeId>58478a1c-9ee2-41bc-8fea-56e3970543a3</xr:TypeId>
+				<xr:ValueId>f3bdc89e-3e19-46cf-839d-efe32fb8ff9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПересортицаТоваровУХранителя" category="List">
+				<xr:TypeId>08b6a056-cf1d-4d3a-add9-d83722f47498</xr:TypeId>
+				<xr:ValueId>00004768-2109-4a81-806a-16229e035986</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПересортицаТоваровУХранителя" category="Manager">
+				<xr:TypeId>3cc25cff-b220-46ee-a967-d4c21fbb0137</xr:TypeId>
+				<xr:ValueId>692322d6-98d6-4641-b337-c05426bb762a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПересортицаТоваровУХранителя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1d79800a-15df-4c90-b92b-08e6d75301b5</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a5bedaf6-dc30-4d41-8283-651e1467979e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fbf2b7a0-f631-4611-9293-45d78a25f545</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПересортицаТоваровУХранителя</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8b4d6504-e1d1-4847-8652-c87ca792857b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c2de8c13-20ee-4758-9b8c-e034b8019a07</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="014eb115-a1f5-413e-9d51-f091f6389179">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПересортицаТоваровУХранителя.Товары" category="TabularSection">
+						<xr:TypeId>1e08fd77-0b89-47ac-963c-0167a622090b</xr:TypeId>
+						<xr:ValueId>93273bab-d0e7-4c86-b3d4-4830288bb495</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПересортицаТоваровУХранителя.Товары" category="TabularSectionRow">
+						<xr:TypeId>27a1a6e6-283b-4c8a-990b-6584802a5c64</xr:TypeId>
+						<xr:ValueId>a4078dc1-acfe-4fd2-b0b6-53fe5defa6e0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e6caaf4d-e774-4e4b-96f9-d16f7361fced</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e195fb1f-3859-49b9-a53a-f50e59977f1b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>fe78a0b5-e0a2-4d17-81c2-33f500dfae24</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a595cf7f-520d-4deb-95e6-162269f16687">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НазначениеОприходование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>89d383f6-d798-40a9-8e8c-f1dfaa8f13ec</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

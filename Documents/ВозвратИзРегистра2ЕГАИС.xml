@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="70f38a48-f5e6-4021-b571-441a6197fa33">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратИзРегистра2ЕГАИС" category="Object">
+				<xr:TypeId>f7ee768f-05f9-4a94-b49b-5053eef5733a</xr:TypeId>
+				<xr:ValueId>685fdd98-c380-47bd-a4e7-c171b36668cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратИзРегистра2ЕГАИС" category="Ref">
+				<xr:TypeId>0d258f71-89d4-41aa-bddd-e503a2f53ab4</xr:TypeId>
+				<xr:ValueId>1da58013-236f-4dcd-9598-0bc48a33775e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратИзРегистра2ЕГАИС" category="Selection">
+				<xr:TypeId>87973a20-7257-4379-a325-10bf3a023d16</xr:TypeId>
+				<xr:ValueId>581d586b-d005-4011-8448-1f71e793bc81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратИзРегистра2ЕГАИС" category="List">
+				<xr:TypeId>441418c0-495c-44e0-b336-e940b5b2d76e</xr:TypeId>
+				<xr:ValueId>3a35215c-b58c-489e-ad24-69bec7a03f00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратИзРегистра2ЕГАИС" category="Manager">
+				<xr:TypeId>53773854-21ec-4716-a373-f57c63eb9d3e</xr:TypeId>
+				<xr:ValueId>20ad5a71-da14-4b3e-a350-4e4a7bbf9e54</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратИзРегистра2ЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b7c6233d-4b6a-4970-8176-571e66f9717c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="bb3f039a-dec8-459f-9740-a6ba405145dc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1a474402-f97a-413e-90e7-c7810ce951e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеВозвратаИзРегистра2ЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

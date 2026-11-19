@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4901f782-31a1-4c9c-b553-ff4a988209f8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеРасхожденийПоступлениеПриобретение" category="Object">
+				<xr:TypeId>2b308997-d974-4702-aac1-c0d986fd8dcd</xr:TypeId>
+				<xr:ValueId>2a4578a6-c44d-4414-8ec8-3fd4ffb64bdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеРасхожденийПоступлениеПриобретение" category="Ref">
+				<xr:TypeId>d5e5e56f-e892-4b47-a3de-b09e32e0509d</xr:TypeId>
+				<xr:ValueId>9f7aa405-2ebb-42d3-9b8f-cd673cdb61cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеРасхожденийПоступлениеПриобретение" category="Selection">
+				<xr:TypeId>36ff1268-e870-4858-afca-5034f794c119</xr:TypeId>
+				<xr:ValueId>109fff4e-8ff3-49d1-999e-9685a7dc2c19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеРасхожденийПоступлениеПриобретение" category="List">
+				<xr:TypeId>f35dd41a-61b4-416b-bc0b-ea045ed8210a</xr:TypeId>
+				<xr:ValueId>84dda856-4973-4228-87f2-bdbf94e2d832</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеРасхожденийПоступлениеПриобретение" category="Manager">
+				<xr:TypeId>172f7f87-2e10-47a1-884e-93c2a9f9fa41</xr:TypeId>
+				<xr:ValueId>0a618873-b8ab-4946-9eb6-42ccae4a8c3d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеРасхожденийПоступлениеПриобретение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e84c1bcc-9cc0-40bf-87dd-fc069f3d4a55</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9f95e4e4-c5e5-4ade-ab95-fd221d103791">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>062b68c5-4c61-46f5-8c89-df6662120cb0</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.РаспоряжениеНаПоступление</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a84197c-6765-447d-b1fd-04aa7ae36252">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10fb1689-1aec-431e-ba4a-a15ffbcd2150</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СписаниеРасхожденийПоступлениеПриобретение</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="e9c7600e-ef4e-4259-a6e6-1a10816393a6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СписаниеРасхожденийПоступлениеПриобретение.Расхождения" category="TabularSection">
+						<xr:TypeId>4b0616e1-5820-491e-bc05-f43ab1c5fd02</xr:TypeId>
+						<xr:ValueId>9f2e425d-441d-4778-b5d8-8069f06529fc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеРасхожденийПоступлениеПриобретение.Расхождения" category="TabularSectionRow">
+						<xr:TypeId>30597678-dbeb-4bdf-b551-d915d7afee7f</xr:TypeId>
+						<xr:ValueId>d865a8d2-64da-4f11-91fe-dfee254d6d91</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расхождения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2b883b00-e50f-4d4b-b05a-549f35aae44e</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b11c9f85-154f-45f7-95eb-2fe5f2b1e5f4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1636e45b-4efc-4d6b-b86b-288ea36e92f5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

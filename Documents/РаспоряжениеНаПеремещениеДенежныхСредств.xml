@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0830df6c-806e-47fa-97ae-6d836094e717">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспоряжениеНаПеремещениеДенежныхСредств" category="Object">
+				<xr:TypeId>776fbf97-de01-46c6-9f61-d1345e7dd4c7</xr:TypeId>
+				<xr:ValueId>67daf17e-7f42-4c5c-bcba-eb53116e5599</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспоряжениеНаПеремещениеДенежныхСредств" category="Ref">
+				<xr:TypeId>4b83c937-db0f-4e48-b869-535a6a984dec</xr:TypeId>
+				<xr:ValueId>4b49ae2a-792c-43d8-a090-e3e1c261d1b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспоряжениеНаПеремещениеДенежныхСредств" category="Selection">
+				<xr:TypeId>925c5cb0-9b42-4912-8069-53f254816cc7</xr:TypeId>
+				<xr:ValueId>c66657ce-cadd-4c0e-9cb8-4b616c642a70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспоряжениеНаПеремещениеДенежныхСредств" category="List">
+				<xr:TypeId>d06ddffd-764a-43f8-97d4-eb45f05d3906</xr:TypeId>
+				<xr:ValueId>c104fdb8-70aa-4711-8865-d817e819b443</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспоряжениеНаПеремещениеДенежныхСредств" category="Manager">
+				<xr:TypeId>211e4a53-2f2f-43eb-80dd-ac6f4443ca28</xr:TypeId>
+				<xr:ValueId>4415a21a-b938-4d2b-9dc4-873b44d17c55</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспоряжениеНаПеремещениеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6466a254-9f5d-4d4e-a9f4-b1b4f2860b5e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

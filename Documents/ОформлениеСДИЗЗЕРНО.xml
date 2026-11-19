@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5ff89d18-3696-4bae-9725-29522320d2ba">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОформлениеСДИЗЗЕРНО" category="Object">
+				<xr:TypeId>1f52eff8-44e3-4254-97dd-1a313e10d617</xr:TypeId>
+				<xr:ValueId>5950ecf3-6bc6-42de-983e-11696a01ad69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОформлениеСДИЗЗЕРНО" category="Ref">
+				<xr:TypeId>710443ab-1969-4ae3-8048-05f57b3e306f</xr:TypeId>
+				<xr:ValueId>bab26699-d0dd-4b63-ba09-fc9287ebc874</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОформлениеСДИЗЗЕРНО" category="Selection">
+				<xr:TypeId>e4c49002-fcf3-4a73-999f-69974e1aef6b</xr:TypeId>
+				<xr:ValueId>ee16590b-84de-4072-a13a-8c54143158a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОформлениеСДИЗЗЕРНО" category="List">
+				<xr:TypeId>06eff52f-7ddc-4175-9285-241f857f8aec</xr:TypeId>
+				<xr:ValueId>498e5b1d-7b72-4117-8d84-f911a3ac3385</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОформлениеСДИЗЗЕРНО" category="Manager">
+				<xr:TypeId>2361693f-7632-486b-845a-a02035f2dc37</xr:TypeId>
+				<xr:ValueId>4705c73a-ee8d-429a-9260-08ca3a303a7f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОформлениеСДИЗЗЕРНО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>169f9925-73b5-4eb6-bf88-110f8c608f91</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f2350110-ef03-43b2-9f64-94c3ab8b5062">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5f2cf0e1-4329-432b-8aff-d69f4611308c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеОформлениеСДИЗЗЕРНО</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

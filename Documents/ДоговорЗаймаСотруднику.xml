@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a23b866e-0624-4407-9285-5b6a3f6b994e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДоговорЗаймаСотруднику" category="Object">
+				<xr:TypeId>d20fa5db-ff94-4a8c-8553-0b6eb28607bd</xr:TypeId>
+				<xr:ValueId>ce7ef403-94e0-469a-8a1f-499d6ba4ef08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДоговорЗаймаСотруднику" category="Ref">
+				<xr:TypeId>6d03fe1e-755d-4717-b228-adf715261f4b</xr:TypeId>
+				<xr:ValueId>cfd1a9dc-2ee7-4ded-8a52-e8a60d766f62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДоговорЗаймаСотруднику" category="Selection">
+				<xr:TypeId>4d267d38-5a66-412b-a25f-079fe173367a</xr:TypeId>
+				<xr:ValueId>99402430-a937-418c-8521-af97f3b0cfc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДоговорЗаймаСотруднику" category="List">
+				<xr:TypeId>566bc1d6-63b6-4252-bca4-a0bbdaae0781</xr:TypeId>
+				<xr:ValueId>308728e4-c492-48b9-800d-3c17c6753501</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДоговорЗаймаСотруднику" category="Manager">
+				<xr:TypeId>ebe0bc0d-1e0b-44ea-a701-2457d62533a6</xr:TypeId>
+				<xr:ValueId>36b6bcd4-3fb0-48e2-bfb7-cdd6b2295717</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоговорЗаймаСотруднику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>adb6b3d2-7194-4e09-9ad0-477d9f88721b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

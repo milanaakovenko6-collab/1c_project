@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="675ebd30-cd84-455f-9121-0da38ae25a91">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыкупПринятыхНаХранениеТоваров" category="Object">
+				<xr:TypeId>ebc0a305-693a-488b-835d-839f2c8cc692</xr:TypeId>
+				<xr:ValueId>5cad6284-4c2e-4fee-8d9c-75274ab4ff93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыкупПринятыхНаХранениеТоваров" category="Ref">
+				<xr:TypeId>122a215c-abf3-4db6-8173-1b8a7e033803</xr:TypeId>
+				<xr:ValueId>685617bc-3aa4-45af-a82c-7d0b39ef7ae5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыкупПринятыхНаХранениеТоваров" category="Selection">
+				<xr:TypeId>0692fcbd-ccec-4d20-bdf4-fb598dda2c5b</xr:TypeId>
+				<xr:ValueId>1d50892a-096e-4134-bf5f-c5cb43028739</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыкупПринятыхНаХранениеТоваров" category="List">
+				<xr:TypeId>3237bd73-a997-46f0-97c0-1f41625564e1</xr:TypeId>
+				<xr:ValueId>57c2de83-12bd-4a7f-b808-c538f1c9c3be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыкупПринятыхНаХранениеТоваров" category="Manager">
+				<xr:TypeId>0d48d6a1-a0d4-4004-993a-fe61e55c4c5c</xr:TypeId>
+				<xr:ValueId>d87d6abe-31d4-4d05-bd61-1d9df732871c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыкупПринятыхНаХранениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>623f14da-8031-4584-882f-46a56a6557b9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="a0a20a5e-f778-45f4-b848-df69599b7bdb">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыкупПринятыхНаХранениеТоваров.Товары" category="TabularSection">
+						<xr:TypeId>7c10f133-f0fd-48ab-8754-2fc5e3a0e702</xr:TypeId>
+						<xr:ValueId>118d7c53-151b-44c4-87d4-565d3b4bd20a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыкупПринятыхНаХранениеТоваров.Товары" category="TabularSectionRow">
+						<xr:TypeId>67a5ca96-5368-416b-adf6-a6afa3e0d512</xr:TypeId>
+						<xr:ValueId>852a2518-4eaf-4924-8f35-65431c5c9a98</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>edfe25dd-1c17-471b-bda6-7a5a6a565a1f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="142eb648-3573-4697-8630-df2fb958f399">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3024dc78-1176-4044-bee3-825ff8792ec1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

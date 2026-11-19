@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0630f3c5-5320-47c6-b342-39fbb203aba4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомитентуОЗакупках" category="Object">
+				<xr:TypeId>d2d97d30-34f4-4e71-a89a-e0169bd0083a</xr:TypeId>
+				<xr:ValueId>fe6b8d73-a3ec-460a-812e-17d72afa43f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомитентуОЗакупках" category="Ref">
+				<xr:TypeId>af7ab445-8f3b-4900-ae74-5768b8de767c</xr:TypeId>
+				<xr:ValueId>84a41ba5-ceaa-4e2f-9013-dcd6e35e3ea5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомитентуОЗакупках" category="Selection">
+				<xr:TypeId>fa904614-89e8-4a73-ba89-53359a22bb3b</xr:TypeId>
+				<xr:ValueId>8c2bc66d-6c9c-4abd-b5e1-45b61336667f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомитентуОЗакупках" category="List">
+				<xr:TypeId>b2248a5b-d6e0-40e0-9fce-5b5bd1b841ce</xr:TypeId>
+				<xr:ValueId>475541c5-33b4-4d5e-b4cc-8c17ee49183c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомитентуОЗакупках" category="Manager">
+				<xr:TypeId>068f39b3-b286-4b50-a5c5-6d95e638cd7f</xr:TypeId>
+				<xr:ValueId>8f076b54-e42b-41a0-97cc-bcb71f574c90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетКомитентуОЗакупках</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>99dddda3-b11d-4be9-881d-6beabbf1e02e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="347fd0aa-290d-4864-afa0-9f754077ef98">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетКомитентуОЗакупках.Товары" category="TabularSection">
+						<xr:TypeId>a0df2967-843a-4e88-8a64-e6bdbf9a930f</xr:TypeId>
+						<xr:ValueId>4ec22397-de2e-4e16-b819-c931a5b9eb88</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетКомитентуОЗакупках.Товары" category="TabularSectionRow">
+						<xr:TypeId>d50797a3-f780-4cc8-8f06-5471bd74f517</xr:TypeId>
+						<xr:ValueId>d134438f-af5f-468f-8f7e-3f0af549b078</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>884efda8-7fa9-4476-aca4-5b285bb7b908</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d286d37d-01cd-4ab8-9dde-126d6727b055">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументПриобретения</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>36bc54cf-c998-4d16-90ed-7f27e2a7a05e</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

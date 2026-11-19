@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="457aa873-5bfd-4fd2-9a2c-7e5035e0b426">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураНаНеподтвержденнуюРеализацию0" category="Object">
+				<xr:TypeId>19a42121-9b62-45af-9d7c-35f7dce962b5</xr:TypeId>
+				<xr:ValueId>0dc418f0-85e8-4349-8f75-69b4ef393553</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураНаНеподтвержденнуюРеализацию0" category="Ref">
+				<xr:TypeId>f699b622-2f5f-4c67-bdd4-21a166869bd1</xr:TypeId>
+				<xr:ValueId>00009241-4d25-45e0-8845-170c5058bdb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураНаНеподтвержденнуюРеализацию0" category="Selection">
+				<xr:TypeId>f420c36b-9197-4edc-9d11-2154ba4cf67b</xr:TypeId>
+				<xr:ValueId>247dcc2d-d03a-4320-83fa-9f7d7b546dbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураНаНеподтвержденнуюРеализацию0" category="List">
+				<xr:TypeId>854388c6-c655-450a-aafa-2b37d7395b3e</xr:TypeId>
+				<xr:ValueId>2d451930-10a7-44e2-a19a-337f46e96d91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураНаНеподтвержденнуюРеализацию0" category="Manager">
+				<xr:TypeId>92994f91-c4db-47f6-a625-e8e42c9cfea4</xr:TypeId>
+				<xr:ValueId>e6571b81-53e3-4e05-b1da-7b5605102b60</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураНаНеподтвержденнуюРеализацию0</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>163636b5-ab9a-4c1a-8521-bb1c16812ec0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="75bb893b-d990-4ba2-9a11-7dc0f03c85b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b1f6c6f4-9ef0-4d27-891f-c59c171eba6e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

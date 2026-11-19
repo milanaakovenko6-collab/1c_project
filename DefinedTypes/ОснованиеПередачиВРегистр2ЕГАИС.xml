@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="0a6f9662-48b7-49af-8bd9-adce18a7a3e3">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОснованиеПередачиВРегистр2ЕГАИС" category="DefinedType">
+				<xr:TypeId>620f9c5d-6687-4834-9b7b-616cc7111bf1</xr:TypeId>
+				<xr:ValueId>15453afe-577b-40e9-a9a3-c465bbe240a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОснованиеПередачиВРегистр2ЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>051d01c9-9950-4a8a-8373-c4faad47d0aa</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ТТНВходящаяЕГАИС</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

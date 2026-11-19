@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6a30495a-e91b-4eb6-91b7-daddcff7be08">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковНДСПредъявленного" category="Object">
+				<xr:TypeId>b6e30488-7089-4c0b-b7e3-b876afa454c2</xr:TypeId>
+				<xr:ValueId>5e218ee3-9370-4252-991d-cb41ff9eff08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковНДСПредъявленного" category="Ref">
+				<xr:TypeId>41a3d50d-b118-481b-9876-70454fe62b0b</xr:TypeId>
+				<xr:ValueId>99d937b5-3fa2-4d01-b6fb-fa305e91db8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковНДСПредъявленного" category="Selection">
+				<xr:TypeId>c0ef9b27-6b0d-466d-b238-56eb61a1d140</xr:TypeId>
+				<xr:ValueId>baab2787-cf58-4d13-a573-1d0a4534cafb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковНДСПредъявленного" category="List">
+				<xr:TypeId>88bda32f-764a-401e-acd6-9b3ffcb72b48</xr:TypeId>
+				<xr:ValueId>d80cfc5a-3f79-43a8-9ce8-195b38de671e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковНДСПредъявленного" category="Manager">
+				<xr:TypeId>a9c52fcd-c248-4e67-aedc-c126d032e81e</xr:TypeId>
+				<xr:ValueId>af345b48-740a-4b87-bb3a-3e6d069bfadb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковНДСПредъявленного</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>40edd0c3-bde3-487c-acdc-24c9fbf6ed15</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="601a3550-f0ab-4a72-8fe1-20cf5401b888">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>42d0663c-2a7d-4a4f-88ee-9170a9615d59</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковНДСПредъявленного</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

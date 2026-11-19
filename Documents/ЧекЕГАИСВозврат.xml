@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c6ed9d5a-073a-4c34-b29f-c8a350bb7ad0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекЕГАИСВозврат" category="Object">
+				<xr:TypeId>95609853-8b8a-446e-aaee-bb7822a3c2f7</xr:TypeId>
+				<xr:ValueId>31026a29-3afe-4cb0-b884-3b6cd3d91767</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекЕГАИСВозврат" category="Ref">
+				<xr:TypeId>656e2e69-2bd0-4027-8bab-b315bcddb3bd</xr:TypeId>
+				<xr:ValueId>56720cb7-50b2-4ce8-8da6-35b606a1de4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекЕГАИСВозврат" category="Selection">
+				<xr:TypeId>1e77516f-82a8-404c-92d3-2c4a90cffa05</xr:TypeId>
+				<xr:ValueId>a513495d-7349-4ef3-8bc1-93533ec1b2da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекЕГАИСВозврат" category="List">
+				<xr:TypeId>eb4b2bb0-2677-424f-b134-e045777ae4aa</xr:TypeId>
+				<xr:ValueId>09938ee4-7abc-453e-86d4-9550995b88a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекЕГАИСВозврат" category="Manager">
+				<xr:TypeId>ee90ed4a-6441-4e4a-ab98-3c8b01bcbc51</xr:TypeId>
+				<xr:ValueId>e3b431a4-0ff3-4ecd-bf6a-7d626de309a5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧекЕГАИСВозврат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5aacebce-da9b-4967-aa50-7daebf5ccba9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8ff34241-d8ae-4a4f-b7f6-2f26f854f9f6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8a7ab49c-a077-4dce-87da-ffcb55cbed11</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЧекаЕГАИСВозврат</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

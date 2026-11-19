@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b58ffaa6-4283-4111-a082-a2fbb6c99af1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭтапПроизводства2_2" category="Object">
+				<xr:TypeId>bc3e4936-427b-435f-a69d-0fa0ae31ad1a</xr:TypeId>
+				<xr:ValueId>15440508-3d3c-4012-93e8-d89e8de9c6c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭтапПроизводства2_2" category="Ref">
+				<xr:TypeId>56e0701e-e149-4043-8602-94ae714568a1</xr:TypeId>
+				<xr:ValueId>85ce5d8a-5172-4e6b-8373-e14a5890b56d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭтапПроизводства2_2" category="Selection">
+				<xr:TypeId>d6b2057c-5bf7-48e5-bd8e-fe72eceda8dd</xr:TypeId>
+				<xr:ValueId>3200642f-6098-4926-ac61-d8fa6b988b4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭтапПроизводства2_2" category="List">
+				<xr:TypeId>85ca878d-5e6c-4d5f-a024-3cbc4a764d3c</xr:TypeId>
+				<xr:ValueId>14d42be2-3214-45e6-b10f-26911c093163</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭтапПроизводства2_2" category="Manager">
+				<xr:TypeId>00cc4b00-c74a-4a6d-b15c-6c4f0b608db6</xr:TypeId>
+				<xr:ValueId>d07da3e1-74b8-4ce6-8722-f8f1edda3048</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапПроизводства2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03503ac6-a4b9-4d70-b0ef-949dac7b8de4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="af1acf64-feff-4c20-b582-9fe22637b6fe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПартияПроизводства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e9606203-88e5-4b62-bc25-9f152c0eecfe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПартииПроизводства</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b35dae7a-9b50-4373-b14a-f5135a78aea1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70cf9329-a6e2-45b4-8a56-c4ab27b47c0c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="317c0326-0f2b-47d2-be46-a81a6cf9beb0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЭтапПроизводства2_2.ВыходныеИзделия" category="TabularSection">
+						<xr:TypeId>46d904b5-17f2-4a04-aada-ef42681c2bce</xr:TypeId>
+						<xr:ValueId>4f0b9d19-9e37-46fb-bfdb-8c725405f876</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЭтапПроизводства2_2.ВыходныеИзделия" category="TabularSectionRow">
+						<xr:TypeId>354ca396-9def-4042-9ab9-d48643feeeb1</xr:TypeId>
+						<xr:ValueId>32334347-73e4-44dd-a5d7-287359c15ff8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыходныеИзделия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dc035f49-1f37-4bf6-a369-751f132442a2</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="43999750-4f0a-48bc-9c27-4b8252726f29">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>db9e537c-e459-4719-8fc9-93469d0ba8d9</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="bae9314b-17d2-4a80-ba23-3174c21834e9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЭтапПроизводства2_2.ПобочныеИзделия" category="TabularSection">
+						<xr:TypeId>42f54548-4447-4a6a-8b3e-e10264844b24</xr:TypeId>
+						<xr:ValueId>2a7c3b8b-8b0d-41f0-9d31-4cbe94ac4b99</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЭтапПроизводства2_2.ПобочныеИзделия" category="TabularSectionRow">
+						<xr:TypeId>7afe83d1-1aec-471e-8a60-6e6a75b84167</xr:TypeId>
+						<xr:ValueId>8e4c1011-1319-4035-b0a6-b1841d53ead8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПобочныеИзделия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8f66c3d2-7edc-4b3e-b8f2-ff1949ed8bb0</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="94482d61-3e2e-402d-9c95-d51f5a854189">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>938d961e-dfa3-4496-b43b-c20ff33bb891</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2f175298-6908-422d-a8c7-f7a88f56e2de">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаСтоимостиИАмортизацииНМА" category="Object">
+				<xr:TypeId>c68171d4-ec25-4189-bdcf-782a7a0e1765</xr:TypeId>
+				<xr:ValueId>d3dc92b3-9540-4f46-aadd-9a5e8a74a38e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаСтоимостиИАмортизацииНМА" category="Ref">
+				<xr:TypeId>87ecc9be-504e-425b-b5c0-d27d5cdeb70b</xr:TypeId>
+				<xr:ValueId>06aff3ad-b300-49b3-aef6-06ec08c72d4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаСтоимостиИАмортизацииНМА" category="Selection">
+				<xr:TypeId>e4111a9d-5cc8-4e66-a1a8-8462c7cd969b</xr:TypeId>
+				<xr:ValueId>c4162179-a4ab-4c3d-9c21-f016903932af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаСтоимостиИАмортизацииНМА" category="List">
+				<xr:TypeId>0f947b64-ac70-43e9-bb98-8a1ea5baf25f</xr:TypeId>
+				<xr:ValueId>776e09dd-a658-476d-a546-9858cc49b773</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаСтоимостиИАмортизацииНМА" category="Manager">
+				<xr:TypeId>52b3f34d-e0e4-490e-8c92-092c7d40d972</xr:TypeId>
+				<xr:ValueId>5040fc16-fee6-409c-97ab-2139150d57d0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаСтоимостиИАмортизацииНМА</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9a10cf19-e56f-44c2-ad62-6b7524bd28e8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ef93b2e6-03ca-4686-8fe1-709ada53fc94">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8043115a-07e4-4a9c-9988-ef49a0e38ea1</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="254cfde9-3cc2-4d6c-8440-222078607e8f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f7a74b5f-73b8-4231-8d78-6b9ecd00794c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

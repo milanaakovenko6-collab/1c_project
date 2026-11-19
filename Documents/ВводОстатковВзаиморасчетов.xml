@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="05701f25-9f5f-45cc-8e83-824dbac0f15d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковВзаиморасчетов" category="Object">
+				<xr:TypeId>e6a656e1-2240-46cc-a27e-0b903e09baa1</xr:TypeId>
+				<xr:ValueId>4313f633-5da4-4313-b820-ce8bc28e6e7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковВзаиморасчетов" category="Ref">
+				<xr:TypeId>ef603faf-3767-4613-bbc8-271e51d8db74</xr:TypeId>
+				<xr:ValueId>200619f0-8720-43a3-ab88-24b2d6357836</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковВзаиморасчетов" category="Selection">
+				<xr:TypeId>67ddfe5f-4c28-48a6-93b0-ce6c1ba3ff9a</xr:TypeId>
+				<xr:ValueId>518e8de0-5d77-4d74-853b-3b23dd199506</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковВзаиморасчетов" category="List">
+				<xr:TypeId>25fff748-e0fb-4bdf-a431-de5ec6f236fb</xr:TypeId>
+				<xr:ValueId>1f5ebdce-186d-4750-912a-317a56fb52ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковВзаиморасчетов" category="Manager">
+				<xr:TypeId>9861195d-1ddf-49f9-9d38-8bc1e812cee9</xr:TypeId>
+				<xr:ValueId>36b7041b-26e5-446b-98c7-99e72336272c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковВзаиморасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d150f9d5-d1c8-4ce9-be08-88c954e2bd28</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a14f2efe-5197-47b1-8e52-54fb3c5217a4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8206424a-1098-4862-a8c7-d87c096aa124</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковВзаиморасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="528453cc-bad7-4b5b-a1ff-7ff339c8afc1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВводОстатковВзаиморасчетов.РасчетыСПартнерами" category="TabularSection">
+						<xr:TypeId>27ca104f-d303-4b7f-a9f5-21c54b049c42</xr:TypeId>
+						<xr:ValueId>93842eb4-e698-4fef-8ec7-0aefa420efea</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВводОстатковВзаиморасчетов.РасчетыСПартнерами" category="TabularSectionRow">
+						<xr:TypeId>2a073768-08dc-4b24-ad2a-9ecc8a7f8bbb</xr:TypeId>
+						<xr:ValueId>c08fea1a-35eb-402f-afe6-d3fc3a72f2c8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетыСПартнерами</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dfd8bcbd-128d-4840-b9f5-eb14854d8f63</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f5a87b5d-9420-4275-9558-05f96f024dee">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4bee255d-37d2-4eb4-9d06-d37903d5ffc5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПервичныйДокумент</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="187251aa-753b-4ed8-b294-7c559ba0e38d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетовОтправитель</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>550b80ce-1dd1-40e2-a4db-e82fcc3f2806</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

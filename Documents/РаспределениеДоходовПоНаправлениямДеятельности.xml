@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="62f77969-0e5f-4f13-a6b2-f5a55644d1bf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеДоходовПоНаправлениямДеятельности" category="Object">
+				<xr:TypeId>22fc2f91-93d7-4f40-bc31-01136c9556ab</xr:TypeId>
+				<xr:ValueId>27476c56-756c-4b50-a966-8ebe37702cc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеДоходовПоНаправлениямДеятельности" category="Ref">
+				<xr:TypeId>85fe5d6d-07f1-4301-9179-126d77ae19e5</xr:TypeId>
+				<xr:ValueId>2ad5b752-0024-4f41-aa92-faf3cf3b766e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеДоходовПоНаправлениямДеятельности" category="Selection">
+				<xr:TypeId>b744c678-73ec-4cf6-94d3-be395af8d58e</xr:TypeId>
+				<xr:ValueId>55b8a06b-ed2e-46ce-81f6-ebe4ed6b9b60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеДоходовПоНаправлениямДеятельности" category="List">
+				<xr:TypeId>f4bed1f7-43ef-43d6-a90a-305bc7ef61e2</xr:TypeId>
+				<xr:ValueId>57392cbb-7460-4190-ac63-0cc40a7ea77d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеДоходовПоНаправлениямДеятельности" category="Manager">
+				<xr:TypeId>53be3392-c5b6-4ade-adf7-6ac9bc240b0e</xr:TypeId>
+				<xr:ValueId>d477cf80-29cb-4ee6-8aa6-30bf6bc67ed9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеДоходовПоНаправлениямДеятельности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b4aaf23-2266-4b5e-a96f-8a1d0625347c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="559e8461-5b5e-4b4b-96b4-cd4c03173803">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеДоходовПоНаправлениямДеятельности.Расходы" category="TabularSection">
+						<xr:TypeId>b9e68659-c1b4-4679-9263-3bf0e056b48d</xr:TypeId>
+						<xr:ValueId>85ec30ad-61c3-4182-8245-a1c4618e367c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеДоходовПоНаправлениямДеятельности.Расходы" category="TabularSectionRow">
+						<xr:TypeId>20f00964-5388-4f17-8772-98506de6e87d</xr:TypeId>
+						<xr:ValueId>cda40f9d-c83b-4678-a51d-c97fd27fe31d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расходы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>77925bb3-8500-4692-9ac1-5cf5044ea8e9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="dca57721-12c4-435f-91e8-501d844d022e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6a205d1d-b53d-4b06-b293-0573b76b6b1b</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

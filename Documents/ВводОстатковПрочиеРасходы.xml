@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="399816b7-7cba-499b-9066-e27ca34622d4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковПрочиеРасходы" category="Object">
+				<xr:TypeId>479326c3-0c4b-4e46-a63f-8f9cf924b18a</xr:TypeId>
+				<xr:ValueId>722121d6-dd2c-4aa2-8870-326068b916fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковПрочиеРасходы" category="Ref">
+				<xr:TypeId>6ad277a4-9773-4d43-ad25-d70c1e6df48a</xr:TypeId>
+				<xr:ValueId>f0da680c-01fb-467c-8202-a54b27512609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковПрочиеРасходы" category="Selection">
+				<xr:TypeId>25877f96-ed5f-460c-bdd0-df1f616dca31</xr:TypeId>
+				<xr:ValueId>7aaf926d-279f-47b5-a0d6-e13668ce07ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковПрочиеРасходы" category="List">
+				<xr:TypeId>59f82695-72a1-4dbb-97af-eb92ab8940f6</xr:TypeId>
+				<xr:ValueId>d8faa37b-fbff-4317-b971-8f74469803ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковПрочиеРасходы" category="Manager">
+				<xr:TypeId>f5c5741c-e5a5-4680-b081-5f9daa0ad3f8</xr:TypeId>
+				<xr:ValueId>c89096f6-2642-47eb-ba9b-b62ddc93640c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковПрочиеРасходы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>948a625e-0957-41f4-8bca-df2eb5eb90c6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7de3b47c-7102-495c-b753-99f2b99f5d72">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c183c2dc-7349-4621-95df-c3c5da19218c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковПрочиеРасходы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

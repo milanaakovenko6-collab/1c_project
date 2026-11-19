@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="61a5951c-18f5-4267-95b0-ae855a94bbdc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КассоваяСмена" category="Object">
+				<xr:TypeId>ea8e7e69-365a-4f69-91ef-359db977b946</xr:TypeId>
+				<xr:ValueId>a5111703-994a-4d75-98e1-c1688eb27180</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КассоваяСмена" category="Ref">
+				<xr:TypeId>2aaa9d3e-b855-4695-99c3-4e8f8228de13</xr:TypeId>
+				<xr:ValueId>aeb024e7-f2e4-4056-9f9e-32df49540956</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КассоваяСмена" category="Selection">
+				<xr:TypeId>cd9e76a2-116c-4315-82c9-cc0e79f587b3</xr:TypeId>
+				<xr:ValueId>5420efb9-342f-466e-87c6-8b605ae37b5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КассоваяСмена" category="List">
+				<xr:TypeId>b5d74324-8832-43ed-8584-29591d7e9253</xr:TypeId>
+				<xr:ValueId>190b101d-4265-48ab-b9b4-c00be542efdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КассоваяСмена" category="Manager">
+				<xr:TypeId>76499b29-3881-433d-b2ac-6dea1c37c5bc</xr:TypeId>
+				<xr:ValueId>395f3fae-6b9a-415d-b620-ddb166961ac3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КассоваяСмена</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>953a5c06-150b-4d33-a1b3-e1b5b7d767c2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

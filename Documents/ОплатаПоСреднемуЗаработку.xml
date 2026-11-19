@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f3127a95-d4eb-414f-a0b9-5378f6049cfc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОплатаПоСреднемуЗаработку" category="Object">
+				<xr:TypeId>3810465b-fd85-42df-a6d7-0b6de37a7102</xr:TypeId>
+				<xr:ValueId>53ed0deb-204d-4047-8774-248d79ca8094</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОплатаПоСреднемуЗаработку" category="Ref">
+				<xr:TypeId>224fd853-3aa8-45f2-a4b7-60bda9ee2873</xr:TypeId>
+				<xr:ValueId>edfdea24-7f72-4bf5-95d2-c585e1ab7dc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОплатаПоСреднемуЗаработку" category="Selection">
+				<xr:TypeId>8eed0e8c-9a8c-48fb-ba60-667df91ef1cc</xr:TypeId>
+				<xr:ValueId>2453fb0f-f878-4cd1-9df0-f0e5a431464f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОплатаПоСреднемуЗаработку" category="List">
+				<xr:TypeId>d5f39629-77c4-4a3f-9678-1f859dc6fd97</xr:TypeId>
+				<xr:ValueId>fcd0f381-193a-4311-9dbd-a1a6967f7fa8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОплатаПоСреднемуЗаработку" category="Manager">
+				<xr:TypeId>fe4d2e4c-5220-4f55-a809-87a3e2410acf</xr:TypeId>
+				<xr:ValueId>f0e66580-8b87-4329-9988-4840c19ee0ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОплатаПоСреднемуЗаработку</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0e66f0e8-43de-47f4-af90-d94e4141fdbd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="ce24e806-82ac-44e1-81bd-3bbba9a12d7f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОплатаПоСреднемуЗаработку.НачисленияПерерасчет" category="TabularSection">
+						<xr:TypeId>84d17a44-9fde-4f7f-a8c3-60a0718d2c7f</xr:TypeId>
+						<xr:ValueId>923f78c5-2336-4052-81ed-249f266168cb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОплатаПоСреднемуЗаработку.НачисленияПерерасчет" category="TabularSectionRow">
+						<xr:TypeId>87530d76-3625-4461-9945-31e82c228795</xr:TypeId>
+						<xr:ValueId>c34b2b14-b724-4e55-b890-d9e06ec2741e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПерерасчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1e9ffbaa-0fa7-42f3-b885-eadbce9fecee</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="83a5343f-bfb5-4e22-9ce0-4d7726ec537a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СторнируемыйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>469a97ea-817a-46b6-81bd-ea9e0e2b0987</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СторнируемыйДокумент</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

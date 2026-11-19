@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ddbe1cb0-ef62-42ba-9870-f6a459e7e4c7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийПередачиВАренду" category="Object">
+				<xr:TypeId>ff8b04ae-bf1f-47bc-81fb-eef3d2a32556</xr:TypeId>
+				<xr:ValueId>9f505904-bf58-49dd-a87e-b22bc5a746ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийПередачиВАренду" category="Ref">
+				<xr:TypeId>b70cce48-7e18-434a-95b8-fd63dac62efa</xr:TypeId>
+				<xr:ValueId>c452edf0-b0a8-40e6-91d4-a8d5a01e8a4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийПередачиВАренду" category="Selection">
+				<xr:TypeId>0aa8c939-da20-430a-b5e7-172c484fbe5f</xr:TypeId>
+				<xr:ValueId>5eb3819f-5074-4f93-b2f4-d39553d9ff47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийПередачиВАренду" category="List">
+				<xr:TypeId>74c1d65c-0d49-4522-822f-e46d0f512dce</xr:TypeId>
+				<xr:ValueId>558125ec-61aa-437a-8e18-7ff1d0cc7ded</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийПередачиВАренду" category="Manager">
+				<xr:TypeId>e82273de-1f8e-47d3-9e2d-7d45d1072796</xr:TypeId>
+				<xr:ValueId>4ca80770-d2c7-411f-980e-0f51b2abd8af</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИзменениеУсловийПередачиВАренду</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a22fc2f4-3b2a-421e-bcf8-35f6e8c1be15</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="37b01bef-855f-4537-ba4d-ea83676d13b4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ab9f387-bf40-4359-b7ab-5aadf34920eb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИзменениеУсловийДоговораАренды</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

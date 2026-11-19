@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1b6779ed-af85-4258-8483-176ce0b94e5b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлановаяКалькуляция2_2" category="Object">
+				<xr:TypeId>1220b213-6c8e-4985-ae2e-b57186f2416e</xr:TypeId>
+				<xr:ValueId>16ad6a55-abab-4f41-ba93-7b1efd7709f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлановаяКалькуляция2_2" category="Ref">
+				<xr:TypeId>6ad9606e-f994-4a15-b728-3874595fb45e</xr:TypeId>
+				<xr:ValueId>41326002-de78-4406-b7f4-f77b0c2f918f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлановаяКалькуляция2_2" category="Selection">
+				<xr:TypeId>4293c222-3b05-4431-a1c3-316316c74cd8</xr:TypeId>
+				<xr:ValueId>1474b088-da26-47c2-9dd6-1963c54b013e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлановаяКалькуляция2_2" category="List">
+				<xr:TypeId>8e2ced5d-f928-4abb-bbeb-779adfc5d2fe</xr:TypeId>
+				<xr:ValueId>23bc49c4-c81c-40a0-b56d-56ad7468ee58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлановаяКалькуляция2_2" category="Manager">
+				<xr:TypeId>2a5c379d-16b4-4a0a-a85f-9da7c42f2ccd</xr:TypeId>
+				<xr:ValueId>1790ae05-200f-47a6-8bc6-971c5044e0ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПлановаяКалькуляция2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d5e7e653-8d66-46e8-b6e3-c0c84979b2df</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="49954711-d6cb-4480-ba32-5cb05aceb395">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПлановаяКалькуляция2_2.ОбъектыКалькуляции" category="TabularSection">
+						<xr:TypeId>90ed1d78-870b-4229-b457-1bfbb701eb07</xr:TypeId>
+						<xr:ValueId>76f0271e-8638-49d8-8fc5-59a624cf6345</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПлановаяКалькуляция2_2.ОбъектыКалькуляции" category="TabularSectionRow">
+						<xr:TypeId>700854f9-9866-42ef-81f2-cc5dcd068fc4</xr:TypeId>
+						<xr:ValueId>10d1de1f-cd2b-4478-8f57-73fe8e136964</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектыКалькуляции</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed170115-9389-4ffc-8d02-b40ed2895d00</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="749947cf-69f7-4396-83bd-f5896e001026">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Объект</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0836b47f-43dc-440d-b996-58dae2a107fa</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

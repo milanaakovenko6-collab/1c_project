@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8c4cc27d-ed9f-4162-a173-fbe1f2ba8559">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеЗарплаты" category="Object">
+				<xr:TypeId>4e01cff4-e615-45eb-afa7-2a4ee6369528</xr:TypeId>
+				<xr:ValueId>4458dfd6-d0f8-4d77-9f1f-070058a5eab8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеЗарплаты" category="Ref">
+				<xr:TypeId>c08331ce-a0c2-4969-b485-02889d76b67d</xr:TypeId>
+				<xr:ValueId>e0636704-e83e-459c-994c-5f07bbafef91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеЗарплаты" category="Selection">
+				<xr:TypeId>5334e617-44d1-4022-9572-2597a82810df</xr:TypeId>
+				<xr:ValueId>9d1a45f3-2800-4f9c-ab3d-44aca7bf1b13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеЗарплаты" category="List">
+				<xr:TypeId>52b31cd9-58d4-4a59-a848-a3d4135231b8</xr:TypeId>
+				<xr:ValueId>6753b823-af9e-4e26-b853-d38d834f0e93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеЗарплаты" category="Manager">
+				<xr:TypeId>08677a52-9430-4b62-a980-01b66db1aca1</xr:TypeId>
+				<xr:ValueId>bcc197f5-0126-4fb0-9550-1aefbb76f3da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеЗарплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>286fdf7e-020c-4d86-babb-3d52a1f1be66</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="30fa7487-81c4-4398-b63a-d7b9342ed552">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачислениеЗарплаты.ПогашениеЗаймов" category="TabularSection">
+						<xr:TypeId>45508055-6230-4a98-9864-7608646f9582</xr:TypeId>
+						<xr:ValueId>4165b659-5189-42cf-a9b1-e147ecb92a57</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачислениеЗарплаты.ПогашениеЗаймов" category="TabularSectionRow">
+						<xr:TypeId>9cd467e0-035d-442d-b1ae-9d53a4417102</xr:TypeId>
+						<xr:ValueId>9dd2e1aa-be30-4db3-86fa-53ae8a57d090</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПогашениеЗаймов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8dc52bd5-b60a-46e7-89de-d75629f72a34</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d5309013-10ae-48fc-bef0-00080fbc02fd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорЗайма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>cc401b57-aa8a-4291-a24f-1fc814a680a5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

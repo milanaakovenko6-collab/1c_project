@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="00730776-2fa2-488b-841d-971ada43970b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияДефекта" category="Object">
+				<xr:TypeId>f680ff42-651b-4468-9405-3e8ad9fee914</xr:TypeId>
+				<xr:ValueId>82e6eaaa-af1f-4201-9e45-421162bd9cc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияДефекта" category="Ref">
+				<xr:TypeId>020a0653-72e5-48b3-8e13-89c78ce5f88c</xr:TypeId>
+				<xr:ValueId>2e09813e-4701-4fb5-95dc-65c42a46762e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияДефекта" category="Selection">
+				<xr:TypeId>fd1dd61c-f3a1-4d40-9447-db4ae2c0cd67</xr:TypeId>
+				<xr:ValueId>2209613c-1811-4126-8df7-4d8522cbc16a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияДефекта" category="List">
+				<xr:TypeId>e1facb80-f842-493e-8312-c301b86dcc34</xr:TypeId>
+				<xr:ValueId>f90245b0-8ba9-46b7-bece-645c1fbcfe65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияДефекта" category="Manager">
+				<xr:TypeId>3e205336-01a4-4964-88f1-ddc684ba3863</xr:TypeId>
+				<xr:ValueId>5028fa62-eceb-4a05-8d92-27bff760e94f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияДефекта</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>072ab899-e848-4323-a665-260770a193e2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

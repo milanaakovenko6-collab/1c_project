@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="d687e74a-efaf-4be0-b17a-fc0f3af98e8d">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОснованиеУведомленияОВвозеИзЕАЭСГИСМ" category="DefinedType">
+				<xr:TypeId>e27c489b-6dbe-421d-809f-e33fa18a9136</xr:TypeId>
+				<xr:ValueId>745f6776-4c57-4262-b4dc-832bc4551cee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОснованиеУведомленияОВвозеИзЕАЭСГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fc11f981-e0ed-427b-aeb6-00389317fb18</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

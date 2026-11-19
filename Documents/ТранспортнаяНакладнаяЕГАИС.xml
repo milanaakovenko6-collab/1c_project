@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="70ad38c0-aa9b-4791-bc76-6e723fa4a839">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТранспортнаяНакладнаяЕГАИС" category="Object">
+				<xr:TypeId>b92cc753-d17a-4859-9266-9b41f69d1992</xr:TypeId>
+				<xr:ValueId>1139a33d-40db-4fd7-9362-a3b53408ab16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТранспортнаяНакладнаяЕГАИС" category="Ref">
+				<xr:TypeId>ba426d81-2b86-482e-a176-00470c57e93f</xr:TypeId>
+				<xr:ValueId>02f4cff7-388e-4eb5-9d00-40b66654c0df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТранспортнаяНакладнаяЕГАИС" category="Selection">
+				<xr:TypeId>71f9a75b-be8b-4867-add9-9b2c84d6a388</xr:TypeId>
+				<xr:ValueId>970f5b56-6f63-4d47-993d-3f3a2dce949c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТранспортнаяНакладнаяЕГАИС" category="List">
+				<xr:TypeId>9e14115f-d0da-4010-a192-8ba0753fd315</xr:TypeId>
+				<xr:ValueId>be8c53f3-0c1b-497e-80ef-a1e6a7f16b47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТранспортнаяНакладнаяЕГАИС" category="Manager">
+				<xr:TypeId>5fcc4952-702f-445c-bfd1-8254140de8b5</xr:TypeId>
+				<xr:ValueId>e4f37358-efa5-4535-9f49-ef836d45bda6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТранспортнаяНакладнаяЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f4f9a404-d299-4556-8b8a-7f6ce5d96049</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4322eae7-9559-45b6-8e18-ed14f0c032bf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23849aab-0d60-4602-acf2-20d63e935109</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеТранспортнаяНакладнаяЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="02d26c31-2124-4400-8fcd-bf2ecfbbf318">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТоварноТранспортнаяНакладная</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b33b3e23-8eeb-462c-b20e-ab2dbae2317a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="ea0fb433-0465-4e02-9789-b1015e9d3559">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТранспортнаяНакладнаяЕГАИС.ТранспортныеНакладные" category="TabularSection">
+						<xr:TypeId>4c8f6995-fe2d-499d-a481-acf91101ea88</xr:TypeId>
+						<xr:ValueId>5cbb71af-0417-47ef-8173-79a3151862ba</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТранспортнаяНакладнаяЕГАИС.ТранспортныеНакладные" category="TabularSectionRow">
+						<xr:TypeId>93fc0b15-87bf-4448-9f3d-13ef74ff62f0</xr:TypeId>
+						<xr:ValueId>3da46e22-48e4-49da-98df-f122bfada92a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТранспортныеНакладные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>031a789b-8ab3-4b4e-96d8-319eb21e6311</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4881e366-0601-4a9f-bde5-255b5122bf06">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>29321158-727e-44dc-9174-b2e29a8fa207</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

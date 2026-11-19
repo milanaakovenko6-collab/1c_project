@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="7d43ce89-9ad7-4db4-95c9-324e7dfd8ce8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЛистКассовойКниги" category="Object">
+				<xr:TypeId>0fac1239-a7b9-4149-b9c5-7e68836db3f6</xr:TypeId>
+				<xr:ValueId>6b667e87-9c15-41b5-8556-6b76e4b8eea9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЛистКассовойКниги" category="Ref">
+				<xr:TypeId>76395d7e-0500-4c6c-9ffd-6433219196c7</xr:TypeId>
+				<xr:ValueId>3cf7ca90-3a0f-49be-b0dc-eba7b3c07810</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЛистКассовойКниги" category="Selection">
+				<xr:TypeId>5ed9abd9-ab82-4b57-aaca-709b62758fef</xr:TypeId>
+				<xr:ValueId>9bb0dbf1-abcd-4f1a-8d5d-b9663e5a79a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЛистКассовойКниги" category="List">
+				<xr:TypeId>7c1e04b0-c548-4b1a-8024-1a9d80de88ea</xr:TypeId>
+				<xr:ValueId>79ccfe7e-a7f9-4220-814a-549e54fd1236</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЛистКассовойКниги" category="Manager">
+				<xr:TypeId>f93792f5-be75-4338-9c1b-e8487653f0b6</xr:TypeId>
+				<xr:ValueId>b2c79e97-bd81-414e-8825-37754596a748</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЛистКассовойКниги</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e50db800-fd05-4745-a78e-694cc11250ee</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="5484c0cf-bbee-41f1-956e-c499572bcc99">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЛистКассовойКниги.КассовыеОрдера" category="TabularSection">
+						<xr:TypeId>94fde32d-2381-4d2f-8f49-5f232c53a05d</xr:TypeId>
+						<xr:ValueId>f11bfaff-54b2-45b4-a66f-9bd17620dacf</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЛистКассовойКниги.КассовыеОрдера" category="TabularSectionRow">
+						<xr:TypeId>b8453e82-1c2d-48db-ad76-1d86cf42e511</xr:TypeId>
+						<xr:ValueId>92e43f7a-2e2e-4271-bc5d-306d65f7cf8a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КассовыеОрдера</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>43a49f94-94c4-44b6-8da1-188754de0d02</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3de842ad-ef35-48da-8086-bb83f6923b51">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Документ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a5b1fd75-e23f-4525-a7ee-512b0257167d</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ef22c260-01fb-48dc-9df2-83152114f35b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПогашениеСДИЗЗЕРНО" category="Object">
+				<xr:TypeId>748cc4a6-a9a1-44de-9d42-867fd2458ec7</xr:TypeId>
+				<xr:ValueId>c179ebd2-5354-4471-879f-2eb346effd75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПогашениеСДИЗЗЕРНО" category="Ref">
+				<xr:TypeId>0d0da7f8-cc76-4db5-b14b-7b71d6309bda</xr:TypeId>
+				<xr:ValueId>450fb5e3-aa56-4e7c-99dc-98b7f73f197f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПогашениеСДИЗЗЕРНО" category="Selection">
+				<xr:TypeId>f8ae3d59-550a-45ee-8825-1f29433dc1d8</xr:TypeId>
+				<xr:ValueId>0a299598-f693-4f5b-bed8-80178303246a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПогашениеСДИЗЗЕРНО" category="List">
+				<xr:TypeId>ada284c0-dbe1-4d4d-b80d-1b971f46bde8</xr:TypeId>
+				<xr:ValueId>0a8b98b0-83d6-4249-a0a5-7ed065b3ef78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПогашениеСДИЗЗЕРНО" category="Manager">
+				<xr:TypeId>b0492570-5118-4963-ad5f-3ee5b09b2e5d</xr:TypeId>
+				<xr:ValueId>c59086ee-1424-4b0d-b343-822b463dce28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПогашениеСДИЗЗЕРНО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bede821d-790b-4bd7-99cc-6e71a487b872</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="663e9436-8096-4cff-a349-e173e22ecc53">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4df1b08d-e2b5-45e3-b545-50d279059dae</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеПогашениеСДИЗЗЕРНО</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

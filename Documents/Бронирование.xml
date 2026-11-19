@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fd969113-a93a-4ca9-b78e-962717113169">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Бронирование" category="Object">
+				<xr:TypeId>ae66cb8c-ffec-4360-a3dc-fb1901366f2c</xr:TypeId>
+				<xr:ValueId>2e292415-2788-48b5-9736-a585a1ac5399</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Бронирование" category="Ref">
+				<xr:TypeId>6da807fc-0e1d-4649-9e15-8c1c193ef2bb</xr:TypeId>
+				<xr:ValueId>3ec0c0c5-13d5-4602-844f-e725a6668249</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Бронирование" category="Selection">
+				<xr:TypeId>d51e59dc-73b4-46ac-abd9-3e34ba0a84d9</xr:TypeId>
+				<xr:ValueId>a5095ea9-d74a-4150-a369-3189661e6618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Бронирование" category="List">
+				<xr:TypeId>e65aa981-df2a-4cfa-a625-0b78f41cd426</xr:TypeId>
+				<xr:ValueId>d9336e75-4a29-4119-992f-2456811e2815</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Бронирование" category="Manager">
+				<xr:TypeId>967f0ea4-a29d-4763-a668-f6e62aa6d20e</xr:TypeId>
+				<xr:ValueId>a6ab2ff8-04a4-4d79-abc5-8f628f4370ba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Бронирование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>52dc8990-2402-4fdd-92cb-e2db725ebd5b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f340ac22-d977-43dc-8cf1-fea025f22882">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>db7bbd1d-42c3-4ee3-8eef-93a62e8c2f18</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаКомандировку</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9e4a5141-1397-4b8e-9ad7-f5367cf6f44e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БронированиеЗамены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>82e95542-92be-4182-bdef-9955fc38d6b8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Бронирование</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

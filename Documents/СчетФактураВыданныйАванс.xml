@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c6daa4ae-513e-4d53-8822-8aad77449c32">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураВыданныйАванс" category="Object">
+				<xr:TypeId>5a14c2bc-9e17-4cce-a9a3-e8940844059a</xr:TypeId>
+				<xr:ValueId>ddf1ad52-470e-433a-b71f-32413e21f7c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураВыданныйАванс" category="Ref">
+				<xr:TypeId>8ea089f3-4318-4e60-b91b-8b1d2b0010a5</xr:TypeId>
+				<xr:ValueId>fd71e5a3-4d68-4485-97d1-002a4132bb82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураВыданныйАванс" category="Selection">
+				<xr:TypeId>151f1d74-1b31-4607-8dba-b56b1b54de4d</xr:TypeId>
+				<xr:ValueId>26817fbe-6759-47ca-b0eb-cf60d9e546ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураВыданныйАванс" category="List">
+				<xr:TypeId>0d019fa5-f6c2-4394-a282-fd797f6c8080</xr:TypeId>
+				<xr:ValueId>d8a94418-316c-4db2-9a74-5878400860e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураВыданныйАванс" category="Manager">
+				<xr:TypeId>91a2ebdc-a3f0-42b0-845b-81fe94a4f654</xr:TypeId>
+				<xr:ValueId>012f494f-0111-489c-8a8b-f004eb49f6a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураВыданныйАванс</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dd2b2f65-200c-417f-9c69-e6ba676d4f32</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1ecfe980-bc1f-4e30-9ee1-bd2235e97d7d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетФактураОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eaa15004-0129-4f2f-b380-91bd0636a143</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СчетФактураВыданныйАванс</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="689eeef6-6487-4dd8-94bc-e7483f9a2cb4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4453db2b-42d8-4ab5-9db6-987426562b07</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданныйАванс</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="573254d7-344e-4c62-9045-a6ac3ea160db">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СчетФактураВыданныйАванс.ДокументыАвансовКомитента" category="TabularSection">
+						<xr:TypeId>fa365090-59ca-49df-a7eb-57cd3b1a70e0</xr:TypeId>
+						<xr:ValueId>2d5d0c8a-9035-41ae-b15a-f5b97c3a069e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СчетФактураВыданныйАванс.ДокументыАвансовКомитента" category="TabularSectionRow">
+						<xr:TypeId>3d0fa4e3-cbd0-4d87-b724-4fbf2c8f0447</xr:TypeId>
+						<xr:ValueId>8c99dd95-7823-4df1-9d49-c6d7433887b4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыАвансовКомитента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>979024a8-b1fd-4919-8b1f-0895a8442f5f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="aef81ccb-6877-4a7e-a6c3-aa52aad65ed2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>РасчетныйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>19ef7f02-beab-46fa-9490-fa0f74567671</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданныйАванс</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

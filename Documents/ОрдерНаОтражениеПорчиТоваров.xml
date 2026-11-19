@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="21377a10-26ea-4bb4-83a8-02d1a5ee54a3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОрдерНаОтражениеПорчиТоваров" category="Object">
+				<xr:TypeId>fe1239d0-ffbf-417b-a9ad-cb6a9a3d7609</xr:TypeId>
+				<xr:ValueId>c890f6b8-f7af-43fc-bef8-5382c1cf8010</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОрдерНаОтражениеПорчиТоваров" category="Ref">
+				<xr:TypeId>461021d8-fa6b-469c-bbdc-2b5607bfe057</xr:TypeId>
+				<xr:ValueId>7df2050b-f55b-425c-bf0c-95cfb61f74fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОрдерНаОтражениеПорчиТоваров" category="Selection">
+				<xr:TypeId>bd427569-7d28-46b6-8591-c0f702a95346</xr:TypeId>
+				<xr:ValueId>1f1a0338-26f7-4b66-9710-bc6d30e1139e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОрдерНаОтражениеПорчиТоваров" category="List">
+				<xr:TypeId>d57cb353-0737-4a14-bfa3-cecb0fcd0c3d</xr:TypeId>
+				<xr:ValueId>badecbad-6c0f-4d2a-9198-44e529c1a32e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОрдерНаОтражениеПорчиТоваров" category="Manager">
+				<xr:TypeId>0fbf3f06-5a83-4d64-adca-ab36bc0683d3</xr:TypeId>
+				<xr:ValueId>d1c12be6-cb0e-4e26-a281-b29483604714</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОрдерНаОтражениеПорчиТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c23a5480-4ef3-461a-a350-1c98133bdb26</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="32345afb-0dda-4dd1-9bf9-34c9e3ee4cff">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОрдерНаОтражениеПорчиТоваров.Товары" category="TabularSection">
+						<xr:TypeId>81cb96e0-acad-4bac-a10c-014f8480dd1c</xr:TypeId>
+						<xr:ValueId>cf653b03-4171-4084-b69d-66fe56c8fa81</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОрдерНаОтражениеПорчиТоваров.Товары" category="TabularSectionRow">
+						<xr:TypeId>8c6f8dc3-098e-459a-8db6-dd0de6abff57</xr:TypeId>
+						<xr:ValueId>3331255a-6352-426c-b157-d96c8425c141</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>052e0cb0-0000-4ddd-8a93-e840f2dbe73b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="984d49d3-747c-4e0c-b7b0-79555a29597b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7ff7a9e2-271e-4868-822f-ad043715c2c2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

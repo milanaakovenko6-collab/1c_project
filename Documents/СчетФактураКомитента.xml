@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="83e8f67b-47d4-41af-8f62-65ce4e00c930">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураКомитента" category="Object">
+				<xr:TypeId>2556bf27-ea99-419b-9e02-4736ea17bf2a</xr:TypeId>
+				<xr:ValueId>5787f330-d6fe-4747-bd60-a36675e60a66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураКомитента" category="Ref">
+				<xr:TypeId>a69d2e49-24ef-4927-9321-ce70c0babaf5</xr:TypeId>
+				<xr:ValueId>c3f4506e-814e-454e-a3eb-563e3c045656</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураКомитента" category="Selection">
+				<xr:TypeId>e08d01a3-16df-4443-9a19-6dfc5d74d8fe</xr:TypeId>
+				<xr:ValueId>e25d290f-14af-4bd2-a0ae-16cb72430858</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураКомитента" category="List">
+				<xr:TypeId>9f110e5d-623b-4f39-b99b-c2fd57e37cc8</xr:TypeId>
+				<xr:ValueId>0997843f-6e68-4f87-bff5-464dccce5116</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураКомитента" category="Manager">
+				<xr:TypeId>0880d79c-9021-44ea-ba2f-6754f37ca313</xr:TypeId>
+				<xr:ValueId>ba4436dd-a1d1-47ae-bb52-72ed608bb972</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураКомитента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fa184af2-2c13-4eab-bf8c-c2e8e5b1762b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="9b18ce50-9d2a-4e24-9157-760551c8c4f0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СчетФактураКомитента.Покупатели" category="TabularSection">
+						<xr:TypeId>8b4ccf38-323a-479b-a0bf-29e89f47fcf8</xr:TypeId>
+						<xr:ValueId>7914d7f4-3898-4d51-a63b-ef79bfe5e17d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СчетФактураКомитента.Покупатели" category="TabularSectionRow">
+						<xr:TypeId>8e5f8c44-c120-4bd1-a004-8a630a2ee62e</xr:TypeId>
+						<xr:ValueId>2f75821a-e508-41ae-9719-0f8f094fcdde</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Покупатели</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>21faddc9-c88a-4112-9883-29c94c8cec3b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6a6fe3dd-ae28-4620-8b85-63b6ddb7373b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СчетФактураВыданный</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6e6b2fbb-5127-41b8-bea2-e8e1e12e3db2</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

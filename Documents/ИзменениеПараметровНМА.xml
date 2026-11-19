@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="30cb947f-a335-4eb3-85e8-d3ccea6087ac">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеПараметровНМА" category="Object">
+				<xr:TypeId>141c2072-a01c-45f7-bf5f-98b7a506b56f</xr:TypeId>
+				<xr:ValueId>2c4e30b6-d564-4ffb-bc96-ba2b76589438</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеПараметровНМА" category="Ref">
+				<xr:TypeId>7e1ac62e-90af-4017-8a20-7d967da658d0</xr:TypeId>
+				<xr:ValueId>32edfbe6-e0c4-443f-9522-ea784c007b74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеПараметровНМА" category="Selection">
+				<xr:TypeId>c09c8c6e-15ee-40ec-b746-3de083d7e857</xr:TypeId>
+				<xr:ValueId>023c618c-b329-4926-b9a4-c2f591572130</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеПараметровНМА" category="List">
+				<xr:TypeId>69a0bd3a-ccd4-4185-9da4-a3a36db9f469</xr:TypeId>
+				<xr:ValueId>7dc122e0-b9df-4991-8043-bc98fdd5549f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеПараметровНМА" category="Manager">
+				<xr:TypeId>d02a4f62-d1cf-4966-b0fb-9f2c59d1d3da</xr:TypeId>
+				<xr:ValueId>d910b622-8390-474f-abb7-26a7e4c1e381</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИзменениеПараметровНМА</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e6069d11-a84a-48a8-84ab-d1aa0cdf1c4b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="798ed258-cf3a-442f-a5b2-5b323eb9841a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>560b78c9-5a3d-4e56-a2ee-744c09534c33</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПринятиеКУчетуНМА</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

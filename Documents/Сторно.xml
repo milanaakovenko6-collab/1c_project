@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dacd7b8f-5c43-485a-8914-00f33d1452c5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Сторно" category="Object">
+				<xr:TypeId>bb7d3e3a-3cd3-4803-a251-be20bf6b0b37</xr:TypeId>
+				<xr:ValueId>0d4226ea-07f1-4751-aded-abda550cb587</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Сторно" category="Ref">
+				<xr:TypeId>19141a8e-d356-4bce-ae0c-dc1706949cf4</xr:TypeId>
+				<xr:ValueId>c45cdf09-fa69-485f-acf3-2c7542ea02ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Сторно" category="Selection">
+				<xr:TypeId>d73ae38f-25ba-4862-826f-682df15036c7</xr:TypeId>
+				<xr:ValueId>1c25497d-eac2-47f2-b033-4875fd0606af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Сторно" category="List">
+				<xr:TypeId>54b86821-b7c2-41b4-8025-77f6a18cce7a</xr:TypeId>
+				<xr:ValueId>67972e53-e4e7-416c-b3f4-cd1d8e253fc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Сторно" category="Manager">
+				<xr:TypeId>318bcf25-be65-425d-b78e-a800daaf4f75</xr:TypeId>
+				<xr:ValueId>c767e66b-ced5-4e5a-8589-ffe1baa77811</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Сторно</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0442962-5a65-433f-a7ef-1d4968ea3e4a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="740a42b3-9c4e-4eb0-8ee8-50eb4a9e95b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b3fa5ad6-4445-455f-b5a7-4af501f891ab</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИсправляемыеДокументы</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

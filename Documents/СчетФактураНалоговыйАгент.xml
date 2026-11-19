@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d7870793-4c2b-4f42-a694-bd7938b08f7c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураНалоговыйАгент" category="Object">
+				<xr:TypeId>f1937db4-0e87-4fab-9292-97aa35ce0446</xr:TypeId>
+				<xr:ValueId>d550d6be-4edb-45d4-9021-4ac90cbdabc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураНалоговыйАгент" category="Ref">
+				<xr:TypeId>0d0d4f69-e80e-4a74-82e0-f25599be58b5</xr:TypeId>
+				<xr:ValueId>dc8a0b63-d50e-4afd-bb00-cd7cf7501567</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураНалоговыйАгент" category="Selection">
+				<xr:TypeId>8f3db92b-4238-4fe3-a4c2-01b64c66cdc6</xr:TypeId>
+				<xr:ValueId>26414567-0e3d-4a56-85d1-b4af90cd43cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураНалоговыйАгент" category="List">
+				<xr:TypeId>6dc294fc-f2a2-43f3-bd2b-1a27d19cb603</xr:TypeId>
+				<xr:ValueId>50a09044-0b9c-4859-b49b-e321e6e3de71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураНалоговыйАгент" category="Manager">
+				<xr:TypeId>e038ba0d-e18d-4396-a9e3-9e729f86aadb</xr:TypeId>
+				<xr:ValueId>44b214f3-1f03-405c-a864-288959ca63de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураНалоговыйАгент</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>92b6a577-8497-47a1-b896-0283e78b52f7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a4079430-4454-4fc7-ae09-81bb12905f07">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1cdee828-a72d-423a-a8c0-a984814b8331</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураНалоговыйАгент</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="dac52eac-9e3e-4c78-89fc-0aeffceee0bd">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОснованиеВозвратаИзРегистра2ЕГАИС" category="DefinedType">
+				<xr:TypeId>86f6c043-0b8f-46c9-8ee6-d235602aadea</xr:TypeId>
+				<xr:ValueId>451e005c-cd04-4335-b9f4-55de6778d9bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОснованиеВозвратаИзРегистра2ЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aaa2c475-1a37-43fa-a499-c37b0c6a1dd5</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ТТНИсходящаяЕГАИС</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>
