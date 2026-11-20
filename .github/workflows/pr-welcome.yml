@@ -1,0 +1,27 @@
+name: PR Assistant
+
+on:
+    pull_request:
+        types: [opened]
+
+permissions:
+    pull-requests: write
+
+jobs:
+    welcome-comment:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Оставить приветственный комментарий с инструкцией
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      github.rest.issues.createComment({
+                        issue_number: context.issue.number,
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        body: `Привет, @${context.payload.pull_request.user.login}! Спасибо за вклад в проект.\n\n` +
+                              `### Что происходит дальше:\n` +
+                              `1. Автоматически запустится проверка кода через **BSL Language Server**.\n` +
+                              `2. Убедитесь, что вы заполнили все пункты в чек-листе выше.\n` +
+                              `3. Ответственные за затронутые модули (из файла \`CODEOWNERS\`) уже получили уведомление для проведения Code Review.`
+                      })
