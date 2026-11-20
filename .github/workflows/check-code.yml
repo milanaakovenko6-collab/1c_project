@@ -1,10 +1,13 @@
-name: Проверка кода 1С
+name: Проверка кода 1С и публикация дашборда
 
 on:
     push:
         branches: ["master", "main"]
     pull_request:
         branches: ["master", "main"]
+
+permissions:
+    contents: write
 
 jobs:
     build:
@@ -13,8 +16,21 @@ jobs:
         steps:
             - name: Копирование репозитория
               uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0 # Нужно для сбора полной статистики коммитов команды
 
             - name: Запуск BSL Language Server (Docker)
               uses: docker://1csyntax/bsl-language-server:latest
               with:
-                  args: analyze --path /github/workspace
+                  args: analyze --path /github/workspace --reporters json console --outputDir /github/workspace
+
+            - name: Генерация веб-дашборда качества кода
+              if: always() # Генерируем отчет даже если линтер нашел замечания
+              run: python3 scripts/generate_dashboard.py
+
+            - name: Публикация дашборда на GitHub Pages
+              if: github.event_name == 'push' && always()
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./dashboard_out
