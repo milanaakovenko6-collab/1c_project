@@ -14,20 +14,7 @@ jobs:
             - name: Копирование репозитория
               uses: actions/checkout@v4
 
-            - name: Установка Java (необходима для линтера)
-              uses: actions/setup-java@v4
+            - name: Запуск BSL Language Server (Docker)
+              uses: docker://1csyntax/bsl-language-server:latest
               with:
-                  distribution: "temurin"
-                  java-version: "17"
-
-            - name: Скачивание и запуск BSL Language Server
-              run: |
-                  # Скачиваем архив с линтером
-                  wget https://github.com/1c-syntax/bsl-language-server/releases/download/v0.21.0/bsl-language-server.zip
-
-                  # Распаковываем
-                  unzip bsl-language-server.zip -d bsl-ls
-
-                  # Даем права на запуск и запускаем проверку
-                  chmod +x bsl-ls/bin/bsl-language-server
-                  bsl-ls/bin/bsl-language-server analyze --path .
+                  args: analyze --path /github/workspace
