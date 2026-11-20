@@ -8,41 +8,48 @@ if (-Not (Test-Path $configPath)) {
 $config = Get-Content $configPath -Raw -Encoding UTF8 | ConvertFrom-Json
 
 $rootDir = Split-Path $PSScriptRoot -Parent
-$targetSrc = Join-Path $rootDir $config.srcPath
+$targetSrc = (Resolve-Path (Join-Path $rootDir $config.srcPath)).Path
 $logFile = Join-Path $PSScriptRoot "1c_load.log"
 
 if (Test-Path $logFile) { Remove-Item $logFile }
 
 Write-Host "=== Loading extension sources from Git to 1C server ===" -ForegroundColor Cyan
-Write-Host "Server: $($config.ibServer)"
-Write-Host "Extension: $($config.extensionName)"
 
 $argsList = @(
     "DESIGNER",
-    "/S `"$($config.ibServer)`""
+    "/S", $config.ibServer
 )
 
 if ($config.ibUser -ne "") {
-    $argsList += "/N `"$($config.ibUser)`""
+    $argsList += "/N"
+    $argsList += "`"$($config.ibUser)`""
 }
 
 if ($config.ibPwd -ne "") {
-    $argsList += "/P `"$($config.ibPwd)`""
+    $argsList += "/P"
+    $argsList += $config.ibPwd
 }
 
-$loadCmd = "/LoadConfigFromFiles `"$targetSrc`""
-$updateCmd = "/UpdateDBCfg"
+$argsList += "/LoadConfigFromFiles"
+$argsList += $targetSrc
 
 if ($config.extensionName -and $config.extensionName -ne "") {
-    $loadCmd += " -Extension `"$($config.extensionName)`""
-    $updateCmd += " -Extension `"$($config.extensionName)`""
+    $argsList += "-Extension"
+    $argsList += $config.extensionName
 }
 
-$argsList += $loadCmd
-$argsList += $updateCmd
+$argsList += "/UpdateDBCfg"
+if ($config.extensionName -and $config.extensionName -ne "") {
+    $argsList += "-Extension"
+    $argsList += $config.extensionName
+}
+
 $argsList += "/DisableStartupDialogs"
 $argsList += "/DisableStartupMessages"
-$argsList += "/Out `"$logFile`""
+$argsList += "/Out"
+$argsList += $logFile
+
+Write-Host "Command: $($config.v8path) $($argsList -join ' ')" -ForegroundColor DarkGray
 
 $process = Start-Process -FilePath $config.v8path -ArgumentList $argsList -Wait -PassThru -NoNewWindow
 
@@ -53,6 +60,8 @@ if ($process.ExitCode -eq 0) {
     if (Test-Path $logFile) {
         Write-Host "--- 1C Error Log ---" -ForegroundColor Yellow
         Get-Content $logFile -Encoding Default
+    } else {
+        Write-Host "Log file was not created. Check parameters." -ForegroundColor Yellow
     }
     exit $process.ExitCode
 }

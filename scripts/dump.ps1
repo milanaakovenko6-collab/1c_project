@@ -8,38 +8,44 @@ if (-Not (Test-Path $configPath)) {
 $config = Get-Content $configPath -Raw -Encoding UTF8 | ConvertFrom-Json
 
 $rootDir = Split-Path $PSScriptRoot -Parent
-$targetSrc = Join-Path $rootDir $config.srcPath
+$targetSrc = (Resolve-Path (Join-Path $rootDir $config.srcPath)).Path
 $logFile = Join-Path $PSScriptRoot "1c_dump.log"
 
 if (Test-Path $logFile) { Remove-Item $logFile }
 
 Write-Host "=== Starting 1C extension dump to Git ===" -ForegroundColor Cyan
-Write-Host "Server: $($config.ibServer)"
-Write-Host "Extension: $($config.extensionName)"
-Write-Host "Target directory: $targetSrc"
 
+# Формируем аргументы строго отдельными элементами массива
 $argsList = @(
     "DESIGNER",
-    "/S `"$($config.ibServer)`""
+    "/S", $config.ibServer
 )
 
 if ($config.ibUser -ne "") {
-    $argsList += "/N `"$($config.ibUser)`""
+    $argsList += "/N"
+    $argsList += "`"$($config.ibUser)`""
 }
 
 if ($config.ibPwd -ne "") {
-    $argsList += "/P `"$($config.ibPwd)`""
+    $argsList += "/P"
+    $argsList += $config.ibPwd
 }
 
-$dumpCmd = "/DumpConfigToFiles `"$targetSrc`" -update"
+$argsList += "/DumpConfigToFiles"
+$argsList += $targetSrc
+$argsList += "-update"
+
 if ($config.extensionName -and $config.extensionName -ne "") {
-    $dumpCmd += " -Extension `"$($config.extensionName)`""
+    $argsList += "-Extension"
+    $argsList += $config.extensionName
 }
-$argsList += $dumpCmd
 
 $argsList += "/DisableStartupDialogs"
 $argsList += "/DisableStartupMessages"
-$argsList += "/Out `"$logFile`""
+$argsList += "/Out"
+$argsList += $logFile
+
+Write-Host "Command: $($config.v8path) $($argsList -join ' ')" -ForegroundColor DarkGray
 
 $process = Start-Process -FilePath $config.v8path -ArgumentList $argsList -Wait -PassThru -NoNewWindow
 
@@ -50,6 +56,8 @@ if ($process.ExitCode -eq 0) {
     if (Test-Path $logFile) {
         Write-Host "--- 1C Error Log ---" -ForegroundColor Yellow
         Get-Content $logFile -Encoding Default
+    } else {
+        Write-Host "Log file was not created. Check server name, user/password or close open Configurator." -ForegroundColor Yellow
     }
     exit $process.ExitCode
 }
