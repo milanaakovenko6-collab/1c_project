@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="31aeaa23-3b28-407d-bab4-c8f189a93693">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВнесениеДенежныхСредствВКассуККМ" category="Object">
+				<xr:TypeId>2c20788c-0cbb-4a20-b2cc-2793c8f48f10</xr:TypeId>
+				<xr:ValueId>79687e38-ba33-4e30-8dec-2b7df1b597a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВнесениеДенежныхСредствВКассуККМ" category="Ref">
+				<xr:TypeId>8cf0ae4b-5185-4b78-94fe-5a2e5c24c4b4</xr:TypeId>
+				<xr:ValueId>92e88bba-12fc-417c-ae5b-2d4c66a1a0c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВнесениеДенежныхСредствВКассуККМ" category="Selection">
+				<xr:TypeId>1ef61e5a-8725-4a2a-a28d-43f734dd57a6</xr:TypeId>
+				<xr:ValueId>a672c1c1-cde4-4db1-ae0d-dd78f26961bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВнесениеДенежныхСредствВКассуККМ" category="List">
+				<xr:TypeId>e0246485-2f75-4958-bbe6-f198bb2eaf33</xr:TypeId>
+				<xr:ValueId>d72e8c77-8c6c-4536-b75e-6106c1b88bfc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВнесениеДенежныхСредствВКассуККМ" category="Manager">
+				<xr:TypeId>4d0e9abf-64d6-4350-be11-05fd25f697df</xr:TypeId>
+				<xr:ValueId>9277f123-f1bd-492c-b609-8ad6a2e2efba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВнесениеДенежныхСредствВКассуККМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>07045492-603c-499e-9a36-f835b1e3f9f5</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8f5c7849-7038-4b9e-8ebb-104dfbeae506">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3a7a68b9-0e1b-4e3e-875a-995467d640d7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a10f5bf5-2d08-41f8-9ff1-df8496ec70d2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bf23ae7e-0b2b-4ae1-b772-6627db4f5c48</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВнесениеДенежныхСредствВКассуККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="889ed75e-ff04-418f-901b-9baacd32bc8d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураКомиссионеру" category="Object">
+				<xr:TypeId>fe6af8fe-b103-4657-baa8-8a20035435bc</xr:TypeId>
+				<xr:ValueId>178a030c-b97e-4845-a496-cc1c97d2afed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураКомиссионеру" category="Ref">
+				<xr:TypeId>1655fb43-f806-453f-9768-8ab23aeab7c6</xr:TypeId>
+				<xr:ValueId>e0e70f9e-e036-4ed8-89d6-f6f16362eb82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураКомиссионеру" category="Selection">
+				<xr:TypeId>649b07d0-92ad-42ee-aa27-8b299d552075</xr:TypeId>
+				<xr:ValueId>29d0fe68-0fd4-430a-925f-bc7869e39039</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураКомиссионеру" category="List">
+				<xr:TypeId>06ef1000-7fbc-4126-9748-6c934d0b43af</xr:TypeId>
+				<xr:ValueId>0d352d84-a873-4736-84fd-cc648cc3e324</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураКомиссионеру" category="Manager">
+				<xr:TypeId>5a718b63-276d-4ef6-8d17-1a594d1e2e18</xr:TypeId>
+				<xr:ValueId>c3641d5d-cb83-42b4-9fdc-c07d76998f1f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураКомиссионеру</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f5661083-8399-4044-a48e-ea7c8c9d4933</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7bcc4748-13b6-46d7-80e1-4cf67477c3b4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетФактураОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e85fa4df-5a45-41c7-b60c-a27f78d929cb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СчетФактураКомиссионеру</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5765cc15-a207-41bc-8887-c5dc926e0b9f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>31072c42-6b44-491c-b6aa-df853e39a721</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураКомиссионеру</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

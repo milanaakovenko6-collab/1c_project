@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="62fde870-d9b3-4116-a64f-730931173937">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БольничныйЛист" category="Object">
+				<xr:TypeId>98d9dba7-80cd-474b-871b-068c585377e3</xr:TypeId>
+				<xr:ValueId>dc9e6f8a-bee1-4a43-bc91-5b05ff012a64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БольничныйЛист" category="Ref">
+				<xr:TypeId>e6001088-4cf0-4137-963b-6e3cbc001e8d</xr:TypeId>
+				<xr:ValueId>8b493c2b-a050-4897-8a05-fc43f2ccbc97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БольничныйЛист" category="Selection">
+				<xr:TypeId>198e332c-1747-40aa-ad06-b2c3fb93d924</xr:TypeId>
+				<xr:ValueId>4e598cb9-533d-4820-9178-dc6ba6237c95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БольничныйЛист" category="List">
+				<xr:TypeId>ec1ccea1-c240-4d45-8ff4-114c4faa854e</xr:TypeId>
+				<xr:ValueId>17c4e4bb-260a-41e4-8d3e-04bd326bf2a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БольничныйЛист" category="Manager">
+				<xr:TypeId>acc6cb3e-9f31-4af0-a5e7-bf7eb200e929</xr:TypeId>
+				<xr:ValueId>a342f0dc-fb45-46b8-a3ce-4a2c7fa1beb2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БольничныйЛист</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0cc942d0-7925-437e-88d3-ab7c24b32ede</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="7aa9111f-0bb6-4d38-a254-cf5fb91bbec4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БольничныйЛист.НачисленияПерерасчет" category="TabularSection">
+						<xr:TypeId>9c0bc11c-5aac-4656-91d1-1c5cc573d416</xr:TypeId>
+						<xr:ValueId>ac7da12d-4e3f-4a60-ad11-66bb04c1d8b8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БольничныйЛист.НачисленияПерерасчет" category="TabularSectionRow">
+						<xr:TypeId>4c483fd9-06d6-4b7b-856e-4c14da1b0684</xr:TypeId>
+						<xr:ValueId>d20c08bb-660c-4d9e-968e-e7d00351655c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПерерасчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df4378d6-7b71-4247-80d3-1567c6e491c0</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="37aba61c-7ec7-4c1a-9e08-f7d0515dbbc5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СторнируемыйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6d74801c-7b53-4aea-9105-f1cbac29bde9</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

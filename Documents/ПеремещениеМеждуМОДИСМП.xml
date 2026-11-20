@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c3962bc6-85cf-41c2-a918-2a1edcfa9091">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеМеждуМОДИСМП" category="Object">
+				<xr:TypeId>c325aa23-7025-4b2d-9d0f-5067303d2e65</xr:TypeId>
+				<xr:ValueId>7cf0fb7f-6026-4246-814e-3ec00ef68155</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеМеждуМОДИСМП" category="Ref">
+				<xr:TypeId>4aa59fb8-9a4a-4651-bd73-c7de240dd6b3</xr:TypeId>
+				<xr:ValueId>02250ebe-4380-46b3-9daa-0bc4d9b97007</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеМеждуМОДИСМП" category="Selection">
+				<xr:TypeId>fd2238be-1754-42d3-adef-d70062954c8c</xr:TypeId>
+				<xr:ValueId>6955cf4b-99c7-4328-bc37-25498afee598</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеМеждуМОДИСМП" category="List">
+				<xr:TypeId>d4579f78-a91a-4543-a7b5-33909841540b</xr:TypeId>
+				<xr:ValueId>ea1b2d1e-fbd1-4168-b341-9743ea44a93d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеМеждуМОДИСМП" category="Manager">
+				<xr:TypeId>425e3539-ae93-4117-aec3-e7712fe64fe4</xr:TypeId>
+				<xr:ValueId>2cf34846-e249-423b-be11-8d3dccc79a64</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремещениеМеждуМОДИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2ddc765e-c785-4636-ab4e-f481239b7da3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c7166966-3af0-4231-b410-a32c51ae84ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6e15dcb7-7aae-41d9-b5af-6fdf0989a5a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеПеремещениеМеждуМОДИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

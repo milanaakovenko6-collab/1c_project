@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2ab32475-c5ba-4d1f-965e-46dbe307efb1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Претензии" category="Object">
+				<xr:TypeId>2d625baa-102c-44a5-9562-5e3a0c1a3950</xr:TypeId>
+				<xr:ValueId>423725c4-f18c-43e9-bb62-598eb9bc6ec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Претензии" category="Ref">
+				<xr:TypeId>c76242a6-f231-4bd3-ad18-eaca1f9df496</xr:TypeId>
+				<xr:ValueId>7c21220a-0c4f-44d9-b95d-88f41bfc96d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Претензии" category="Selection">
+				<xr:TypeId>2f8b9c01-f602-4354-8f2a-582df0c6ba4c</xr:TypeId>
+				<xr:ValueId>e4e793c5-9894-43fd-a2c9-70229fdd4c63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Претензии" category="List">
+				<xr:TypeId>e987f82d-e7e5-4a1f-ba4a-2c4b1fff3690</xr:TypeId>
+				<xr:ValueId>4fc52f1f-933c-4d60-896c-dec99166b8f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Претензии" category="Manager">
+				<xr:TypeId>afad190b-f231-4342-a50a-ce0cd3ecaf5f</xr:TypeId>
+				<xr:ValueId>334a5a08-28dd-42a5-a5ef-15a0d911b860</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Претензии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d3ce2db-bc30-4d21-9d2a-fed41a8f8e49</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a93a56a4-3b6a-438d-b186-d870f5a29005">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>470f012a-8851-440d-8344-0878675af0a7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="36180ef1-1225-4e00-b996-1b83c6e6430a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаписьКнигиПокупок" category="Object">
+				<xr:TypeId>db4e99b8-01e3-49e3-bf78-b09026c65685</xr:TypeId>
+				<xr:ValueId>f4b3c970-99bc-48a0-9c68-37316b959a8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаписьКнигиПокупок" category="Ref">
+				<xr:TypeId>e0fc5a7e-c5dd-4e46-b3e4-45cea0aa2589</xr:TypeId>
+				<xr:ValueId>3478a5e6-6f86-4e02-8fa7-920c1d2f140f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаписьКнигиПокупок" category="Selection">
+				<xr:TypeId>17d0147e-4987-4a84-91d4-3e5cc2fc5ce2</xr:TypeId>
+				<xr:ValueId>88cd7bf0-6770-4ff4-b1ad-81ee03bf0594</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаписьКнигиПокупок" category="List">
+				<xr:TypeId>bb3dda2f-82fd-49ba-ad93-ab4c9e0ff3f4</xr:TypeId>
+				<xr:ValueId>8873e7d8-da9f-49b2-a3c6-cee6629cb4c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаписьКнигиПокупок" category="Manager">
+				<xr:TypeId>8c03cd6b-a18d-4cb5-8feb-7a200e7be0b0</xr:TypeId>
+				<xr:ValueId>8797d8f8-137f-4e3c-a952-d6b3debdf864</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписьКнигиПокупок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a000009-525c-4504-b193-15d6b80bfcfd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2b2be757-1dd1-4fbd-9d06-27318a2e735a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>09969101-7208-470c-af83-eb8634ab3e85</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЗаписиКнигиПокупок</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7c552de3-335e-4d1a-baec-90f23ff94b02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>392e88b5-a02c-4eee-bd6c-dff9d0c4d120</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="4075c367-bab9-4734-9433-6e53a8ac9f3d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаписьКнигиПокупок.ДокументыОплаты" category="TabularSection">
+						<xr:TypeId>a73dd91c-42a2-4b57-a72d-e6c466e23a91</xr:TypeId>
+						<xr:ValueId>dfcecbe6-1ce9-465e-9884-56d27d93e0d5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаписьКнигиПокупок.ДокументыОплаты" category="TabularSectionRow">
+						<xr:TypeId>64363d6a-bb74-40c9-a157-5969f11a07ce</xr:TypeId>
+						<xr:ValueId>3a578502-45c6-4b57-8bce-94c308460d81</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>25a386b2-f2fd-4489-9176-878d1ccb6a22</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="cf779b8e-77cf-409b-b181-7ddffff530b5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОплаты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5eccbe55-0c70-4f59-82e6-de3efe6d5588</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

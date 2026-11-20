@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dbee1fdb-fc4d-4904-81ef-4432ec57b1c9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнвентаризацияНаличныхДенежныхСредств" category="Object">
+				<xr:TypeId>4ec581a3-5c55-4f2a-ad71-7a39d06d39cb</xr:TypeId>
+				<xr:ValueId>e9edb20f-5db7-46d5-91ee-f6e0e712579d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнвентаризацияНаличныхДенежныхСредств" category="Ref">
+				<xr:TypeId>c0c192f4-7e47-452f-87f6-c3a9e97c1ae2</xr:TypeId>
+				<xr:ValueId>09506eaa-9ec5-45c4-b77c-9dffc75a6370</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнвентаризацияНаличныхДенежныхСредств" category="Selection">
+				<xr:TypeId>c998a355-e2b9-4527-b4ae-079764561a07</xr:TypeId>
+				<xr:ValueId>af949e62-0dc4-4a08-a918-e15517a76183</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнвентаризацияНаличныхДенежныхСредств" category="List">
+				<xr:TypeId>fd7d0cea-2f56-464a-bede-2fd71f5607a2</xr:TypeId>
+				<xr:ValueId>55352aa5-a9b0-40fc-92e1-c8b03cb34304</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнвентаризацияНаличныхДенежныхСредств" category="Manager">
+				<xr:TypeId>76b27cde-cb4c-46e0-817d-3fbc1598a101</xr:TypeId>
+				<xr:ValueId>c81dd12d-0ba3-4d76-b2d3-e76e7d486d3d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнвентаризацияНаличныхДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>783b801e-6f0d-4cbb-88e8-f165a94ff6e6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2de2deb3-acdc-4bed-8ea5-92aeb604e635">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>00ba2fde-26f1-4d7a-808e-b2f45a9a222c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИнвентаризацияНаличныхДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

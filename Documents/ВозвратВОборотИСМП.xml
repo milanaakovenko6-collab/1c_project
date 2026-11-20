@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="60280bd7-a80d-4d17-8b5e-a8c98339aee9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратВОборотИСМП" category="Object">
+				<xr:TypeId>71aca031-be0d-4919-a0d3-1d4a6d93d02e</xr:TypeId>
+				<xr:ValueId>06aabb7a-f8f0-4581-b3c6-c0dc2282840d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратВОборотИСМП" category="Ref">
+				<xr:TypeId>df941f76-9b6c-406d-bf6b-24babf1a7ac5</xr:TypeId>
+				<xr:ValueId>ec211aa5-1e8a-4ed1-be02-ebf33f434add</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратВОборотИСМП" category="Selection">
+				<xr:TypeId>d419db21-f042-4203-883d-5a5d946b3a3c</xr:TypeId>
+				<xr:ValueId>2d8bb412-06e9-487c-aecb-6bdeb708c208</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратВОборотИСМП" category="List">
+				<xr:TypeId>1baadc66-43c3-4ddf-85bd-db0dcc23d469</xr:TypeId>
+				<xr:ValueId>5f735009-4a99-403e-b48e-334d391f7430</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратВОборотИСМП" category="Manager">
+				<xr:TypeId>1da08c98-cda4-4ebf-a940-4bd20c0bc1a7</xr:TypeId>
+				<xr:ValueId>428c1938-20ac-4ee0-b820-13e90da79975</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратВОборотИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fed06ebd-7382-42c7-a4a0-f0ee84c5220c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ff0e9e2d-2138-4934-963c-5a19457feefd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>67a07004-7b53-4fd0-8f0b-9a2158f71fcc</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеВозвратВОборотИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="2adcc48b-dd1d-4759-92dc-f4ab31f329e0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратВОборотИСМП.Товары" category="TabularSection">
+						<xr:TypeId>b4e96a55-22c7-495e-994e-c1f9ebcd0d33</xr:TypeId>
+						<xr:ValueId>a18ea596-957e-4323-a856-87a57b95d094</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратВОборотИСМП.Товары" category="TabularSectionRow">
+						<xr:TypeId>6f6b9508-57a4-4b1b-91b6-2810af3ed771</xr:TypeId>
+						<xr:ValueId>2760456f-cd1c-415b-826a-0e1dd0e9e2dd</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1019d3d3-16ef-4973-bfdb-38c34ec6ab41</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8f2280d5-e9fb-44f8-97a3-fd9810c9394f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПервичныйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8886980f-d1f8-4dff-9e07-d019e9cd8448</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДокументПродажиИСМП</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

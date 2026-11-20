@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="519aa3b1-52cc-4658-8bc8-61fe4d0e3351">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияБух" category="Object">
+				<xr:TypeId>a2e6fcfb-31d5-44e1-a050-cfaecd58c010</xr:TypeId>
+				<xr:ValueId>e808d7c7-fa70-4cf0-b4f4-cdbeeacb3fda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияБух" category="Ref">
+				<xr:TypeId>1b341111-1319-4d1e-97da-df1fe4596a08</xr:TypeId>
+				<xr:ValueId>8ed98c96-df34-47b4-a9aa-ac4f0d3a7169</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияБух" category="Selection">
+				<xr:TypeId>d525d0fb-9a91-4f1f-aac5-060d05518874</xr:TypeId>
+				<xr:ValueId>b32ac4f4-ee5c-4b71-a9bd-34e00f87cb88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияБух" category="List">
+				<xr:TypeId>f64fc37d-f2d4-498b-9317-f798ed4613d1</xr:TypeId>
+				<xr:ValueId>fc12993c-f4f7-4d78-88de-c04f96bfa27b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияБух" category="Manager">
+				<xr:TypeId>cf095507-88f8-460f-8e35-aa67075a2bf1</xr:TypeId>
+				<xr:ValueId>983f1a7e-43ee-4ea6-964b-030362d0bef4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияБух</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>310bcfb3-5577-4190-b808-6682f4e49b2c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="387771be-1dbf-4089-96e5-3e8bb8a67096">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОперацияБух.ЗаполнениеДвижений" category="TabularSection">
+						<xr:TypeId>6cc9b7b6-2319-48dc-911a-06906c8acb98</xr:TypeId>
+						<xr:ValueId>34d43ad3-27e8-40f4-a780-b6f2b3a79c6c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОперацияБух.ЗаполнениеДвижений" category="TabularSectionRow">
+						<xr:TypeId>03f73b8a-1ed9-4322-80e9-6246a5aa366c</xr:TypeId>
+						<xr:ValueId>957d0344-a3e1-42d0-b20c-3e4ae8fb7916</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаполнениеДвижений</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1e51aace-8c66-45c4-a047-824592d7dd91</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="131f9640-ca26-4918-aca7-a12c328b1f54">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Документ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a2726d59-cb88-4c16-85e9-69e4fddc4679</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

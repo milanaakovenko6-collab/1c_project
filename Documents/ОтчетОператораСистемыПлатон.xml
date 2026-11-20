@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4610e47c-8820-4f8a-bfa7-c2c4526899c5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОператораСистемыПлатон" category="Object">
+				<xr:TypeId>56ed53e2-515d-43c7-a7ba-02868fd98b5f</xr:TypeId>
+				<xr:ValueId>ab8ece67-0f90-4055-bbbf-867dbe25d7a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОператораСистемыПлатон" category="Ref">
+				<xr:TypeId>097cf846-556e-4528-8203-5fd8c10565e6</xr:TypeId>
+				<xr:ValueId>68ae1c94-7f3b-46f6-9d70-b2a7b64a3f68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОператораСистемыПлатон" category="Selection">
+				<xr:TypeId>35a82776-1e69-46d8-96ad-095bf13d5f75</xr:TypeId>
+				<xr:ValueId>9e7be8ed-b28e-4339-8520-4370ef0327c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОператораСистемыПлатон" category="List">
+				<xr:TypeId>4c7bbc4a-8383-46ad-ad96-e2af8a104cfc</xr:TypeId>
+				<xr:ValueId>1645f3d6-7c84-420b-837b-29c2983d4300</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОператораСистемыПлатон" category="Manager">
+				<xr:TypeId>a636505e-ab3b-4cba-8e8c-a6e44b50f530</xr:TypeId>
+				<xr:ValueId>e55bdeb0-9ea3-4706-99c2-2917de369573</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОператораСистемыПлатон</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a0a4af9a-2976-459b-ad71-1eb071243f49</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="bf83ffef-0936-4738-ad85-9a1ad341001e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e9b89e64-e368-4a8d-8e0c-f6ef09cfc56b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОператораСистемыПлатон</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="16624974-fda8-44f7-8fdd-41f5fb02dc29">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетОператораСистемыПлатон.ОС" category="TabularSection">
+						<xr:TypeId>96a9875f-1c27-45c3-be1e-f61e7e1f55a7</xr:TypeId>
+						<xr:ValueId>d03dc71c-0565-4d7a-924a-d425384ad655</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетОператораСистемыПлатон.ОС" category="TabularSectionRow">
+						<xr:TypeId>0adf20a8-3b59-4ba7-90b0-114ff157d68c</xr:TypeId>
+						<xr:ValueId>1c846fdc-93f1-432e-b513-af0a02f31b72</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8037dcea-184b-4e2b-833b-3c911ee7c77d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="21153b08-6fde-4743-8bfb-ce33a0fadf8d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8ee6ed4c-83fe-4e21-95bc-3ff667b2f575</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="3657017e-5838-42cf-99b2-9096ac5e030e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетОператораСистемыПлатон.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>ab880702-3144-4c7c-9f60-d78a70ead730</xr:TypeId>
+						<xr:ValueId>3186732e-9f5b-422f-814b-e284e9e4b246</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетОператораСистемыПлатон.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>01aba30d-e3af-4962-903c-16c4fe36ff36</xr:TypeId>
+						<xr:ValueId>1ddac71a-e41a-46f2-9c5e-4cd3e1bda50a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>25e2f493-619b-45d6-8426-0eb98d647d52</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e802ef7d-5c54-40de-93d3-de8f5b99d3e5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>УдалитьЗаказ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>69cb70cd-b25e-44dd-836f-5ef1ff780b7d</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОбъектРасчетовСПоставщиками</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3c0100cc-4cc0-41c8-b73a-44d211bd160a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>705753ce-36b4-4ae7-929d-22d159f66aa2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

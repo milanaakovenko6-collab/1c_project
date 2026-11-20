@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c7efb11b-f88d-4248-aae8-abc02f2fe35f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияЦенНоменклатурыПоставщика" category="Object">
+				<xr:TypeId>48fe6b0f-abc7-4dda-80e9-c831e4e01175</xr:TypeId>
+				<xr:ValueId>f0058216-9ec3-4624-9bea-e09b418c3400</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияЦенНоменклатурыПоставщика" category="Ref">
+				<xr:TypeId>7e5e240e-7592-4719-9997-1b7178710abd</xr:TypeId>
+				<xr:ValueId>d6874679-fa6e-40b6-afde-19d788da6eec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияЦенНоменклатурыПоставщика" category="Selection">
+				<xr:TypeId>56342f1b-9de0-4551-bb9f-b2f1e8a5dea4</xr:TypeId>
+				<xr:ValueId>9d10753c-2708-43cf-8348-d67e8e982c59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияЦенНоменклатурыПоставщика" category="List">
+				<xr:TypeId>c680f788-ecb8-4385-b628-cc12bc71613e</xr:TypeId>
+				<xr:ValueId>f8d6630e-4e87-4055-a2e2-0255b2cf5e71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияЦенНоменклатурыПоставщика" category="Manager">
+				<xr:TypeId>2940a36e-9448-453d-a70d-5dedfbddf71c</xr:TypeId>
+				<xr:ValueId>b869e256-c158-4d45-9098-5784c1a2a320</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияЦенНоменклатурыПоставщика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b3eb969e-692a-4c6d-b8fc-1efd711b4339</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="087c15fc-6b5e-41ed-b513-996d9c384b70">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>38e9e67f-832e-44b1-b98a-d47c85fb64a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b1f2bcaa-e449-40f2-ba6f-c7f119558a92">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПринятиеКУчетуУзловКомпонентовАмортизации" category="Object">
+				<xr:TypeId>911e49b9-e86a-4fd3-8c93-41e648d188d5</xr:TypeId>
+				<xr:ValueId>099c9381-5577-4758-9940-539c0a20ab37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПринятиеКУчетуУзловКомпонентовАмортизации" category="Ref">
+				<xr:TypeId>a9935e1e-4237-4385-817f-1b2bb080a0b6</xr:TypeId>
+				<xr:ValueId>74092466-6de2-4b47-a1b6-707829b271bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПринятиеКУчетуУзловКомпонентовАмортизации" category="Selection">
+				<xr:TypeId>4931a01d-cfaa-45df-bc44-75ada1d0b0f8</xr:TypeId>
+				<xr:ValueId>7a43c8d7-3306-4bdc-84a3-61ce01113657</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПринятиеКУчетуУзловКомпонентовАмортизации" category="List">
+				<xr:TypeId>3424032e-6ea7-4a6d-9f2b-bef294f8c4e3</xr:TypeId>
+				<xr:ValueId>bb5f0a23-245b-4c3c-bb13-a1e9f24a58f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПринятиеКУчетуУзловКомпонентовАмортизации" category="Manager">
+				<xr:TypeId>74a934f9-3f4e-41ea-8a66-b571c515a790</xr:TypeId>
+				<xr:ValueId>35ebf62a-4acd-417b-ac03-7188493f77f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПринятиеКУчетуУзловКомпонентовАмортизации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6473dcd4-9c5a-4ded-9cb5-9d4cf1be2cff</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b3f8abc8-148a-4078-8ad5-f95ef5ade771">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВДругомУчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b94701d-73d2-4a46-9db2-b88feb69ad44</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

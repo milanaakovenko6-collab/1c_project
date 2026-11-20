@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b083d43b-92de-4761-b994-ec45ddc7b0be">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВходящаяТранспортнаяОперацияВЕТИС" category="Object">
+				<xr:TypeId>abad504b-2178-437d-a4fb-53dc25c6b22c</xr:TypeId>
+				<xr:ValueId>9482d686-6579-48f9-9d3c-95266fce673b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВходящаяТранспортнаяОперацияВЕТИС" category="Ref">
+				<xr:TypeId>9ffcb33a-d252-417d-ad32-37247f326b82</xr:TypeId>
+				<xr:ValueId>ee4feb11-3b72-42c0-8018-bc0d39585c2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВходящаяТранспортнаяОперацияВЕТИС" category="Selection">
+				<xr:TypeId>88ea18e3-e54b-4cd2-a92b-b4d08c0beee7</xr:TypeId>
+				<xr:ValueId>8577ff36-e0a0-462e-95f8-f10e1bcd9286</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВходящаяТранспортнаяОперацияВЕТИС" category="List">
+				<xr:TypeId>7dc02b9c-4866-4b0d-a213-2b221d7af415</xr:TypeId>
+				<xr:ValueId>cf6ce816-0ee5-456d-b3c7-11a981dd958a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВходящаяТранспортнаяОперацияВЕТИС" category="Manager">
+				<xr:TypeId>3d7d1b3b-28de-4133-a0e1-2809b07b0ffd</xr:TypeId>
+				<xr:ValueId>6eed9f32-6924-49d7-9936-299a577aff20</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВходящаяТранспортнаяОперацияВЕТИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f5be4dd9-4c0f-48ed-9535-d2a95c7fbd6a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0cd9b199-6d7f-44e4-a52d-b29ec07182c6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8c11c2c5-9eaf-4cc1-b959-331d45b85663</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеВходящаяТранспортнаяОперацияВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

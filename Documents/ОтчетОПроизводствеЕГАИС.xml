@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5b416366-ef73-4df9-8666-eb1156557934">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОПроизводствеЕГАИС" category="Object">
+				<xr:TypeId>19302f7b-adb4-4edd-b558-a5e7f00cb9b0</xr:TypeId>
+				<xr:ValueId>5c488ed9-e27d-471a-881a-635c648ba1ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОПроизводствеЕГАИС" category="Ref">
+				<xr:TypeId>d5239cf3-e5e4-4ed8-bccb-872de6b512fb</xr:TypeId>
+				<xr:ValueId>9c324c88-a33b-4e5d-9466-17c03b1c3673</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОПроизводствеЕГАИС" category="Selection">
+				<xr:TypeId>65a9ec56-0137-47f1-9754-d18ea49b5c35</xr:TypeId>
+				<xr:ValueId>3f99f130-65a9-415a-99a0-f219e4bda689</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОПроизводствеЕГАИС" category="List">
+				<xr:TypeId>dea9efeb-a2ef-48a3-abb3-78c8858fa31f</xr:TypeId>
+				<xr:ValueId>e84152b6-271d-485c-89c8-2155a723b705</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОПроизводствеЕГАИС" category="Manager">
+				<xr:TypeId>14eeae19-12a7-4161-a91d-a16d1d42ec8a</xr:TypeId>
+				<xr:ValueId>c51cfbec-f23d-4a35-951b-5cd725d05386</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОПроизводствеЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cf11fcdd-ff32-4329-a1f5-c726bc975a02</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="57086a66-30d4-422b-8d28-c588e61613da">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>972fb1a1-aa66-4d8e-8e08-97f5d4934b25</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеОтчетОПроизводствеЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

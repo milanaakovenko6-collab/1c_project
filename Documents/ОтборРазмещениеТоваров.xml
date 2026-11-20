@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b2988269-fc73-4f80-84ef-7ff69b3547af">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтборРазмещениеТоваров" category="Object">
+				<xr:TypeId>4b15df9f-e017-43d7-9fa3-09031b3ef416</xr:TypeId>
+				<xr:ValueId>9b6d1f1b-abf6-4eb0-aceb-8c6f33e7521f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтборРазмещениеТоваров" category="Ref">
+				<xr:TypeId>c9916dee-a443-4693-b4fe-5092ae4961b5</xr:TypeId>
+				<xr:ValueId>79cdff4a-7055-4908-ae19-d57ebdce6ef0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтборРазмещениеТоваров" category="Selection">
+				<xr:TypeId>4e453a3c-b408-428a-9536-0f2589ec89ae</xr:TypeId>
+				<xr:ValueId>4376ea06-dca8-4273-8f80-093e9a45ff1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтборРазмещениеТоваров" category="List">
+				<xr:TypeId>ebb07bea-9768-426d-bcc6-dd64be794214</xr:TypeId>
+				<xr:ValueId>e4c3a95d-7c88-49a7-9e61-6414604a5006</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтборРазмещениеТоваров" category="Manager">
+				<xr:TypeId>35250dc1-b2fd-4cb5-87f4-6e08cd178ad4</xr:TypeId>
+				<xr:ValueId>649f277d-1070-4cba-872a-f0e6bb341512</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтборРазмещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2e75710a-40d0-411b-af3a-656291a7e3ff</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c6f7f94f-c9af-4550-af6e-fd16aad81d7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c66cf920-83c9-4eb2-a500-7827d42875fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1647c727-fc38-47e2-9684-07bd27f96b9b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтборРазмещениеТоваров.ТоварыРазмещение" category="TabularSection">
+						<xr:TypeId>d2b7f5a6-89ff-43d3-a5aa-be10da8c0525</xr:TypeId>
+						<xr:ValueId>3e4c0f79-f6bf-4bcf-b920-389249bfcdf4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтборРазмещениеТоваров.ТоварыРазмещение" category="TabularSectionRow">
+						<xr:TypeId>187c4c77-7e8f-4956-8a14-901c7ce14a80</xr:TypeId>
+						<xr:ValueId>0b4ff355-a4af-4de3-866d-08ff1a7499c1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТоварыРазмещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7e2e234-7d8d-434c-b7f4-589014fcc51d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7b7dbc8f-1578-40ab-8b2c-243597766c21">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ad437dcd-25ff-4a63-a57a-b9941cc90ef8</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="be6f90a1-fd6b-4b5f-a499-f19d4f2636b6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтборРазмещениеТоваров.ТоварыОтбор" category="TabularSection">
+						<xr:TypeId>183b79ba-b275-480d-af85-1c07634d8243</xr:TypeId>
+						<xr:ValueId>790c9f57-c136-4bef-8bdc-f5f991a4dd39</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтборРазмещениеТоваров.ТоварыОтбор" category="TabularSectionRow">
+						<xr:TypeId>920d59b0-622a-456f-8a05-34ed085b5cc7</xr:TypeId>
+						<xr:ValueId>9809bb6f-9cd9-4401-b174-abfd59054728</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТоварыОтбор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9af30bc3-4f31-4f8d-a4e8-369d3682e227</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c93ca739-1e5f-4d27-972a-d000f91b00cd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7ec70b99-9ef8-47d8-802e-24f6e5dba822</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

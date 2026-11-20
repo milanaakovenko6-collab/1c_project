@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2ca6d34f-47de-41ec-83cb-3779b6ecd9a7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТранспортнаяНакладная" category="Object">
+				<xr:TypeId>b1cb76da-8969-4f73-8a9f-8d96d6ac9cfe</xr:TypeId>
+				<xr:ValueId>320d8dfb-92bc-484f-b87b-70bd4ed16eec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТранспортнаяНакладная" category="Ref">
+				<xr:TypeId>4df26db3-b462-4e8a-949f-239c6334991c</xr:TypeId>
+				<xr:ValueId>f6f760fd-0af8-4097-bcd3-56df1bd0f438</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТранспортнаяНакладная" category="Selection">
+				<xr:TypeId>f57b7ee5-8173-43ab-afd8-356ecbd96f88</xr:TypeId>
+				<xr:ValueId>c6907b77-5c3d-4307-83b9-397460c1bd33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТранспортнаяНакладная" category="List">
+				<xr:TypeId>6f19c08e-8134-4583-992f-74121b7025fb</xr:TypeId>
+				<xr:ValueId>db748852-e221-4a0d-acea-319a7812428c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТранспортнаяНакладная" category="Manager">
+				<xr:TypeId>b10e94f1-4c25-40e7-b0ab-7b7d930212cf</xr:TypeId>
+				<xr:ValueId>43055817-65cc-4641-893b-5984e1f19936</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТранспортнаяНакладная</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>22163f5e-b24b-429b-a671-2b293a8a2f80</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="acea6323-88b6-4687-a1a1-f54b2ce47361">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаданиеНаПеревозку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d987a8fa-940a-4456-8dd5-c9d49c91d730</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаданиеНаПеревозку</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="19f660cc-db92-4fc5-9b96-d0a89b7e3c31">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТранспортнаяНакладная.ДокументыОснования" category="TabularSection">
+						<xr:TypeId>dd52e513-f5cf-4cd3-9e0c-6edb2ea8bd71</xr:TypeId>
+						<xr:ValueId>925cf913-8a59-400c-b38c-9d9172b515be</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТранспортнаяНакладная.ДокументыОснования" category="TabularSectionRow">
+						<xr:TypeId>b9fd26a5-8fdf-4b28-ad22-263d828cfbc7</xr:TypeId>
+						<xr:ValueId>7e82498f-8aeb-48a5-902d-acc2c42f9b59</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыОснования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e11552e4-4181-40c3-8c96-f16694186067</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f9b61b8f-f408-4f77-aad4-a1289f6f4bca">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8055ffdc-19da-4902-8a7d-2ff437ce5d54</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

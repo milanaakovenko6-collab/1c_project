@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8462b825-7a99-4aa9-a957-e91959a51b23">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковПоФинансовымИнструментам" category="Object">
+				<xr:TypeId>f4bc21b1-94e4-4758-8c3e-01bc3037e22d</xr:TypeId>
+				<xr:ValueId>255c0602-290c-4493-941e-22e2ee03974f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковПоФинансовымИнструментам" category="Ref">
+				<xr:TypeId>6fb93f4b-755a-44f4-b267-26f5839070f7</xr:TypeId>
+				<xr:ValueId>ce244f28-6ec5-4c04-ad1c-e0444027193f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковПоФинансовымИнструментам" category="Selection">
+				<xr:TypeId>1abb4a56-6da4-40cb-979a-f712646ad0e3</xr:TypeId>
+				<xr:ValueId>955edb34-ab1b-4fa9-9bc3-e08684d03187</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковПоФинансовымИнструментам" category="List">
+				<xr:TypeId>561b1196-32a2-4bd6-a014-76ee8af42125</xr:TypeId>
+				<xr:ValueId>a299ae69-4053-4c83-95f3-847351ea00ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковПоФинансовымИнструментам" category="Manager">
+				<xr:TypeId>c1482e39-2955-46b1-ab5c-ecc58b4f45e4</xr:TypeId>
+				<xr:ValueId>dcc22570-c1c1-452e-805b-1db08da6f43f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковПоФинансовымИнструментам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4404fe7b-fb9a-4d43-bb83-3774c6aebc69</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e9846808-f595-4b7b-bcf8-4be2d84ffbd2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>771ebc31-022c-4bbf-9279-4e045c187160</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковПоФинансовымИнструментам</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

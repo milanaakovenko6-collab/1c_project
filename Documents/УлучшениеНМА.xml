@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6207d29d-79c4-4290-bb54-6a590f1f3605">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УлучшениеНМА" category="Object">
+				<xr:TypeId>ccc1386e-65f4-4452-bb13-313401472a36</xr:TypeId>
+				<xr:ValueId>ecb5eb7f-1c73-4935-b874-2d43c97390f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УлучшениеНМА" category="Ref">
+				<xr:TypeId>f76dab10-2c32-4df7-ab95-77959142dbeb</xr:TypeId>
+				<xr:ValueId>e9de2f6f-657f-4b77-b1fe-d2697dd182dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УлучшениеНМА" category="Selection">
+				<xr:TypeId>815d1643-7073-4985-8137-476961ccaed6</xr:TypeId>
+				<xr:ValueId>ed9173b4-f3a7-4670-acb0-eefd0c2a6069</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УлучшениеНМА" category="List">
+				<xr:TypeId>f6149232-6f6a-4c62-b246-407ce1b888e1</xr:TypeId>
+				<xr:ValueId>7b5ebfd8-041a-4e89-ad37-5e80c3bb3487</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УлучшениеНМА" category="Manager">
+				<xr:TypeId>bb22252e-d619-4817-b41d-fcdab3caa0dc</xr:TypeId>
+				<xr:ValueId>c09e796c-7470-4c8b-b102-7a6e5b40787a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УлучшениеНМА</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ba2c6452-3745-43ba-9f92-2b9a6b881639</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2a286e8e-cd9d-474b-8f58-00c55ca8d8f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВДругомУчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>25b776fd-788c-4def-9225-f5f842c3c902</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.УлучшениеНМА</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6db57238-9ea9-43bf-a4bb-8fff9f2346c4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийДоговораЗаймаСотруднику" category="Object">
+				<xr:TypeId>99a9b285-bab2-4b60-bc05-6a8fb24b1208</xr:TypeId>
+				<xr:ValueId>d5f17ecd-f046-4685-8521-a07b417a6392</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийДоговораЗаймаСотруднику" category="Ref">
+				<xr:TypeId>6047f198-6711-493b-8ed4-5f554d60538f</xr:TypeId>
+				<xr:ValueId>e6e272bd-dc9b-4f87-8672-3a5837a77936</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийДоговораЗаймаСотруднику" category="Selection">
+				<xr:TypeId>257cdb4e-af53-4596-8d58-850cf9a18a4a</xr:TypeId>
+				<xr:ValueId>75b4d78f-5ef2-4d7c-babb-fcf06929fdf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийДоговораЗаймаСотруднику" category="List">
+				<xr:TypeId>23e2fc78-b4dd-467e-ae1b-f4b3e582a77e</xr:TypeId>
+				<xr:ValueId>640621c9-cd6e-4dba-8528-99c6c74a835a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийДоговораЗаймаСотруднику" category="Manager">
+				<xr:TypeId>ed27a365-d0bd-4b14-a965-84170afde953</xr:TypeId>
+				<xr:ValueId>584e41c0-796c-4a5c-94d0-55da0e0015b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИзменениеУсловийДоговораЗаймаСотруднику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce48ef4c-823a-46fa-98c1-ffb9cc5facd9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dd7b4884-23ee-4037-978e-a75fe8d71db5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорЗайма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ab468750-4c19-4b7f-9f25-98b51fd76ba5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

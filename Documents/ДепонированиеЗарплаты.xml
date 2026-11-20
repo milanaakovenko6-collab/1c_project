@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2471e201-61e7-49df-8664-65be04722d96">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДепонированиеЗарплаты" category="Object">
+				<xr:TypeId>700ab075-c68e-449c-b2ef-04448ca62350</xr:TypeId>
+				<xr:ValueId>d36aac83-7388-48bf-a1a3-13fb61ff026d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДепонированиеЗарплаты" category="Ref">
+				<xr:TypeId>3724288f-4a0c-44ba-9634-1aa89f53bca2</xr:TypeId>
+				<xr:ValueId>95ec7935-5c0e-4ffd-9162-647fd1980129</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДепонированиеЗарплаты" category="Selection">
+				<xr:TypeId>9fa67bfa-98f0-4ff8-9962-4a0399590432</xr:TypeId>
+				<xr:ValueId>4c293e70-e8d2-4be5-92eb-b90a0b9a97f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДепонированиеЗарплаты" category="List">
+				<xr:TypeId>c9f9a26f-00cf-4421-86de-0350915bab70</xr:TypeId>
+				<xr:ValueId>70ba67bc-1f25-442a-9abc-b46c1f086ed1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДепонированиеЗарплаты" category="Manager">
+				<xr:TypeId>844042f1-bb8c-4034-b71e-4bd2dd4fe4b4</xr:TypeId>
+				<xr:ValueId>06892fc0-e8e7-4928-91e6-d2c97b4bd449</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДепонированиеЗарплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74e4d25e-159d-4a43-97ad-f3e794c575cf</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1c37dc40-45a5-4c45-ab1a-9d47573e3937">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ведомость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1a2c331b-4a91-4751-84e6-77b783499e5e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

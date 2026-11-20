@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c0cd2711-d72f-4545-86ae-334fe8f65a97">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковПрочихАктивовПассивов" category="Object">
+				<xr:TypeId>cad0d58f-c506-4da8-9f02-a91a692e1d32</xr:TypeId>
+				<xr:ValueId>abf4b18c-3898-4672-8e2e-3535136a083d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковПрочихАктивовПассивов" category="Ref">
+				<xr:TypeId>0e75194d-58bc-44fc-a840-536fb0a68f44</xr:TypeId>
+				<xr:ValueId>6443b768-3847-4033-9d1f-196a3311fdae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковПрочихАктивовПассивов" category="Selection">
+				<xr:TypeId>4c88f51a-9324-4fc1-8b80-b3edde08bce7</xr:TypeId>
+				<xr:ValueId>4434fbc3-9d91-4e89-ad10-107d7cfa45ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковПрочихАктивовПассивов" category="List">
+				<xr:TypeId>88f19e32-1b14-4f67-b58e-5eb12ae15aa0</xr:TypeId>
+				<xr:ValueId>14fef2ac-ee62-4387-875c-8672dedbbe0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковПрочихАктивовПассивов" category="Manager">
+				<xr:TypeId>56e3a7b7-64cb-44b1-b989-b44ded1968e9</xr:TypeId>
+				<xr:ValueId>824579ea-6427-4174-99fe-2a6499220947</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковПрочихАктивовПассивов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f117edea-75bf-4c92-a7f2-cedf43ea043f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9b83946a-a29c-4a2b-bac6-fa468291d80b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f823fe84-f1fc-454f-bf79-e344a573b2c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковПрочихАктивовПассивов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

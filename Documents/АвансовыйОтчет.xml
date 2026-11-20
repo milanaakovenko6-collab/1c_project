@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dab913f8-428b-4723-8b45-fc4c229c67ac">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АвансовыйОтчет" category="Object">
+				<xr:TypeId>daad515e-f2e9-45cb-900e-abcd89cde1bb</xr:TypeId>
+				<xr:ValueId>11d67433-1ed5-4a6a-8851-8c039aeef4f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АвансовыйОтчет" category="Ref">
+				<xr:TypeId>848266d5-fd81-4e13-a4ae-dc9918c8bf45</xr:TypeId>
+				<xr:ValueId>297b8dfd-d933-469c-8876-7c650439329b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АвансовыйОтчет" category="Selection">
+				<xr:TypeId>3662483f-7bc1-42ae-9276-71c7c8f0b22f</xr:TypeId>
+				<xr:ValueId>1f5a6cb8-bfb0-48f7-81ca-98d2be3a3c66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АвансовыйОтчет" category="List">
+				<xr:TypeId>c57d3d05-36e2-42f5-9081-1cf1079d44f9</xr:TypeId>
+				<xr:ValueId>4fc44cb6-e5e0-4615-b9f9-8e1da11c3571</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АвансовыйОтчет" category="Manager">
+				<xr:TypeId>9ea19cdc-9ac9-444e-9421-f126b1de6af5</xr:TypeId>
+				<xr:ValueId>add3f11b-c863-4ecf-b1a0-f60dde8fa198</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АвансовыйОтчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="64fcebbf-dff3-42c8-ac6e-e314302477d5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bac8cf58-1fc2-405c-bc8b-4a5363d50d83</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="25ab8cf5-60a5-4379-8d14-44d202a2f599">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АвансовыйОтчет.ПрочиеРасходы" category="TabularSection">
+						<xr:TypeId>ab77efab-f00c-4836-a1e7-497a7e28785d</xr:TypeId>
+						<xr:ValueId>b0283e38-e3d9-48f1-a716-4c68ecc64f79</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АвансовыйОтчет.ПрочиеРасходы" category="TabularSectionRow">
+						<xr:TypeId>bd14e6ce-c055-4191-9d4e-21ffb1ba3d14</xr:TypeId>
+						<xr:ValueId>dd2d481f-a5a3-42db-b93d-3a7d31afb2aa</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПрочиеРасходы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a6e2d8f7-0f1d-47c8-8396-c51464740b97</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="12b4efb0-55cc-403e-9246-2000007bf588">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>64fe7312-926c-4537-b307-0acc79991954</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="661a1a1d-45ad-4c32-b0a3-d612f15c680f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СчетФактура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>785fb2aa-3587-41b8-a2f5-51b4c92419fa</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3169a560-43df-44d6-811f-5296a72577bf">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПервичныйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>80e96a91-202b-4d0e-aa2c-c07c4544d53a</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПервичныйДокумент</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bfab77ab-4fb4-4d9b-ab5d-dc5df8f3c04e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЭлектронныйБилет</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>de411fd7-e39a-4731-b805-d8799ddee45c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.Бронирование</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="73fa76f4-24b1-480f-ad47-1b735bd0fccd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АвансовыйОтчет.ОплатаПоставщикам" category="TabularSection">
+						<xr:TypeId>ed2813c2-d0f8-4ad9-8060-d601b125c885</xr:TypeId>
+						<xr:ValueId>845510fc-691d-43ca-9bfd-0d3b69dea4d6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АвансовыйОтчет.ОплатаПоставщикам" category="TabularSectionRow">
+						<xr:TypeId>30630b67-6e60-4a77-a7d7-0014f9c5b907</xr:TypeId>
+						<xr:ValueId>81eccd29-2f5f-4510-a849-a760c3f90311</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОплатаПоставщикам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c88d49ac-57e5-40b7-b164-8cbf36b59d30</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c327c322-d78d-4742-aa59-62e7821a092d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>47205644-4104-4e1f-b4d5-3ce715d72f17</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

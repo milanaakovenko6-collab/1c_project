@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dec4527e-7cd1-41c3-8989-203a6bc6a0b8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратОСИзАренды" category="Object">
+				<xr:TypeId>60ddcb89-312d-4f86-9729-4e1b2d573686</xr:TypeId>
+				<xr:ValueId>3074f623-86ac-436f-8e93-605b6dc8cfbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратОСИзАренды" category="Ref">
+				<xr:TypeId>ff6f849b-1bdf-4ff4-9bc2-dac6f5623cd1</xr:TypeId>
+				<xr:ValueId>e9032d7e-9872-4d4c-9189-1a6ffdc537c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратОСИзАренды" category="Selection">
+				<xr:TypeId>3d7eb2ac-9329-49e5-9106-e12b04acea9b</xr:TypeId>
+				<xr:ValueId>4191cd62-7bf3-4cc7-be62-13c15a572ff9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратОСИзАренды" category="List">
+				<xr:TypeId>fe6bd1aa-9616-43cc-a1e8-1c730cec6e50</xr:TypeId>
+				<xr:ValueId>110f0894-bb63-4785-8616-48c1d4f06a71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратОСИзАренды" category="Manager">
+				<xr:TypeId>1f407e34-a41d-4371-bc78-44d0a5450eb5</xr:TypeId>
+				<xr:ValueId>74f93ade-7e30-405f-b039-ee65fff9f8b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратОСИзАренды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5811f23c-37b1-4a65-b35b-2e08152a6867</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="74c262e6-7527-4d19-9df4-d8ea5446a4d3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>80b358a9-4609-4874-ae03-a2e603031b55</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПередачаОСВАренду</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

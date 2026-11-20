@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="33225a6d-6817-4876-a2c5-af5cb8a53553">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеОС2_4" category="Object">
+				<xr:TypeId>3c400b74-0c3c-4b80-95fb-eb7700cba754</xr:TypeId>
+				<xr:ValueId>a1a74a69-bc6f-4658-9e72-09f1c84fc08c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеОС2_4" category="Ref">
+				<xr:TypeId>56fc926b-23ac-455e-8630-03ee7ee45320</xr:TypeId>
+				<xr:ValueId>da5277df-f5eb-49fa-ae23-0b752a2ba288</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеОС2_4" category="Selection">
+				<xr:TypeId>e81de7c3-e383-4279-806c-368e1a6a8e54</xr:TypeId>
+				<xr:ValueId>66881dac-199e-45fa-954e-8a7e859e2f0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеОС2_4" category="List">
+				<xr:TypeId>255f2dcb-33de-499b-9a87-b211e74b79b6</xr:TypeId>
+				<xr:ValueId>f585e761-3037-4a95-8f3c-80c2a5a0084d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеОС2_4" category="Manager">
+				<xr:TypeId>5fd9035c-4847-4fcd-8686-5b025d8c3472</xr:TypeId>
+				<xr:ValueId>4a3d85e0-d34b-48b3-8213-7e847f734bb0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремещениеОС2_4</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>568f988f-fe11-48ad-982b-3dcc73711b2f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7baeafba-6062-4974-9db6-3ab0da504a9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a0e1c3ed-d16b-447d-89de-5d4485ccace4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИнвентаризацияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9935d187-999e-453e-b960-4deedde20b55">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеОС2_4" category="Object">
+				<xr:TypeId>372ee093-891d-40a0-ae83-ae9247345806</xr:TypeId>
+				<xr:ValueId>faec51c3-a69b-4ee5-be6c-d1a0fb42eede</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеОС2_4" category="Ref">
+				<xr:TypeId>c64cc010-0889-4d6a-a8da-bbfd8fe45a3b</xr:TypeId>
+				<xr:ValueId>ea2b2351-3278-4b4c-a1a3-6896b94cb38f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеОС2_4" category="Selection">
+				<xr:TypeId>1d6741c4-e4f3-430e-a8de-33646a98688e</xr:TypeId>
+				<xr:ValueId>41c61f27-3624-4bd0-b6a4-1be82b719cce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеОС2_4" category="List">
+				<xr:TypeId>1fef72ca-53ad-4c55-96a0-055e25454f85</xr:TypeId>
+				<xr:ValueId>b4f81ab4-fffc-4d56-9235-5c0505e6e18d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеОС2_4" category="Manager">
+				<xr:TypeId>18492cdd-590c-4f1a-8dea-32ff61ab6ff6</xr:TypeId>
+				<xr:ValueId>0dad8011-47ba-4839-b0a6-c2bb5c46c68c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеОС2_4</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>860e98ca-f89d-4564-b153-04121cbdb4fc</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dfd9c586-a4e8-4c28-b37b-f655c763824e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ef5f2da5-96e4-4be6-a06f-ce0ee8cd1abf</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="33fd4f3f-1ee0-4854-81c4-4937dc614078">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВДругомУчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7d923bab-3448-4d93-8e4c-a6aa9670cbdf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СписаниеОС2_4</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6580e2d9-d108-4ceb-bc8d-a75e95c4ed47">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88cd0fcc-ba7e-4d29-a34a-a856908efb55</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="9517ffe8-78ad-4c00-bdc7-07046f1ed8ee">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СписаниеОС2_4.Основания" category="TabularSection">
+						<xr:TypeId>fe987258-4c66-43c2-bc97-617b1a5a5a68</xr:TypeId>
+						<xr:ValueId>c9640393-9b66-4e17-b318-b0b493418f10</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеОС2_4.Основания" category="TabularSectionRow">
+						<xr:TypeId>84cdd40a-0714-4755-a499-8c43ff7181ec</xr:TypeId>
+						<xr:ValueId>e8275a46-809e-4dd9-99a7-cea7bcd2ad77</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4387aba9-9358-4418-9495-252ed4979054</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="45583207-005c-430d-af0d-bff399d92a9e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>877d1c8f-9bfc-498a-861e-6faa0851926f</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

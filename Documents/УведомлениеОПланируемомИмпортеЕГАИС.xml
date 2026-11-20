@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="02b9769b-e998-443b-8af8-be10e47eba02">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОПланируемомИмпортеЕГАИС" category="Object">
+				<xr:TypeId>29a9b7f1-9c5b-4323-9b41-2ea2fa6c06b8</xr:TypeId>
+				<xr:ValueId>a57782d7-f7f3-40e1-8291-a6b895a7ec07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОПланируемомИмпортеЕГАИС" category="Ref">
+				<xr:TypeId>edcacbfd-1bdd-4820-8a1e-561d747d06ba</xr:TypeId>
+				<xr:ValueId>4e2fa399-1e35-48ae-9ef1-5e97810676ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОПланируемомИмпортеЕГАИС" category="Selection">
+				<xr:TypeId>1236249e-940b-4660-80b3-9e16e783a46f</xr:TypeId>
+				<xr:ValueId>907015d2-ae67-43bf-a2b0-4faa53afb694</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОПланируемомИмпортеЕГАИС" category="List">
+				<xr:TypeId>d29913ba-9412-4a2b-9fc6-fd06a084ec9e</xr:TypeId>
+				<xr:ValueId>0bd96bd8-382b-4b58-9a9d-56d88e610dd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОПланируемомИмпортеЕГАИС" category="Manager">
+				<xr:TypeId>832a7839-f792-42a5-b40d-a07af6a1874c</xr:TypeId>
+				<xr:ValueId>6d6b2075-cbcc-4cc9-9382-aec66b50a06d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОПланируемомИмпортеЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7ad563d0-3ce9-404f-b76d-8eacf57335e1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f8f25da8-2379-43eb-9f95-12d08dff584d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a5390e8e-29d1-481f-b002-b2bb289f520b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеУведомлениеОПланируемомИмпортеЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

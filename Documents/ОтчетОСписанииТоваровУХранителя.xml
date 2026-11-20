@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="67754249-3c86-471f-be87-c9c64d7f9c67">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОСписанииТоваровУХранителя" category="Object">
+				<xr:TypeId>3d4d0d85-d52f-499d-a84c-17d523891240</xr:TypeId>
+				<xr:ValueId>049e5915-f8ba-4859-a4d4-e7c81ea6f872</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОСписанииТоваровУХранителя" category="Ref">
+				<xr:TypeId>f8b84744-ed62-4602-81db-0ddf06bd936f</xr:TypeId>
+				<xr:ValueId>79805879-301a-48c7-bf50-aea4690b9626</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОСписанииТоваровУХранителя" category="Selection">
+				<xr:TypeId>cb54138d-1c13-4e49-ac1f-353521aaeafb</xr:TypeId>
+				<xr:ValueId>64cee991-a0cb-4bc9-a907-c2f6c84c0a12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОСписанииТоваровУХранителя" category="List">
+				<xr:TypeId>3c263de8-cb7a-410d-ab88-1834d7c5557d</xr:TypeId>
+				<xr:ValueId>8106343b-1ad2-4cb4-b55e-fe2db45d73a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОСписанииТоваровУХранителя" category="Manager">
+				<xr:TypeId>7be382a7-c253-4f24-af45-d41360112a4e</xr:TypeId>
+				<xr:ValueId>47cd8467-94c7-403d-a864-0f5bcb080bb3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОСписанииТоваровУХранителя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7155d921-3d57-400d-b22c-6e0bae52fe6f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5b0f32b3-5f31-4d8b-a862-0bde5a580802">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e52ef311-31b3-4b07-91bc-af033bc68ffc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОСписанииТоваровУХранителя</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a9442ad-8f6f-4a91-b330-37afa35e9038">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9c435d6d-f33c-44de-a71e-32aea5858588</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОСписанииТоваровСХранения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

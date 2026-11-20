@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="04ae7383-d9d9-4f89-aaf3-e07a65f6edd6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПроизводственнаяОперация2_2" category="Object">
+				<xr:TypeId>694b82db-f109-4226-969f-1fb06e18ecc8</xr:TypeId>
+				<xr:ValueId>1f220fcd-0bfc-413c-add9-98c3540f222c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПроизводственнаяОперация2_2" category="Ref">
+				<xr:TypeId>b494932b-635b-4d06-91df-a1ed7548cf53</xr:TypeId>
+				<xr:ValueId>0851cc63-e11c-459d-8fca-c2677d173ee0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПроизводственнаяОперация2_2" category="Selection">
+				<xr:TypeId>9e03e4c9-49f1-41e5-ad69-6d6f146a54a6</xr:TypeId>
+				<xr:ValueId>d5e36e84-e55b-4ede-8672-eb39b6a18969</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПроизводственнаяОперация2_2" category="List">
+				<xr:TypeId>129e7a55-837c-4f31-b8aa-b06e8c68ead6</xr:TypeId>
+				<xr:ValueId>c6873f0d-0e60-4332-9e5c-94937ef1e0a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПроизводственнаяОперация2_2" category="Manager">
+				<xr:TypeId>cfeac6c6-07ff-415b-9990-fed213302a64</xr:TypeId>
+				<xr:ValueId>45af08fc-7cc6-46ed-8962-38ae4d8614a0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроизводственнаяОперация2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>771d1e13-85f9-420f-b53c-16e8c0ec0878</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c2626428-97d4-4f77-a2a0-50802f6d65ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Этап</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7256b10c-7515-4bc9-a4a4-fbc84ad2c6df</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭтапПроизводства2_2</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="bf1f549a-6b2a-41d4-bed1-1c85d6b314f9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетПоКомиссииМеждуОрганизациями" category="Object">
+				<xr:TypeId>0210fd45-c9e5-462f-ba4a-efdc6972651d</xr:TypeId>
+				<xr:ValueId>1276e555-d615-4360-9c48-64c2bd92305b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетПоКомиссииМеждуОрганизациями" category="Ref">
+				<xr:TypeId>dc96b5f2-0d4f-40eb-af1b-279f676ac60b</xr:TypeId>
+				<xr:ValueId>0c18f2b7-4277-46cf-9f7a-d430c170b430</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетПоКомиссииМеждуОрганизациями" category="Selection">
+				<xr:TypeId>dddeb6a9-43fc-42ce-addc-d03657a0171c</xr:TypeId>
+				<xr:ValueId>0a1917f6-273e-4391-a93d-dcb7e531c3bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетПоКомиссииМеждуОрганизациями" category="List">
+				<xr:TypeId>76bd0758-04f9-4193-b0dd-13497b9933a8</xr:TypeId>
+				<xr:ValueId>6ec2dbfc-9449-4e30-8735-1d634c2845dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетПоКомиссииМеждуОрганизациями" category="Manager">
+				<xr:TypeId>03048ed5-b3b9-4e60-a721-951cfd55aef2</xr:TypeId>
+				<xr:ValueId>1885db90-0b5e-4c7a-a3e5-62d614dbd76d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетПоКомиссииМеждуОрганизациями</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>69f8a8ca-2aa8-432c-a64d-c5690045f6cf</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="8d9e81d4-09d7-4460-889c-7e2004216adb">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСПоставщикомВознаграждение" category="TabularSection">
+						<xr:TypeId>7bad7e36-5ba3-4194-ae08-f14c66d87874</xr:TypeId>
+						<xr:ValueId>1ead4fde-1609-4844-a61d-3fca7232ae82</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСПоставщикомВознаграждение" category="TabularSectionRow">
+						<xr:TypeId>2a6100f3-a556-4ef7-a798-da48c28bc402</xr:TypeId>
+						<xr:ValueId>1556cc19-4e0a-45e8-a862-07b93555ca2a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСПоставщикомВознаграждение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>84bbcf4a-4d8d-47b0-808f-68a5cf6862bb</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="38654cd4-64f9-4f80-8725-5d70ccab7542">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>36794e96-0b82-433c-bf4c-df88556e8990</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="358b8f9b-8e6e-4d4b-a14d-da9ee78ad62b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСКлиентом" category="TabularSection">
+						<xr:TypeId>a9c1199a-2f64-4f67-a85e-8abdd94cc793</xr:TypeId>
+						<xr:ValueId>eb8e92ce-9834-4715-98c1-468ce361ef63</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСКлиентом" category="TabularSectionRow">
+						<xr:TypeId>e8a4fa53-784d-472f-b303-0cf0541570bb</xr:TypeId>
+						<xr:ValueId>94783e5e-f71b-41c0-8bd7-5fd4d2ea2f82</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСКлиентом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3a63d2f7-8dca-4406-aec4-dc16a0f96548</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3fffcb5b-c9f7-4392-83f9-123a0552c922">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>b99984f6-e0d2-49ef-ac17-5eb9df8708fa</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="eb5546c3-6e75-4569-b939-5f4235ec8fe2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСПоставщиком" category="TabularSection">
+						<xr:TypeId>0a0b1138-075a-4446-a00a-035a86bcb118</xr:TypeId>
+						<xr:ValueId>fa77d4a1-e1d6-4b92-a2eb-a8c0b13202d3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСПоставщиком" category="TabularSectionRow">
+						<xr:TypeId>764f738d-b919-4b7e-984e-667b47d1e732</xr:TypeId>
+						<xr:ValueId>6514166e-e395-4356-a591-7544bceefd06</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСПоставщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>52d10e06-953f-4600-b35c-210da8458a81</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d3ffd9f6-e254-4422-9a1d-8af513d0b1d3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>73ca06f8-e50e-4924-9c0e-a986a9d9e285</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="40ddf385-ff22-4f45-8757-6690e45d6b5d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСКлиентомВознаграждение" category="TabularSection">
+						<xr:TypeId>f6460493-9b3a-4286-9da7-0b63a79a80e2</xr:TypeId>
+						<xr:ValueId>295e0f0e-cd98-4ce8-904a-ba84644dcdd6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетПоКомиссииМеждуОрганизациями.РасшифровкаПлатежаСКлиентомВознаграждение" category="TabularSectionRow">
+						<xr:TypeId>1b3ab332-e0df-4770-a2e9-27d639d9e75b</xr:TypeId>
+						<xr:ValueId>14aa2eca-5458-41fc-ba1a-8f1843c9a7e2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСКлиентомВознаграждение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe07f1c3-dea6-4e4c-ac81-6f98c200a42a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7cda6aa8-c0d1-4fdd-8041-5a615feaa50c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f8431ce0-72f3-4bb1-ac55-b967fd6808c0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

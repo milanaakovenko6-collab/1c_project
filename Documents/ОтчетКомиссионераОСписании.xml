@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e4c9e8c1-3c32-4674-85d9-d16e0882be0a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомиссионераОСписании" category="Object">
+				<xr:TypeId>21df626f-82b2-4787-9cff-025437471f4f</xr:TypeId>
+				<xr:ValueId>76ab673e-b222-4cc1-8b9d-5f8d4fdfa399</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомиссионераОСписании" category="Ref">
+				<xr:TypeId>4a003bab-7494-40df-9ccf-bfd2f6f8d7f4</xr:TypeId>
+				<xr:ValueId>c2b9b9b1-edfb-4b3e-901c-d2e6628b4b9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомиссионераОСписании" category="Selection">
+				<xr:TypeId>0bb5dde2-52f4-4d8b-8bef-579a58025068</xr:TypeId>
+				<xr:ValueId>4c04fffc-f77f-4ea6-af86-c965379e0d84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомиссионераОСписании" category="List">
+				<xr:TypeId>6a5c3f23-8472-48e1-b6cb-a03d98e0ded7</xr:TypeId>
+				<xr:ValueId>cdaadd37-f8b6-48cf-b937-03b6d6a4a62d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомиссионераОСписании" category="Manager">
+				<xr:TypeId>746f3aca-25c2-4536-a807-5e7116a48b65</xr:TypeId>
+				<xr:ValueId>4413618a-a959-453e-ba11-8aaf494de305</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетКомиссионераОСписании</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b86cf07-7253-4afb-8d2f-98e82aae1194</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5ee978e1-6a28-4806-ae0c-c8115f034ff8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1db5986e-6a49-4d8c-85a3-463d37242f50</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ОтчетКомиссионераОСписании</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="6863455b-e52d-4437-a128-1978a45e3058">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетКомиссионераОСписании.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>9a7f70a9-4921-4224-93f5-4022a64a65ab</xr:TypeId>
+						<xr:ValueId>3b9affac-d500-492e-a6ed-e66178f0f02b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетКомиссионераОСписании.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>03eedab0-915e-40f1-948d-0d1e49745dfd</xr:TypeId>
+						<xr:ValueId>cf79a5a4-685a-4e2d-b2c5-ab47fcba54d4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c0bbdf0-ee22-47b7-a790-c28782f74b85</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a94ac66f-2001-444d-90d8-d7c4b4ed7c8c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4fdf48b4-d7a1-4803-95ea-8a5b7ed5ce87</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

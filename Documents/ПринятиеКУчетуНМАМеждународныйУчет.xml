@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d63ed0ae-6195-4d77-8099-b54d63222ab4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПринятиеКУчетуНМАМеждународныйУчет" category="Object">
+				<xr:TypeId>1d1ac66e-df61-4a91-9b9d-dfd1ca0d6d0f</xr:TypeId>
+				<xr:ValueId>9e1d01b2-1d57-4f73-8622-305643e47cd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПринятиеКУчетуНМАМеждународныйУчет" category="Ref">
+				<xr:TypeId>6bd49551-6899-4ccb-9a59-d81ec162af67</xr:TypeId>
+				<xr:ValueId>54daa771-a568-4723-b498-90cf372cf12c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПринятиеКУчетуНМАМеждународныйУчет" category="Selection">
+				<xr:TypeId>2cbaaf19-00cc-453f-aad0-a22f2861007a</xr:TypeId>
+				<xr:ValueId>0ca9960c-e65e-4327-bc65-3a71c34f3b2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПринятиеКУчетуНМАМеждународныйУчет" category="List">
+				<xr:TypeId>06eb8831-73d5-4fac-abec-5bb28f2a8158</xr:TypeId>
+				<xr:ValueId>e6412dab-1b4a-4d12-af18-e848bbb3281a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПринятиеКУчетуНМАМеждународныйУчет" category="Manager">
+				<xr:TypeId>f51712f8-129c-48af-b794-7c54804a51b8</xr:TypeId>
+				<xr:ValueId>3bc77002-30cf-4f76-af48-a4f634b1d963</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПринятиеКУчетуНМАМеждународныйУчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ba676e03-89a4-4514-8483-4ae53836e6d0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c7913e7b-d3ad-4040-9aa2-9d814909ee59">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e3f5e7a4-1f09-46f3-83ff-98d356bc1645</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПринятиеКУчетуНМА</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

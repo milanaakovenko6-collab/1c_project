@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="85f4d7dd-fd73-4671-a3cf-c497a9e5f747">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТаможеннаяДекларацияИмпорт" category="Object">
+				<xr:TypeId>2288268b-162c-48fa-aff5-39b3c5bf2cf9</xr:TypeId>
+				<xr:ValueId>9dec26aa-dd26-4494-944d-8520bd26d1ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТаможеннаяДекларацияИмпорт" category="Ref">
+				<xr:TypeId>f1270d2c-1327-42ae-b7d8-8eff2f7d6915</xr:TypeId>
+				<xr:ValueId>f46cccf8-140e-4392-9f75-43a148d81864</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТаможеннаяДекларацияИмпорт" category="Selection">
+				<xr:TypeId>a73053f2-851e-4601-aaf6-f0a4c6bcc5d8</xr:TypeId>
+				<xr:ValueId>e1eb7446-f725-41a1-a624-b3f573d4c5af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТаможеннаяДекларацияИмпорт" category="List">
+				<xr:TypeId>56faad67-a89d-4a14-b072-d7226396c1e1</xr:TypeId>
+				<xr:ValueId>ea5db4e9-8b80-4986-8d43-7738ccc5c7cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТаможеннаяДекларацияИмпорт" category="Manager">
+				<xr:TypeId>916837a9-64c6-4610-8722-82510ba6cfdc</xr:TypeId>
+				<xr:ValueId>98a7bcd4-13e9-42f9-b2b4-c620f61e696a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаможеннаяДекларацияИмпорт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9ca75ff4-fa62-49dd-9655-4570cc73fdd9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0b177aa9-5a00-471d-ba5b-7d275240ec3a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходовСбор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5f09fa31-968d-424f-8b23-7c33cb390884</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51806c68-2830-41d3-a6d6-d3bcd6eefcc4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходовШтраф</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dc30eebb-6351-41c7-ac17-064ae183b6a7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="50a1c9dc-182a-4f11-9948-33d62ffc2333">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТаможеннаяДекларацияИмпорт.Товары" category="TabularSection">
+						<xr:TypeId>555e669a-6efc-486e-87e5-77f518a37727</xr:TypeId>
+						<xr:ValueId>c6f36c25-25d3-43fa-a211-a5c66e03ab13</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТаможеннаяДекларацияИмпорт.Товары" category="TabularSectionRow">
+						<xr:TypeId>79263532-dfd2-4b50-95aa-3b38c659d361</xr:TypeId>
+						<xr:ValueId>afe8db71-c380-49d9-8588-6a15d275e7ac</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>604770dd-4f04-436f-8fcb-beff1a4f8e6f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5fbaab49-1830-453a-a76b-8f732ab9b89c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументПоступления</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>12bb4df5-923c-4f72-8112-3193969769a0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="32f91d07-1be2-46ce-986f-13ce47ad49cb">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТаможеннаяДекларацияИмпорт.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>db8cfe48-b223-4f91-95a0-412ddfe5f3be</xr:TypeId>
+						<xr:ValueId>7244d858-133b-482f-8852-4faa88deb4b8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТаможеннаяДекларацияИмпорт.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>b76f2e22-e596-4234-978a-b5b84e1d0535</xr:TypeId>
+						<xr:ValueId>832585ce-f0d8-4812-b0d6-910e9a142860</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aacf59e6-62c6-45b6-b1fb-0e0f16124eb3</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7679f8a6-d2d5-49f6-b6b1-00ac59c4fd63">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5947440e-f3f5-4fba-9369-0ea54849f17e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="79a5fd8e-d649-456f-891f-15f753f6654f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыкупТоваровХранителем" category="Object">
+				<xr:TypeId>ddc3073a-24c1-4ac6-9dbc-9617745b8cab</xr:TypeId>
+				<xr:ValueId>b90065a4-f198-4780-95b6-64eacc224017</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыкупТоваровХранителем" category="Ref">
+				<xr:TypeId>ebb0be5b-4c1a-43df-9436-761b65a8bbc6</xr:TypeId>
+				<xr:ValueId>cd767dab-2937-41ad-b3cd-0e89fae95e7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыкупТоваровХранителем" category="Selection">
+				<xr:TypeId>d4b894a6-c011-4fc9-9f78-b3ef44302456</xr:TypeId>
+				<xr:ValueId>0d9588db-ba8d-42fb-b229-5d410eedfb1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыкупТоваровХранителем" category="List">
+				<xr:TypeId>46600a3b-278c-4004-b601-c63651d1f834</xr:TypeId>
+				<xr:ValueId>6cae65d6-44fa-4f6b-8926-ad7b23adc9c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыкупТоваровХранителем" category="Manager">
+				<xr:TypeId>8121c1e2-a7b3-4317-84c7-aab4e70072a6</xr:TypeId>
+				<xr:ValueId>577eae81-7fc4-495c-b466-736ca0f97fe7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыкупТоваровХранителем</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76a33c9b-db58-4abc-a80e-87fd274c4600</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="217da35b-407d-4402-846a-6bfe8af084ab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>175a5d64-df4c-40bd-8fb6-17829b70b90e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВыкупПринятыхНаХранениеТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="4265a318-0fbd-4f04-9a70-7be368bc0fd3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыкупТоваровХранителем.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>d1daad3f-197c-49dd-9663-6ab94d984b5b</xr:TypeId>
+						<xr:ValueId>72db75eb-5d16-4ce9-ae8e-ebc82b10723f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыкупТоваровХранителем.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>0635ac33-2327-4aab-bbfe-6ea12e106a69</xr:TypeId>
+						<xr:ValueId>313fd876-a52e-4e29-a120-3d21deadc4d3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a46d4975-b098-4399-91e0-3b1cb6cc5d84</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d7757231-6868-4e2b-b3f7-1204e4534a7e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>73a5be72-2a1d-4a86-a072-839653d75c4e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0576d31c-2eda-44c3-9aa4-a68141fb457d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаРемонт" category="Object">
+				<xr:TypeId>dcc14ea6-ec59-4662-b52e-3e36c6735836</xr:TypeId>
+				<xr:ValueId>eba08d42-3138-4539-af0c-45eec8a99a5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаРемонт" category="Ref">
+				<xr:TypeId>4819f4fc-edb9-4d07-9aa5-1be6a58251b0</xr:TypeId>
+				<xr:ValueId>88108e61-0131-4a16-841e-b12478036e14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаРемонт" category="Selection">
+				<xr:TypeId>800c37a9-0310-4153-9233-6453757df687</xr:TypeId>
+				<xr:ValueId>b496370a-837a-4d33-af45-ef77e4a4c137</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаРемонт" category="List">
+				<xr:TypeId>684602ec-12ab-4cb2-a0f2-9f1fc296209b</xr:TypeId>
+				<xr:ValueId>cd7736fb-27e5-4d65-8bfa-391cb239ee62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаРемонт" category="Manager">
+				<xr:TypeId>7b5c331c-041c-44c5-8159-10d74ddf8be7</xr:TypeId>
+				<xr:ValueId>fd0e2211-25a9-4905-832a-21541e374463</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаРемонт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4e6f7959-9963-4982-8f8e-9ec46dc2ec1c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="50d8200d-2e00-45a6-ade7-7b9442943f16">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc6c0ad7-9182-4e14-8615-7d8c9beff42e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="834597af-a038-4794-910b-7baf87040f09">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказНаРемонт.УстраняемыеДефекты" category="TabularSection">
+						<xr:TypeId>24f308b6-2f40-47b7-a4ff-a408a8d4f2c2</xr:TypeId>
+						<xr:ValueId>e0cda398-232c-49e5-8197-fa0c834ee233</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказНаРемонт.УстраняемыеДефекты" category="TabularSectionRow">
+						<xr:TypeId>adb4adf5-482c-4b52-8627-5d1317e9508b</xr:TypeId>
+						<xr:ValueId>cef3a1b4-142e-4b0a-a843-99a5242765e9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УстраняемыеДефекты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>455208da-a349-4329-b183-210a8ac91b30</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d995e7dd-036b-42ba-9e08-4b2a9b386254">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Дефект</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>24845ce6-764c-418c-9237-ca14a5d70163</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.РегистрацияДефекта</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

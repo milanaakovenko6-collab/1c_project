@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="7a255497-dc04-4179-8843-88453c1b9d3a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеУслугПоАренде" category="Object">
+				<xr:TypeId>4dc57002-c5ca-4326-a90c-1669b931a056</xr:TypeId>
+				<xr:ValueId>d38dedab-bbf7-4037-a0ee-53906dff8526</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеУслугПоАренде" category="Ref">
+				<xr:TypeId>31e55822-4148-4663-be53-0639249b6fe4</xr:TypeId>
+				<xr:ValueId>dd644518-f765-4c7d-abac-ab2416ce8b99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеУслугПоАренде" category="Selection">
+				<xr:TypeId>dc4e959e-2c18-44c6-9364-423add15632b</xr:TypeId>
+				<xr:ValueId>96c0fcdd-7dc6-451a-aab2-460383dfa1f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеУслугПоАренде" category="List">
+				<xr:TypeId>e6379e8b-5eaa-4be4-925d-fc3f4980daa3</xr:TypeId>
+				<xr:ValueId>6b03c78d-3508-4fb4-b918-59f5e59895a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеУслугПоАренде" category="Manager">
+				<xr:TypeId>e57a8296-854c-407c-af38-afa7d760d3dd</xr:TypeId>
+				<xr:ValueId>62bff43f-3d1f-4f31-8c98-700a4c568dd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеУслугПоАренде</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d7ce1807-a660-4a56-a35f-7410c2a562a7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="659c29f5-6701-44bf-a49a-61e5da483bbd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеУслугПоАренде.Начисления" category="TabularSection">
+						<xr:TypeId>3111a045-0390-4673-8c6f-828e68a8e4b7</xr:TypeId>
+						<xr:ValueId>dad070d9-c88c-4ce5-b27f-2fb77d0f9420</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеУслугПоАренде.Начисления" category="TabularSectionRow">
+						<xr:TypeId>4a7e45e5-b491-4237-97e1-a0dd41b57d23</xr:TypeId>
+						<xr:ValueId>8dc22a66-3f08-48a9-8c08-de458de84b1c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Начисления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3ddcd469-1b4e-4159-bdfa-02f8b95eeb7c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="12d50832-91a4-4b5a-8498-fe9255212463">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8230fe0d-222b-4203-9734-d435acff0142</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="68e098c7-4e35-4a30-add7-43ca514db11a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>РасчетныйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a4876b16-6a72-4b0b-abac-d9a911e7baac</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

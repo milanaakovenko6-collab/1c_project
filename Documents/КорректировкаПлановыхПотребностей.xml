@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ac6f458b-cc87-476d-bdb5-c30b97d93482">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаПлановыхПотребностей" category="Object">
+				<xr:TypeId>5b251491-be4b-45f3-a6c0-e342484f12ea</xr:TypeId>
+				<xr:ValueId>277f940a-6b53-42e6-a24c-4b7e36eece92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаПлановыхПотребностей" category="Ref">
+				<xr:TypeId>5af86af0-f9d3-46a4-b116-f975c45941d5</xr:TypeId>
+				<xr:ValueId>4fa82cc0-f299-40ef-b5ab-99dd7e19b695</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаПлановыхПотребностей" category="Selection">
+				<xr:TypeId>dc28d965-6dfb-4389-83e7-737d6d039b01</xr:TypeId>
+				<xr:ValueId>b9f48499-5d26-4857-a764-f2c5e2c1b6f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаПлановыхПотребностей" category="List">
+				<xr:TypeId>32660538-50e4-45dd-8446-ca6bae7a1f91</xr:TypeId>
+				<xr:ValueId>c740c6b1-762c-4eec-8c6a-7900a7d01ba9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаПлановыхПотребностей" category="Manager">
+				<xr:TypeId>a3f62061-b152-45f2-a05d-a3817cd261f9</xr:TypeId>
+				<xr:ValueId>a9b75c32-da27-4860-ba9d-5e3b2d9bf001</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаПлановыхПотребностей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>79f760ff-7ef5-46cd-a032-89f1d7828347</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="857924b2-10d1-458f-b49f-0e36bf293451">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>План</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2d83ac9-8b81-4fe9-aae6-99f3110131cb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

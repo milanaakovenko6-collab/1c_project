@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f04e123e-02bd-4e06-b468-f7150c39f87e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеНДС" category="Object">
+				<xr:TypeId>df2a91ce-7d4e-4af7-b7e2-f5c31d94bdc0</xr:TypeId>
+				<xr:ValueId>d73f1318-5b7d-4b2e-9af7-64f55346c802</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеНДС" category="Ref">
+				<xr:TypeId>1576df20-ac63-4500-bab7-634e8623dccf</xr:TypeId>
+				<xr:ValueId>ade45634-85a6-4a62-9ce7-56433e75d8c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеНДС" category="Selection">
+				<xr:TypeId>b401c1c1-f8f5-42c7-afa4-0077298b5f1b</xr:TypeId>
+				<xr:ValueId>bc7ac214-1f63-425d-81bc-c0b58aa3361a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеНДС" category="List">
+				<xr:TypeId>ed40f8f9-aa2f-498c-8cdf-357f18537f3b</xr:TypeId>
+				<xr:ValueId>d0e26c94-851f-4f65-94f2-31f07d37271b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеНДС" category="Manager">
+				<xr:TypeId>23e85ad2-aec2-45ab-a4b4-c8a5bb5a6113</xr:TypeId>
+				<xr:ValueId>9c9e3e30-a7fb-42b4-b1f2-a0c8c7358602</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d45c60f7-bee0-4695-9ea6-d9f17a86402a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="49756458-f239-45b4-a037-e228e1ef571a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходовНеНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc41f4f3-d88c-4b9e-bd63-31ad20127fa8</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec902d96-8b9e-4743-a019-111f399db267">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходовЕНВД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a058c704-2294-413c-972c-3e46d4d9320d</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="8642ae12-0126-4c7a-aea6-7484ce7dab82">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеНДС.ДокументыЭкспорт" category="TabularSection">
+						<xr:TypeId>d4cde3ff-6cdd-4897-91d0-3429f75a74cb</xr:TypeId>
+						<xr:ValueId>28f8fd2c-6539-471b-9d7b-a5089c2e3747</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеНДС.ДокументыЭкспорт" category="TabularSectionRow">
+						<xr:TypeId>9dbc45dd-bc31-4836-9129-96e5cdbba6fb</xr:TypeId>
+						<xr:ValueId>06bbae7d-5c90-4c03-b872-7dea30cb4066</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыЭкспорт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be168994-a7bd-411d-80f6-1bdc9ba525a2</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="64b8406b-d145-4fb0-915e-653283748547">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Документ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8763c243-5fae-4d8e-b2b0-68e2ddfbd0e4</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

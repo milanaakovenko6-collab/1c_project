@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="145d5a54-9d34-4fd1-882d-6ee3eb696ec8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМКоррекции" category="Object">
+				<xr:TypeId>d88c068d-e6a8-4bae-8fce-1e175c827a22</xr:TypeId>
+				<xr:ValueId>0df37c85-7f87-4136-92ca-da4bfda48e23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМКоррекции" category="Ref">
+				<xr:TypeId>f64987e9-4ea6-49ce-8295-8b7add343ddd</xr:TypeId>
+				<xr:ValueId>a207779c-5f40-4192-8ca6-62059660cdf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМКоррекции" category="Selection">
+				<xr:TypeId>ef2ecc34-b420-4f30-9b9a-d9c4068c4699</xr:TypeId>
+				<xr:ValueId>e4442681-ce03-4267-8805-5f4828cb0815</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМКоррекции" category="List">
+				<xr:TypeId>cde232ec-b175-4a44-83f2-49028a53d0d9</xr:TypeId>
+				<xr:ValueId>5a8fe920-b17e-445d-b394-23b5275935c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМКоррекции" category="Manager">
+				<xr:TypeId>02bf47bd-03d4-49ca-916a-fcedfb060546</xr:TypeId>
+				<xr:ValueId>b4b041bb-ced0-4e07-968b-3200e63c17d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧекККМКоррекции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cab8e6cd-62a2-492b-b82a-0ecf62cbd56d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="99fe6f71-7ed6-4bcd-becd-d87220238048">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КассоваяСмена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5612da5a-1f2f-47f7-a15e-ab6b7a31b8ea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.КассоваяСмена</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4612db0e-265f-4344-bd80-e777b08ae06a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЧекККМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>712145a0-9546-4f91-b8be-37b7009ee934</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

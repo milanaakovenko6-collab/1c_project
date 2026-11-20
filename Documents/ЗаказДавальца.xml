@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="09481d96-1f98-406e-b83b-669205106b73">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказДавальца" category="Object">
+				<xr:TypeId>76bf9509-c2b5-4fb1-8b55-afa861b04792</xr:TypeId>
+				<xr:ValueId>d5370e6c-f32f-4866-b51c-d941b238950d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказДавальца" category="Ref">
+				<xr:TypeId>a8e0022c-4bd5-4efb-b7fb-4afbff11fa61</xr:TypeId>
+				<xr:ValueId>27b039dc-67a1-45e6-a1c7-27865a1bfb99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказДавальца" category="Selection">
+				<xr:TypeId>936f2cb2-da31-43f3-9412-f3924d222586</xr:TypeId>
+				<xr:ValueId>9dd4c1af-4504-4516-826c-f85f0e9ba7fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказДавальца" category="List">
+				<xr:TypeId>cd12cb8d-a57a-4327-85b5-7da166fbad6d</xr:TypeId>
+				<xr:ValueId>4f3f0238-9315-43dc-a292-ef7e0c484449</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказДавальца" category="Manager">
+				<xr:TypeId>d1a869b0-8c4d-46db-af02-55f1135b29b5</xr:TypeId>
+				<xr:ValueId>c90b85bd-0fb5-4236-a5c4-efff3ed3b1c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказДавальца</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fa60a8a2-3937-4dfd-8b80-4385e480f444</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9ec73f75-803c-4b48-8f7f-894ae7ec3bef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aa1e8406-df36-4872-aa72-edb323d61b1b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

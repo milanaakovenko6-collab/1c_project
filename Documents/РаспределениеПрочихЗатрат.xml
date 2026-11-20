@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2f1737be-d2d6-4c73-89a6-9ef50950b41f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеПрочихЗатрат" category="Object">
+				<xr:TypeId>c7afe807-16c0-444c-82c0-19b5a21abcc7</xr:TypeId>
+				<xr:ValueId>7ab378ce-2c7c-4fb6-90e5-084a6dc3dfe8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеПрочихЗатрат" category="Ref">
+				<xr:TypeId>dc9d0d99-8aea-489e-ab67-70b5a9e43e76</xr:TypeId>
+				<xr:ValueId>fd4b855c-5f01-4c75-a562-084ff50c83f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеПрочихЗатрат" category="Selection">
+				<xr:TypeId>365f5552-8c38-477e-8b0b-9d52574a2e27</xr:TypeId>
+				<xr:ValueId>7641ff72-b5c5-44bc-a3b7-8c4f51ed5318</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеПрочихЗатрат" category="List">
+				<xr:TypeId>1e38949c-5214-447a-96aa-de18e35c8859</xr:TypeId>
+				<xr:ValueId>5ae64655-cf8c-46e8-af03-0ed933d1e929</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеПрочихЗатрат" category="Manager">
+				<xr:TypeId>0b540df5-f06e-4d0d-bff0-a7d161524f69</xr:TypeId>
+				<xr:ValueId>482962da-66d8-48fe-b476-885fa48d5826</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеПрочихЗатрат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b266f70d-6273-4dfe-8e91-4f979a269b3b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="e628c07e-b437-437d-8a22-5d9ae5a33f2e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.ВыпускиБезРаспоряжения" category="TabularSection">
+						<xr:TypeId>49adb03b-8938-4902-850a-3286197f8cb9</xr:TypeId>
+						<xr:ValueId>188ece90-4e17-4ec5-8cbf-9679dc1915d9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.ВыпускиБезРаспоряжения" category="TabularSectionRow">
+						<xr:TypeId>d2afdce3-5bb5-43d2-8c87-31d6631ec96b</xr:TypeId>
+						<xr:ValueId>4340edc2-7312-4905-a29b-6f72f4305578</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыпускиБезРаспоряжения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>099fff18-d312-4eaf-bc94-88ca9c61543f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="aa2c9c55-f59b-455b-86ad-037bdd448abc">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>701e05f8-dcfe-4497-99cc-da59673e05ea</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9197f0b9-ef4a-404e-92aa-308019992851">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.ПартииПроизводства" category="TabularSection">
+						<xr:TypeId>cadaf4d1-2f9f-4ad1-8c08-5af3d99921a4</xr:TypeId>
+						<xr:ValueId>feab44de-4dc9-4c66-87f9-5339ba1e87b3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.ПартииПроизводства" category="TabularSectionRow">
+						<xr:TypeId>22451dd5-aa48-4726-ad49-9c8935512d8f</xr:TypeId>
+						<xr:ValueId>c1fbf0f7-23af-49c7-8285-89d7a40a7cc8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПартииПроизводства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c0c6f4f8-0a02-453b-9957-c7c316c66f94</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6ce5b797-9b4c-4a52-b574-0463978e86d1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПартияПроизводства</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>b3dfd37b-2676-4f79-b4d0-91930ae9c337</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПартииПроизводства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

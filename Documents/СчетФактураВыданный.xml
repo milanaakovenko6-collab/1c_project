@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d04012dd-c037-4ca0-bb9e-091a64a3f187">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураВыданный" category="Object">
+				<xr:TypeId>72273834-b319-46fd-bb15-e735facb8a43</xr:TypeId>
+				<xr:ValueId>85152de2-9168-44c1-b631-cc4525ae9df8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураВыданный" category="Ref">
+				<xr:TypeId>35fb0984-4ef0-4af1-a647-28552b3f54e7</xr:TypeId>
+				<xr:ValueId>f140415a-b7c6-49b9-bc21-7e6754ae360c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураВыданный" category="Selection">
+				<xr:TypeId>4c3cade9-cc26-4c69-be68-0fd155d7dab2</xr:TypeId>
+				<xr:ValueId>c2d45232-1593-4601-b884-45aa4a998717</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураВыданный" category="List">
+				<xr:TypeId>320b29b7-845b-4878-be2f-f0cc7bfcc65b</xr:TypeId>
+				<xr:ValueId>b803ffdb-69e9-4887-a761-d516ce711dc5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураВыданный" category="Manager">
+				<xr:TypeId>bd6d2deb-df30-448b-a2f0-ca1ad4489592</xr:TypeId>
+				<xr:ValueId>474ad70b-a0a9-4960-8de3-741cda28d623</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетФактураВыданный</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9eab2298-ca44-4cc2-a529-95431e0e3800</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e544dbd7-b1dc-4e96-9090-e0c55bba8a75">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СозданНаОсновании</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f8d11590-2207-4241-bc71-79ebf79bd555</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.КорректировкаРеализации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1ef9849f-2510-4858-b6c8-d312501b6ecf">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СчетФактураВыданный.ДокументыОснования" category="TabularSection">
+						<xr:TypeId>76929d84-a92b-44e2-86e9-ab1127701b80</xr:TypeId>
+						<xr:ValueId>bc842470-8b8b-49a0-8e56-d477a8badd65</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СчетФактураВыданный.ДокументыОснования" category="TabularSectionRow">
+						<xr:TypeId>5578fe71-2aa9-4fee-9273-135f297639c1</xr:TypeId>
+						<xr:ValueId>af61ea7d-3fd1-45d2-b810-9ab9e9e11f80</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыОснования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>82e55215-7a69-44c4-9d89-19f24b9ecf72</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b750c770-bca2-46cf-9a81-629495089428">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f0b6a124-2f4c-418b-bd88-d90a523fc274</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданный</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

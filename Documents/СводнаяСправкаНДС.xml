@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="28155112-964f-4027-8206-16bb51e38e9d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СводнаяСправкаНДС" category="Object">
+				<xr:TypeId>faae2cb3-9ff2-4deb-b526-4bdc336790d4</xr:TypeId>
+				<xr:ValueId>151631b9-d4df-46c6-8fb8-6095769987bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СводнаяСправкаНДС" category="Ref">
+				<xr:TypeId>393df3d9-0f93-4c37-9fb0-184912ecd6bf</xr:TypeId>
+				<xr:ValueId>a0fadfd6-b958-4e30-b5f5-cc3e90ec4c31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СводнаяСправкаНДС" category="Selection">
+				<xr:TypeId>d8a0e317-25b7-4d4d-abb9-8be69ffe3bfd</xr:TypeId>
+				<xr:ValueId>317ee112-8bfa-4709-91b4-ad1a1e6135f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СводнаяСправкаНДС" category="List">
+				<xr:TypeId>c2597f0c-b32c-4782-bd06-2a4a3618e5bb</xr:TypeId>
+				<xr:ValueId>364c9796-240d-4cb3-b5c1-df01f4082b07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СводнаяСправкаНДС" category="Manager">
+				<xr:TypeId>5ce97ce7-36fc-47db-9d95-7daf88ae60c0</xr:TypeId>
+				<xr:ValueId>9b8193ee-bb48-4d9b-acb8-39e6b4e6fa0e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СводнаяСправкаНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74cb8cda-2ebd-4b60-a6e1-09f0c78761b7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="acb1f1fb-8088-4dcf-9a6e-a503bb89e304">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СводнаяСправкаОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>835ebe16-69a8-4ce6-8281-eb57682d6cf3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СводнаяСправкаНДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="947ff6a1-f85f-470f-87d6-bd7adef5f8a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПервичныйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>31d928ba-c7fa-4842-b9c3-ceef7253ddfb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЗаписиКнигиПродаж</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

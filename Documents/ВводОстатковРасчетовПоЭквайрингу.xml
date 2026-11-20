@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ac8224b9-d9f6-48a8-b445-6818f00005cf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковРасчетовПоЭквайрингу" category="Object">
+				<xr:TypeId>8fb45f4d-0c75-42fb-8418-a6ccd499cc0c</xr:TypeId>
+				<xr:ValueId>c7616dd7-e395-4fbe-9395-64d0342307ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковРасчетовПоЭквайрингу" category="Ref">
+				<xr:TypeId>51db886a-2d5b-4679-b77d-7bf57bcdb393</xr:TypeId>
+				<xr:ValueId>421bd3a4-b7d5-42c3-8020-7c3ce6f1c0b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковРасчетовПоЭквайрингу" category="Selection">
+				<xr:TypeId>5c39aa0e-a627-4c00-8722-911f4acea5a9</xr:TypeId>
+				<xr:ValueId>00e94be3-b658-4af0-8cc6-daa467a6bca0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковРасчетовПоЭквайрингу" category="List">
+				<xr:TypeId>f1dd51cd-b6ba-4dcd-b6e4-4dd9d1c8e2a4</xr:TypeId>
+				<xr:ValueId>d0f0624a-376b-46d1-b5ea-445db8a1e40f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковРасчетовПоЭквайрингу" category="Manager">
+				<xr:TypeId>93086871-f3eb-4ea3-bc92-81449e2a4366</xr:TypeId>
+				<xr:ValueId>70d7b3e1-a006-4a5f-afe4-19273cb946c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковРасчетовПоЭквайрингу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>510f8225-3cb5-4e9d-8bf8-b8944fa06df1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0190a688-0e6e-4ac8-a52d-3682f8ecd868">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СторнируемыйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f5a44ac9-3aa7-47f5-a36e-ac2b12ad82f3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ВводОстатковРасчетовПоЭквайрингу</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

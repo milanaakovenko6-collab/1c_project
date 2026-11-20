@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9aba6d6d-c71d-4556-a713-ee91026377e7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПрогулНеявка" category="Object">
+				<xr:TypeId>755fde4c-7a25-437b-834e-652237e4eb38</xr:TypeId>
+				<xr:ValueId>44743033-5f6c-4873-bdd5-3896374dcaf3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПрогулНеявка" category="Ref">
+				<xr:TypeId>17ee45f8-109e-4e54-8832-1a5c6e71d94f</xr:TypeId>
+				<xr:ValueId>7ce565f6-52b3-45d7-9ff0-76ef4d1f5c3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПрогулНеявка" category="Selection">
+				<xr:TypeId>25894abd-c3d5-479c-8465-ca7f929a08db</xr:TypeId>
+				<xr:ValueId>fcd73d6d-b6c6-4439-b5eb-1c6d36346f6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПрогулНеявка" category="List">
+				<xr:TypeId>f3a5712e-06d0-40f0-ac74-a3ec35dd23b5</xr:TypeId>
+				<xr:ValueId>edafa452-db22-4f3d-888d-8b11a773daf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПрогулНеявка" category="Manager">
+				<xr:TypeId>519050f4-3813-4845-910f-2a25678d2587</xr:TypeId>
+				<xr:ValueId>bb8349f4-e14f-496a-8c68-b0b8849d8b2f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПрогулНеявка</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1d477447-74f3-468d-bd21-44202b705ef7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4100a1d5-faf0-4026-9977-f1e9dc40c32e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПрогулНеявка.НачисленияПерерасчет" category="TabularSection">
+						<xr:TypeId>cad7ba5a-6a0d-4d51-974c-29acfa29ba88</xr:TypeId>
+						<xr:ValueId>13c4b397-5594-4cfb-bb19-764975974577</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПрогулНеявка.НачисленияПерерасчет" category="TabularSectionRow">
+						<xr:TypeId>71f3e8ab-f461-4059-acb6-13fc99e60d32</xr:TypeId>
+						<xr:ValueId>2810436d-dbc6-46e3-b8ee-938f291bcaeb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПерерасчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>76a81f91-0ccd-403b-92a2-cb86e918eedc</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0602c7e8-b2c9-441b-8dba-56fbd882b3d4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СторнируемыйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9c8462ca-8a9f-4bf4-a616-b6e4147bca4e</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СторнируемыйДокумент</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a77358b7-7422-4aec-be12-f8fe4f148400">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктСписанияЕГАИС" category="Object">
+				<xr:TypeId>93d698c5-1141-4769-a062-677c706ac073</xr:TypeId>
+				<xr:ValueId>af5de909-6c52-4e56-b529-fcbd1025a179</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктСписанияЕГАИС" category="Ref">
+				<xr:TypeId>c6b84c63-8689-4070-9b5c-fb459810d0b3</xr:TypeId>
+				<xr:ValueId>f80e60bb-a4c0-44f4-b221-91248552bc66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктСписанияЕГАИС" category="Selection">
+				<xr:TypeId>10750e8a-b28b-4e5a-8c3c-44523dde8d48</xr:TypeId>
+				<xr:ValueId>1b721413-002a-4d2f-9cac-e98d5f237cda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктСписанияЕГАИС" category="List">
+				<xr:TypeId>eb3ad8e5-2e86-4623-8362-3396efceffc5</xr:TypeId>
+				<xr:ValueId>680cb37c-5fac-4a80-ad75-28974e2b1598</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктСписанияЕГАИС" category="Manager">
+				<xr:TypeId>122601c9-99a9-4ad5-a4f4-cfe00dfdd16d</xr:TypeId>
+				<xr:ValueId>ce2c3e85-8a51-430c-b2e4-23aee0301d6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктСписанияЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8f596ac8-1bd1-45b4-bfdd-484994cabf36</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3357dfc7-ff2b-4d61-b499-3da95bbdc099">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f4e37b2-6a7c-417c-9479-35d3846e2ca4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеАктаСписанияЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
