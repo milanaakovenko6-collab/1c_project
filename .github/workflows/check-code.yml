@@ -1,0 +1,28 @@
+name: Проверка кода 1С
+
+on:
+    push:
+        branches: ["master", "main"]
+    pull_request:
+        branches: ["master", "main"]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Копирование репозитория
+              uses: actions/checkout@v4
+
+            - name: Установка Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 18
+
+            - name: Установка BSL Language Server
+              run: |
+                  npm install -g bsl-language-server
+
+            - name: Запуск проверки синтаксиса
+              run: |
+                  bsl-language-server analyze --path .
