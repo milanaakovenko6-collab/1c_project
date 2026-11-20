@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "1С: Выгрузить конфигурацию в Git (Dump)",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/dump.ps1"
+			],
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared",
+				"clear": true
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "1С: Загрузить конфигурацию из Git и обновить БД (Load)",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/load.ps1"
+			],
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared",
+				"clear": true
+			},
+			"problemMatcher": []
+		}
+	]
+}
