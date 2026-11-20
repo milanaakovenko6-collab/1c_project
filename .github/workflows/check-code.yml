@@ -14,8 +14,20 @@ jobs:
             - name: Копирование репозитория
               uses: actions/checkout@v4
 
-            - name: Запуск BSL Language Server
-              uses: 1c-syntax/bsl-language-server-action@v0.1.0
+            - name: Установка Java (необходима для линтера)
+              uses: actions/setup-java@v4
               with:
-                  # Проверяем текущую директорию
-                  path: .
+                  distribution: "temurin"
+                  java-version: "17"
+
+            - name: Скачивание и запуск BSL Language Server
+              run: |
+                  # Скачиваем архив с линтером
+                  wget https://github.com/1c-syntax/bsl-language-server/releases/download/v0.21.0/bsl-language-server.zip
+
+                  # Распаковываем
+                  unzip bsl-language-server.zip -d bsl-ls
+
+                  # Даем права на запуск и запускаем проверку
+                  chmod +x bsl-ls/bin/bsl-language-server
+                  bsl-ls/bin/bsl-language-server analyze --path .
