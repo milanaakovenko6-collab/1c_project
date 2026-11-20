@@ -14,15 +14,8 @@ jobs:
             - name: Копирование репозитория
               uses: actions/checkout@v4
 
-            - name: Установка Node.js
-              uses: actions/setup-node@v4
+            - name: Запуск BSL Language Server
+              uses: 1c-syntax/bsl-language-server-action@v0.1.0
               with:
-                  node-version: 22
-
-            - name: Установка BSL Language Server
-              run: |
-                  npm install -g bsl-language-server
-
-            - name: Запуск проверки синтаксиса
-              run: |
-                  bsl-language-server analyze --path .
+                  # Проверяем текущую директорию
+                  path: .
