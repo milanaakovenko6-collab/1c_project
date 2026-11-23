@@ -2,7 +2,28 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "1С: Выгрузить конфигурацию в Git (Dump)",
+			"label": "1С: Загрузить код из VS Code и запустить Предприятие (Run)",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/run.ps1"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared",
+				"clear": true
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "1С: Выгрузить конфигурацию с сервера в Git (Dump)",
 			"type": "shell",
 			"command": "powershell.exe",
 			"args": [
@@ -20,7 +41,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "1С: Загрузить конфигурацию из Git и обновить БД (Load)",
+			"label": "1С: Загрузить конфигурацию из Git на сервер (Load)",
 			"type": "shell",
 			"command": "powershell.exe",
 			"args": [
