@@ -15,7 +15,7 @@ if (Test-Path $logFile) { Remove-Item $logFile }
 
 Write-Host "=== Step 1: Loading code to server (Background Designer) ===" -ForegroundColor Cyan
 
-# Формируем базовые параметры подключения к серверу
+# Формируем базовые параметры подключения
 $baseArgs = @(
     "/S", $config.ibServer
 )
@@ -40,19 +40,16 @@ if ($config.extensionName -and $config.extensionName -ne "") {
     $designerArgs += $config.extensionName
 }
 
-$designerArgs += "/UpdateDBCfg"
-if ($config.extensionName -and $config.extensionName -ne "") {
-    $designerArgs += "-Extension"
-    $designerArgs += $config.extensionName
-}
-
+# /UpdateDBCfg автоматически обновит загруженное расширение без повторного флага -Extension
 $designerArgs += @(
+    "/UpdateDBCfg",
     "/DisableStartupDialogs",
     "/DisableStartupMessages",
     "/Out", $logFile
 )
 
-# Запускаем фоновую загрузку и ждем завершения
+Write-Host "Command: $($config.v8path) $($designerArgs -join ' ')" -ForegroundColor DarkGray
+
 $process = Start-Process -FilePath $config.v8path -ArgumentList $designerArgs -Wait -PassThru -NoNewWindow
 
 if ($process.ExitCode -ne 0) {
@@ -66,7 +63,7 @@ if ($process.ExitCode -ne 0) {
 
 Write-Host "=== Code loaded successfully! Starting 1C:Enterprise... ===" -ForegroundColor Green
 
-# Шаг 2: Запускаем пользовательский режим (1С:Предприятие) без ожидания закрытия окна
+# Шаг 2: Запускаем пользовательский режим (1С:Предприятие)
 $enterpriseArgs = @("ENTERPRISE") + $baseArgs + @(
     "/DisableStartupDialogs",
     "/DisableStartupMessages"
